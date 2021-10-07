@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.header
+{
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+.LogoPictures
+{
+position: absolute;
+width: 105.69px;
+height: 40px;
+left: 140px;
+top: 15px;
+}
+.nav
+{
+    position: absolute;
+width: 446px;
+height: 21px;
+left: 531px;
+top: 26px;
+}
+.navli
+{
+position: relative;
+margin-top: 26px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+/* Dark 50% */
+
+color: rgba(31, 32, 65, 0.5);
+}
