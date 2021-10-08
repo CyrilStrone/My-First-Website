@@ -23,49 +23,68 @@ top: 15px;
 /* Основные настройки nav */
 .nav
 {
-position: absolute;
-float: right;
+    position: absolute;
+    float: right;
 
-list-style-type: none;
+    width: 446px;
+    height: 21px;
 
-width: 446px;
-height: 21px;
-left: 531px;
-top: 26px;
+    left: 531px;
+    top: 26px;
+
+    margin: 0px;
+    padding: 0px;
+    
 }
+
+
 /*Настройки a элементов nav */
 .nav a
 {
+   
+    text-align: center;
     
-margin-right: 20px;
-margin-top: 0px;
 
-list-style-type: none;
-text-decoration: none;
+    margin-right: 20px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
+    list-style-type: none;
+    text-decoration: none;
 
-/* Dark 50% */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
 
-color: rgba(31, 32, 65, 0.5);
+    /* Dark 50% */
+    color: rgba(31, 32, 65, 0.5);
 }
-/*Настройки i элементов nav */
-.nav i
+.nav a:last-child
 {
-    
+    margin-right: 0px;
+}
+.nav a:nth-child(2)
+{
+    margin-right: 44px;
+}
+/*Настройки span элементов nav */
+.nav span 
+{
+   
+    position:absolute;
+    top:0%;   
+      
+      
 
+      
+    justify-content: space-around;
     font-family: Material Icons;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 20px;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
+    /* Dark 50% */
+    color: rgba(31, 32, 65, 0.5);
 }
 
