@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Основные настройки header */
 .header
 {
     position: absolute;
@@ -10,6 +11,7 @@
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
+/* Основные настройки logo */
 .LogoPictures
 {
 position: absolute;
@@ -18,18 +20,28 @@ height: 40px;
 left: 140px;
 top: 15px;
 }
+/* Основные настройки nav */
 .nav
 {
-    position: absolute;
+position: absolute;
+float: right;
+
+list-style-type: none;
+
 width: 446px;
 height: 21px;
 left: 531px;
 top: 26px;
 }
-.navli
+/*Настройки a элементов nav */
+.nav a
 {
-position: relative;
-margin-top: 26px;
+    
+margin-right: 20px;
+margin-top: 0px;
+
+list-style-type: none;
+text-decoration: none;
 
 font-family: Montserrat;
 font-style: normal;
@@ -41,3 +53,19 @@ line-height: 17px;
 
 color: rgba(31, 32, 65, 0.5);
 }
+/*Настройки i элементов nav */
+.nav i
+{
+    
+
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
