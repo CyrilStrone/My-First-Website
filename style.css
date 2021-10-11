@@ -3,7 +3,7 @@
 .header
 {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 70px;
     left: 0px;
     top: 0px;
@@ -14,26 +14,30 @@
 /* Основные настройки logo */
 .LogoPictures
 {
-position: absolute;
+position: static;
+float: left;
 width: 105.69px;
 height: 40px;
-left: 140px;
-top: 15px;
+margin-left: 140px;
+margin-top: 15px;
 }
+
 /* Основные настройки nav */
 .nav
 {
-    position: absolute;
-    float: right;
+    text-align: center;
 
-    width: 446px;
+    position:static;
+    float: right;
+    
+    margin-top:26px;  
+    margin-right: 20px;
+
+   
     height: 21px;
 
-    left: 531px;
-    top: 26px;
+   
 
-    margin: 0px;
-    padding: 0px;
     
 }
 
@@ -42,12 +46,12 @@ top: 15px;
 .nav a
 {
    
-    text-align: center;
     
+    text-align: center;
 
     margin-right: 20px;
 
-    list-style-type: none;
+    
     text-decoration: none;
 
     font-family: Montserrat;
@@ -65,26 +69,80 @@ top: 15px;
 }
 .nav a:nth-child(2)
 {
-    margin-right: 44px;
+    margin-right: 20px;
 }
 /*Настройки span элементов nav */
-.nav span 
+.material-icons
 {
    
-    position:absolute;
-    top:0%;   
-      
-      
+    position: absolute;
+    margin-top:-2px;  
+    margin-left: -20px;
 
-      
-    justify-content: space-around;
-    font-family: Material Icons;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 20px;
+
+    
+   
 
     /* Dark 50% */
     color: rgba(31, 32, 65, 0.5);
 }
+/*Настройки button элементов header */
+.buttonheaderone
+{
+    position:static;
+    float: right;
 
+    margin-top:18px;  
+    margin-right: 140px;
+
+    width: 196px;
+    height: 34px;
+
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    border: none;
+    
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    outline: none;
+
+}
+.buttonheadertwo
+{
+    float: right;
+    position:static;  
+    
+    margin-top:18px;   
+    margin-right: 20px; 
+
+    width: 87px;
+    height: 34px;
+    background: none;
+
+    border-radius: 22px;
+    border: 2px solid;
+    
+    border: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    /* Primary Color */
+    color: #BC9CFF;
+
+    outline: none;
+}
