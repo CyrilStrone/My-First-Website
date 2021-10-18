@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Основные настройки footer */
 .footer
 {
@@ -22,7 +23,7 @@
 
     margin-bottom: 1px;
 
-    background: #1F2041;
+    background: #FFF;
     box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
 }
 .footer-copytight-bar
@@ -36,4 +37,145 @@
 
     background: #1F2041;
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+/* Самая левая колонка виджетов */
+.logo-footer-max
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    margin-top: 0px;
+
+    
+    width: 260px;
+    height: 132px;
+     
+}
+.logo-footer
+{
+    
+    width: 105.69px;
+    height: 40px;
+}
+.logo-footer-name
+{
+    display: block;
+    width: 260px;
+    height: 72px;
+    margin-top: 20px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* Dark 75% */
+
+    color: rgba(31, 32, 65, 0.75);
+}
+/* Виджеты */
+.content-footer-widgets-h3
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+margin: 0px;
+
+text-transform: uppercase;
+
+/* Dark 100% */
+
+color: #1F2041;
+}
+.footer-widgets li
+{
+    list-style-type: none;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 20px;
+    
+    
+    /* Dark 50% */
+    
+    color: rgba(31, 32, 65, 0.5);
+}
+.footer-widgets ul
+{
+    margin-left: 0;
+  /* Отступ слева в браузере IE и Opera */
+  padding-left: 0;
+  /* Отступ слева в браузере Firefox, Safari, Chrome */
+    margin-top: 21px;
+  
+}
+/* Виджеты по отдельности */
+.content-footer-widgets
+{
+    
+    
+    margin-top: 104px;
+
+    width: 1170px;
+
+   
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
+    
+}
+.footer-one
+{
+    
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 57px;
+    margin-top: 0px;
+    width: 143px;
+    height: 168px;
+
+    
+}
+.footer-two
+{
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 92px;
+    margin-top: 0px;
+    width: 108px;
+    height: 168px;
+}
+.footer-three
+{
+    
+    display: inline-block;
+    margin-right: 51px;
+    vertical-align: top;
+    width: 149px;
+    height: 130px;
+}
+.footer-four
+{
+    
+    display: inline-block;
+    vertical-align: top;
+    
+    width: 245px;
+    height: 84px;
+    
+    
+
+    
 }
