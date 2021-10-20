@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* Основные настройки footer */
 .footer
 {
@@ -8,23 +9,41 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    
     height: 443px;
-
     
 }
 .footer-widgets
 {
     
 
-    position: static;
+    
+   
+    
     width: 100%;
     height: 372px;
-    left: 0px;
 
     margin-bottom: 1px;
 
     background: #FFF;
     box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+}
+.content-footer-widgets
+{
+    position: absolute;
+    
+    height: 168px;
+    
+    width: 1170px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left:50%;
+transform:translate(-50%, -50%);
+    
+    
+    
 }
 .footer-copytight-bar
 {
@@ -94,7 +113,7 @@ text-transform: uppercase;
 
 color: #1F2041;
 }
-.footer-widgets li
+.content-footer-widgets li
 {
     list-style-type: none;
 
@@ -110,7 +129,7 @@ color: #1F2041;
     
     color: rgba(31, 32, 65, 0.5);
 }
-.footer-widgets ul
+.content-footer-widgets ul
 {
     margin-left: 0;
   /* Отступ слева в браузере IE и Opera */
@@ -120,22 +139,7 @@ color: #1F2041;
   
 }
 /* Виджеты по отдельности */
-.content-footer-widgets
-{
-    
-    
-    margin-top: 104px;
 
-    width: 1170px;
-
-   
-    margin-left: auto;
-    margin-right: auto;
-
-    
-    
-    
-}
 .footer-one
 {
     
@@ -179,3 +183,88 @@ color: #1F2041;
 
     
 }
+
+.Copyright-Bar
+{
+    
+    width: 1440px;
+    height: 70px;
+    
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.Copyright-Bar ul
+{
+    
+    padding: 0px;
+    
+    margin-top: 23px;
+}
+.Copyright-Bar i
+{
+    
+    width: 24px;
+    height: 24px;
+    
+    
+
+    font-family: Font Awesome 5 Brands;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+
+    background: linear-gradient(#BC9CFF 0%, #8BA4F9 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    
+    
+
+}
+.Copyright-Bar li
+{
+    margin-right: 20px;
+    vertical-align: top;
+    display: inline-block;
+    
+}
+.Copyright-Bar li:last-child
+{
+    margin-right: 0px;
+    
+}
+.Copyright-Bar-Link
+{
+    position: static;
+    display: inline-block;
+    float: right;
+    margin-right: 140px;
+    
+}
+    
+
+
+
+.Copyright-Bar-Text
+{
+    width: 372px;
+height: 18px;
+display: inline-block;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+margin-left: 140px;
+margin-top:26px;
+
+/* Dark 75% */
+
+color: rgba(31, 32, 65, 0.75);
+}
+
