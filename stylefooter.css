@@ -5,7 +5,7 @@
 {
     
 
-    position: absolute;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -13,13 +13,9 @@
     height: 443px;
     
 }
+/* Основные настройки большого квадрата footer виджетов */
 .footer-widgets
 {
-    
-
-    
-   
-    
     width: 100%;
     height: 372px;
 
@@ -28,26 +24,24 @@
     background: #FFF;
     box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
 }
+/* Основные настройки основного квадрата footer виджетов*/
 .content-footer-widgets
 {
-    position: absolute;
+    
     
     height: 168px;
     
     width: 1170px;
-    
+    padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    top: 50%;
-    left:50%;
-transform:translate(-50%, -50%);
-    
     
     
 }
+/* Основные настройки нижнего бара */
 .footer-copytight-bar
 {
-    position: static;
+    
     width: 100%;
     height: 70px;
     left: 0px;
@@ -68,11 +62,9 @@ transform:translate(-50%, -50%);
     
     width: 260px;
     height: 132px;
-     
 }
 .logo-footer
 {
-    
     width: 105.69px;
     height: 40px;
 }
@@ -88,31 +80,24 @@ transform:translate(-50%, -50%);
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-
-
-    /* Dark 75% */
 
     color: rgba(31, 32, 65, 0.75);
 }
-/* Виджеты */
+/* Заголовки виджетов*/
 .content-footer-widgets-h3
 {
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 15px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
 
-margin: 0px;
+    margin: 0px;
+    text-transform: uppercase;
 
-text-transform: uppercase;
-
-/* Dark 100% */
-
-color: #1F2041;
+    color: #1F2041;
 }
+/* Подпункты виджетов*/
 .content-footer-widgets li
 {
     list-style-type: none;
@@ -124,33 +109,23 @@ color: #1F2041;
     line-height: 17px;
     margin-top: 20px;
     
-    
-    /* Dark 50% */
-    
     color: rgba(31, 32, 65, 0.5);
 }
 .content-footer-widgets ul
 {
     margin-left: 0;
-  /* Отступ слева в браузере IE и Opera */
-  padding-left: 0;
-  /* Отступ слева в браузере Firefox, Safari, Chrome */
+    padding-left: 0;
     margin-top: 21px;
-  
 }
 /* Виджеты по отдельности */
-
 .footer-one
 {
-    
     display: inline-block;
     vertical-align: top;
     margin-right: 57px;
     margin-top: 0px;
     width: 143px;
     height: 168px;
-
-    
 }
 .footer-two
 {
@@ -163,7 +138,6 @@ color: #1F2041;
 }
 .footer-three
 {
-    
     display: inline-block;
     margin-right: 51px;
     vertical-align: top;
@@ -172,44 +146,31 @@ color: #1F2041;
 }
 .footer-four
 {
-    
     display: inline-block;
     vertical-align: top;
     
     width: 245px;
     height: 84px;
-    
-    
-
-    
 }
-
+/* Основные настройки Копирайт бара */
 .Copyright-Bar
 {
-    
     width: 1440px;
     height: 70px;
-    
-   
     margin-left: auto;
     margin-right: auto;
-    
 }
 .Copyright-Bar ul
 {
-    
     padding: 0px;
     
     margin-top: 23px;
 }
 .Copyright-Bar i
 {
-    
     width: 24px;
     height: 24px;
     
-    
-
     font-family: Font Awesome 5 Brands;
     font-style: normal;
     font-weight: normal;
@@ -220,17 +181,12 @@ color: #1F2041;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-
-    
-    
-
 }
 .Copyright-Bar li
 {
     margin-right: 20px;
     vertical-align: top;
     display: inline-block;
-    
 }
 .Copyright-Bar li:last-child
 {
@@ -243,28 +199,21 @@ color: #1F2041;
     display: inline-block;
     float: right;
     margin-right: 140px;
-    
 }
-    
-
-
-
-.Copyright-Bar-Text
+    .Copyright-Bar-Text
 {
     width: 372px;
-height: 18px;
-display: inline-block;
+    height: 18px;
+    display: inline-block;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-margin-left: 140px;
-margin-top:26px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 140px;
+    margin-top:26px;
 
-/* Dark 75% */
-
-color: rgba(31, 32, 65, 0.75);
+    color: rgba(31, 32, 65, 0.75);
 }
 

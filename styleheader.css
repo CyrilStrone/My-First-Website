@@ -14,12 +14,12 @@
 /* Основные настройки logo */
 .LogoPictures
 {
-position: static;
-float: left;
-width: 105.69px;
-height: 40px;
-margin-left: 140px;
-margin-top: 15px;
+    position: static;
+    float: left;
+    width: 105.69px;
+    height: 40px;
+    margin-left: 140px;
+    margin-top: 15px;
 }
 
 /* Основные настройки nav */
@@ -32,26 +32,15 @@ margin-top: 15px;
     
     margin-top:26px;  
     margin-right: 20px;
-
-   
     height: 21px;
-
-   
-
-    
 }
-
-
 /*Настройки a элементов nav */
 .nav a
 {
-   
-    
     text-align: center;
 
     margin-right: 20px;
 
-    
     text-decoration: none;
 
     font-family: Montserrat;
@@ -60,7 +49,6 @@ margin-top: 15px;
     font-size: 14px;
     line-height: 17px;
 
-    /* Dark 50% */
     color: rgba(31, 32, 65, 0.5);
 }
 .nav a:last-child
@@ -74,16 +62,10 @@ margin-top: 15px;
 /*Настройки span элементов nav */
 .material-icons
 {
-   
     position: absolute;
     margin-top:-2px;  
     margin-left: -20px;
 
-
-    
-   
-
-    /* Dark 50% */
     color: rgba(31, 32, 65, 0.5);
 }
 /*Настройки button элементов header */
@@ -102,19 +84,16 @@ margin-top: 15px;
     border-radius: 22px;
     border: none;
     
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
     text-transform: uppercase;
 
     color: #FFFFFF;
 
     outline: none;
-
 }
 .buttonheadertwo
 {
@@ -138,10 +117,8 @@ margin-top: 15px;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
     text-transform: uppercase;
 
-    /* Primary Color */
     color: #BC9CFF;
 
     outline: none;
