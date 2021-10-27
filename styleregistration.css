@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-.toxin-content
+.registration
 {
     
     
@@ -19,4 +19,47 @@
     background: url("https://lh3.googleusercontent.com/LE42d4TlpaBCnGvkT6DeWLF4qHJ6tRJdPLXBEvUhalDvp3fTue6CpwEoH496mXeqUDEH1Vz91Skv9mF4kQ5gCTEXVVDoeTbkpALKH47QXIWPCP2qpBdD3pIw0ww3hGHHKTGMy9K1Gw=w2400?source=screenshot.guru") no-repeat center center;
     background-size: cover;
 }
+.content-registration
+{
+    position: absolute;
+    width: 380px;
+    height: 646px;
 
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+
+    top: 89px;
+    left:50%;
+    transform:translate( -50%);
+    padding: 40px 30px;
+
+}
+.title-content-registration 
+{
+    
+    text-align: center;
+    
+
+
+    width: 320px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    /* Dark 100% */
+
+    color: #1F2041;
+}
+.title-content-registration a
+{
+    text-align: center;
+}
