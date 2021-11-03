@@ -63,3 +63,37 @@
 {
     text-align: center;
 }
+.field-content-registration
+{
+    margin-top: 10px;
+}
+.data-entry-field
+{
+    
+    
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 0 15px;
+
+    width: 320px;
+    height: 44px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+
+    /* Dark 25% */
+
+    color: rgba(31, 32, 65, 0.25);
+}
