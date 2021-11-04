@@ -8,20 +8,41 @@
     <link href="css/styleheader.css" rel="stylesheet">
     <link href="css/stylefooter.css" rel="stylesheet">
     <link href="css/styleregistration.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
     <link href="css/jtoggler.styles.css" rel="stylesheet">
     
     <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 
     <script src = "libs/JQuery/JQuery.js"></script>
-   
-    <script src = "JS/jquery.icheck.js"></script>
-  
-   
+
+    <script src = "JS/registration.click.man.js"></script>
+    <script src = "JS/registration.click.woman.js"></script>
     
+    
+    <script src = "libs/JQuery/jquery-ui-1.13.0/jquery-ui.css"></script>
+    <script src = "libs/JQuery/jquery-ui-1.13.0/jquery-ui.js"></script>
+    <script src = "libs/JQuery/jquery-ui-1.13.0/jquery-ui.min.css"></script>
+    <script src = "libs/JQuery/jquery-ui-1.13.0/jquery-ui.min.js"></script>
+    <script src = "libs/JQuery/jquery-ui-1.13.0/jquery-ui.structure.css"></script>
+    <script src = "libs/JQuery/jquery-ui-1.13.0/jquery-ui.structure.min.css"></script>
+    <script src = "libs/JQuery/jquery-ui-1.13.0/jquery-ui.theme.css"></script>
+    <script src = "libs/JQuery/jquery-ui-1.13.0/jquery-ui.theme.min.css"></script>
+    <script src = "libs/JQuery/jquery-ui-1.13.0/package.json"></script>
+
+    <script src = "JS/datepicker.function.js"></script>
+   <script src = "JS/datepicker.js"></script>
+  
     
 
+    
+    
+   
+ 
+   
+   
     
     
 </head>
@@ -67,91 +88,76 @@
                     <label for="id_secondname"></label> <input class="data-entry-field"type="text" name="secondname" placeholder="Фамилия" maxlength="326" autocomplete="secondname" id="id_secondname">
                 </a>
                 <div class="registration-checkbox">
-                    <div class="registration-checkbox-sex-one">
-                    
-                        <input type="radio">
-                        <div class="registration-checkbox-sex">
-                            <a >
+                    <div class="registration-checkbox-one">
+                        <div>
+                            <input id="registration_radio_man" type="radio" >
+                        
+                            <a class="registration-checkbox-sex-man">
                                 Мужчина
                             </a>
+                        
                         </div>
                         
                     </div>
-                    <div class="registration-checkbox-sex-two">
+                    <div class="registration-checkbox-two">
+                        <div>
+                            <input id="registration_radio_woman" type="radio" >
                         
-                        <input type="radio">
-                        <div class="registration-checkbox-sex">
-                            <a >
+                            <a class="registration-checkbox-sex-woman">
                                 Женщина
                             </a>
+                        
                         </div>
-                        
-                        
                     </div>
                 </div>
-                    <div class="h2-content-registration ">
+                <div class="h2-content-registration">
                         <a>Дата рождения</a>
-                    </div>
-                    <div class="field-content-registration-nonfiction"> 
-                        <a>
-                            <label for="id_firstname"></label> <input class="data-entry-field"type="text" name="firstname" placeholder="Имя" autocomplete="firstname" maxlength="326"  id="id_firstname">
-                        </a>
-                    </div>
-                    <div class="h2-content-registration ">
+                </div>
+                <div class="field-content-registration-nonfiction"> 
+                    <input class="data-entry-field "   placeholder="ДД.ММ.ГГГГ"  id="datepicker">
+                </div>
+                <div class="h2-content-registration ">
                         <a>данные для входа в сервис</a>
-                    </div>
-                    <div class="field-content-registration-nonfiction"> 
+                </div>
+                <div class="field-content-registration-nonfiction"> 
                         <a>
-                            <label for="id_firstname"></label> <input class="data-entry-field"type="text" name="firstname" placeholder="Имя" autocomplete="firstname" maxlength="326"  id="id_firstname">
+                            <label for="id_firstname"></label> <input class="data-entry-field"type="text" name="firstname" placeholder="Email" autocomplete="firstname" maxlength="326"  id="id_firstname">
                         </a>
-                    </div>
-                    <div > 
+                </div>
+                <div > 
                         <a>
-                            <label for="id_firstname"></label> <input class="data-entry-field"type="text" name="firstname" placeholder="Имя" autocomplete="firstname" maxlength="326"  id="id_firstname">
+                            <label for="id_firstname"></label> <input class="data-entry-field"type="text" name="firstname" placeholder="Пароль" autocomplete="firstname" maxlength="326"  id="id_firstname">
                         </a>
-                    </div>
-                    <label class="switch">
+                </div>
+                <label class="switch">
                         <input type="checkbox">
                         <span class="slider round"></span>
-                    </label>
-                    <div class="content-registration-specialoffers">
-                        
-                   
+                </label>
+                <div class="content-registration-specialoffers">
                         <a>Получать спецпредложения</a>
-                    
-                        
-                    </div>
-                    
-                    
-                    <div class="button-registration">
+                </div>
+                <div class="button-registration">
                         <div>
                             <button class= "button-registration-base">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
                         </div>
 
                         <span class="icons-registration ">arrow_forward</span>
                         
-                    </div>
-                    <div class="registration-login">
+                </div>
+                <div class="registration-login">
                         <div class="h3-content-registration ">
                             <a>Уже есть аккаунт на Toxin</a>
                         </div>
                         <div>
                             <button class= "button-registration-base-two">ВОЙТИ</button>
                         </div>
-                    </div>
                 </div>
-                
+                </div>
             </div>
         </div>
-        
     </div>
-
-
-
-
-
-
-     <footer>
+    
+    <footer>
         <div class="footer">
             <div class="footer-widgets">
                 <div class="content-footer-widgets">
@@ -261,6 +267,8 @@
             </div>
         </div>
     </footer>
+    
+        
 </body>
 </html>
 
