@@ -1,0 +1,134 @@
+.content-titlepage
+{
+    position: absolute;
+    width: 380px;
+    height: 374px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    top: 233px;
+    left:140px;
+    
+    padding: 40px 30px;
+}
+.field-content-titlepage
+{
+    margin-top: 0px;
+}
+.titlepage
+{
+    height: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("https://lh3.googleusercontent.com/aplOmIU3wKD9aixc1rCGubngyBgsnKX7HtGXHoR6hOJheRlOoywyml0u3m2r1mA4mjoUlNvdr6AdCBXgw6lWwTTDywyk_yiwsPIRhVoas1izu2GrXS80Vya1bZBVHNFvuUGrgNE-Xw=w2400") no-repeat center center;
+    background-size: cover;
+}
+.title-content-titlepage
+{
+    width: 320px;
+    height: 59px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1F2041;
+}
+.data-entry-field-titlepage-maximum
+{
+    width: 150px;
+    height: 65px;
+    display: inline-block;
+    margin-top: 21px;
+    padding: 0px;
+}
+.last-titlepage
+{
+    
+    margin-left: 14px;
+}
+.h2-content-titlepage 
+{
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+.h2-content-titlepage-guests
+{
+    margin-top: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+.data-entry-field-titlepage
+{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    width: 150px;
+    height: 44px;   
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.25);
+}
+.icons-titlepage
+{
+    width: 44px;
+    height: 44px;
+    color: rgba(31, 32, 65, 0.5);
+    margin-top: -44px;
+    margin-left: 106px;
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around; 
+}
+.icons-titlepage-guests
+{
+    width: 44px;
+    height: 44px;
+    color: rgba(31, 32, 65, 0.5);
+    margin-top: -44px;
+    margin-left: 275px;
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around; 
+}
+.button-titlepage
+{
+    margin-top: 31px;
+}
+
+
