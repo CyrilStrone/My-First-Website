@@ -8,8 +8,8 @@
     box-sizing: border-box;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    top: 233px;
-    left:140px;
+    margin-top: 70px;
+    margin-left:140px;
     
     padding: 40px 30px;
 }

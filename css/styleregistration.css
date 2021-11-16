@@ -3,6 +3,8 @@
 /* фон регистрации */
 .registration
 {
+    position: static;
+    margin-top:0px;
     height: 754px;
     width: 100%;
     margin-left: auto;
@@ -21,7 +23,7 @@
     box-sizing: border-box;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    top: 89px;
+    margin-top: 19px;
     left:50%;
     transform:translate( -50%);
     padding: 40px 30px;

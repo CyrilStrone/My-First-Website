@@ -2,7 +2,7 @@
 /* Основные настройки header */
 .header
 {
-    position: absolute;
+    position: static;
     width: 100%;
     height: 70px;
     left: 0px;
