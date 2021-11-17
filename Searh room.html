@@ -11,16 +11,25 @@
     <link href="css/sign in.css" rel="stylesheet">
     <link href="css/landingpage.css" rel="stylesheet">
     <link href="css/searhroom.css" rel="stylesheet">
+`   <link href="css/jtoggler.styles.css" rel="stylesheet">
+
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="css/jtoggler.styles.css" rel="stylesheet">
     
-    <script src = "libs/JQuery/JQuery.js"></script>
+    
+    
+
+
+    <link rel="stylesheet" href="libs/jquery-ui-1.13.0.custom/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquerry.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    
     <script src = "JS/registration.click.man.js"></script>
     <script src = "JS/registration.click.woman.js"></script>
-    
+    <script src = "JS/slider.cash.js"></script>
 </head>
 <body>
     <header>
@@ -54,9 +63,42 @@
     
     <div class="searhroom">
         <div class="searhroom-filter">
-            <a class="h2-searhroom-filter">
-                даты пребывания в отеле
-            </a>
+            
+            <div class="searhroom-button-with-text">
+                <a class="h2-searhroom-filter">
+                    даты пребывания в отеле
+                </a>
+                
+                <a>
+                    <label for="id_firstname"></label> <input class="searhroom-button"type="text" name="firstname" placeholder="ДД.ММ.ГГГГ" autocomplete="firstname" maxlength="326"  id="id_firstname">
+                </a>
+                <span class="icons-searhroom">expand_more</span>
+            </div>
+            <div class="searhroom-button-with-text-notfirst">
+                <a class="h2-searhroom-filter">
+                    Гости
+                </a>
+                
+                <a>
+                    <label for="id_firstname"></label> <input class="searhroom-button"type="text" name="firstname" placeholder="Кол-во гостей" autocomplete="firstname" maxlength="326"  id="id_firstname">
+                </a>
+                <span class="icons-searhroom">expand_more</span>
+            </div>
+            <div class="searhroom-slider-with-text">
+                <a class="h2-searhroom-filter">
+                    диапазон цены
+                </a>
+                <div class="searhroom-sliderrange">
+                    <div id="slider-range">
+                        <div id="custom-handle" class="ui-slider-handle"></div>
+                    </div>
+                </div>
+                <input type="text" id="amount" readonly style="border:0">
+                <a class="h3-searhroom-filter">
+                    Стоимость за сутки пребывания в номере
+                </a>
+                
+            </div>
         </div>
         <div class = "searhroom-content">
             <a class="h1-searhroom-content">

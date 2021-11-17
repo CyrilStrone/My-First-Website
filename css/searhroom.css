@@ -234,3 +234,65 @@
     margin-top: 63.12px;
     margin-left:20.26px;
 }
+.searhroom-button
+{
+    
+    width: 266px;
+    height: 44px;
+    display: block;
+    margin-top:5px;
+    background: #FFFFFF;
+    /* Dark 25% */
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.25);
+}
+.icons-searhroom
+{
+    width: 44px;
+    height: 44px;
+    color: rgba(31, 32, 65, 0.5);
+    margin-top: -44px;
+    margin-left: 222px;
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around; 
+}
+.searhroom-button-with-text-notfirst
+{
+    margin-top:20px;
+}
+.searhroom-slider-with-text
+{
+    margin-top: 30px;
+}
+.h3-searhroom-filter
+{
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height, or 117% */
+    
+    
+    /* Dark 50% */
+    
+    color: rgba(31, 32, 65, 0.5);
+    margin-top: 10px;
+}
