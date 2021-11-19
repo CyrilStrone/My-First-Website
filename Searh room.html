@@ -11,7 +11,7 @@
     <link href="css/sign in.css" rel="stylesheet">
     <link href="css/landingpage.css" rel="stylesheet">
     <link href="css/searhroom.css" rel="stylesheet">
-`   <link href="css/jtoggler.styles.css" rel="stylesheet">
+   <link href="css/jtoggler.styles.css" rel="stylesheet">
 
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -31,6 +31,8 @@
     <script src = "JS/registration.click.woman.js"></script>
     <script src = "JS/slider.cash.js"></script>
     <script src = "JS/checkbox.js"></script>
+    <script src = "JS/checkboxes.js"></script>
+    <script src = "JS/datepicker.js"></script>
 </head>
 <body>
     <header>
@@ -66,12 +68,13 @@
         <div class="searhroom-filter">
             
             <div class="searhroom-button-with-text">
-                <a class="h2-searhroom-filter">
+                <a class="h2-searhroom-filter" >
                     даты пребывания в отеле
                 </a>
                 
                 <a>
-                    <label for="id_firstname"></label> <input class="searhroom-button"type="text" name="firstname" placeholder="ДД.ММ.ГГГГ" autocomplete="firstname" maxlength="326"  id="id_firstname">
+                    <label for="id_firstname"></label> <input class="searhroom-button"type="text" name="firstname" placeholder="ДД.ММ.ГГГГ" autocomplete="firstname" maxlength="326">
+                   
                 </a>
                 <span class="icons-searhroom">expand_more</span>
             </div>
@@ -108,7 +111,7 @@
                 
                 <div class="searhroom-checkbox-can">
                     <label class="searhroom-checkbox-name">
-                        <a>Можно курить</a>
+                        <a class="h2-searhroom-checkbox-one">Можно курить</a>
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
@@ -116,21 +119,106 @@
                 </div>
                 <div class="searhroom-checkbox-can">
                     <label class="searhroom-checkbox-name">
-                        <a>Можно с питомцами</a>
+                        <a class="h2-searhroom-checkbox-one">Можно с питомцами</a>
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
                 </div>
                 <div class="searhroom-checkbox-can">
                     <label class="searhroom-checkbox-name">
-                        <a>Можно пригласить гостей (до 10 человек)</a>
+                        <a class="h2-searhroom-checkbox-one">Можно пригласить гостей (до 10 человек)</a>
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
                 </div>
-                
-                
             </div>
+            <div class="searhroom-checkbox-two">
+                <a class="h2-searhroom-checkbox">
+                    доступность
+                </a>
+                <div class="searhroom-checkbox-can">
+                    <label class="searhroom-checkbox-name">
+                        <a class="h2-searhroom-checkbox-two">Широкий коридор</a>
+                        <a class="h3-searhroom-checkbox">Ширина коридоров в номере не менее 91 см.</a>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    
+                </div>
+                <div class="searhroom-checkbox-can">
+                    <label class="searhroom-checkbox-name">
+                        <a class="h2-searhroom-checkbox-two">Помощник для инвалидов</a>
+                        <a class="h3-searhroom-checkbox">На 1 этаже вас встретит специалист  и проводит до номера.</a>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    
+                </div>
+            </div>
+            <div class="searhroom-button-with-text-notfirst">
+                <a class="h2-searhroom-filter">
+                    удобства номера
+                </a>
+                
+                <a>
+                    <label for="id_firstname"></label> <input class="searhroom-button"type="text" name="firstname" placeholder="Кол-во комнаты" autocomplete="firstname" maxlength="326"  id="id_firstname">
+                </a>
+                <span class="icons-searhroom">expand_more</span>
+            </div>
+
+
+
+            <div class="multiselect">
+                <div class="selectBox" onclick="showCheckboxes()">
+                  <select>
+                    <option>дополнительные удобства</option>
+                  </select>
+                  <span class="icons-searhroom-two">expand_more</span>
+                  <div class="overSelect"></div>
+                </div>
+                <div id="checkboxes">
+                    <label class="searhroom-checkbox-name">
+                        <a class="h2-searhroom-checkbox-one">Завтрак</a>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="searhroom-checkbox-name">
+                        <a class="h2-searhroom-checkbox-one">Письменный стол</a>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="searhroom-checkbox-name">
+                        <a class="h2-searhroom-checkbox-one">Стул для кормления</a>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="searhroom-checkbox-name">
+                        <a class="h2-searhroom-checkbox-one">Кроватка</a>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="searhroom-checkbox-name">
+                        <a class="h2-searhroom-checkbox-one">Телевизор</a>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="searhroom-checkbox-name">
+                        <a class="h2-searhroom-checkbox-one">Шампунь</a>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="searhroom-checkbox-name">
+                        <a class="h2-searhroom-checkbox-one">Телевизор</a>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="searhroom-checkbox-name">
+                        <a class="h2-searhroom-checkbox-one">Можно курить</a>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+              </div>
         </div>
         <div class = "searhroom-content">
             <a class="h1-searhroom-content">
