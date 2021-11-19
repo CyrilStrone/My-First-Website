@@ -282,7 +282,7 @@
 }
 .h3-searhroom-filter
 {
-    position: absolute;
+    display: block;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -294,5 +294,122 @@
     /* Dark 50% */
     
     color: rgba(31, 32, 65, 0.5);
+    margin-top: 13px;
+}
+.searhroom-checkbox-one
+{
+    position: static;
+    margin-top: 30px;
+
+}
+.h2-searhroom-checkbox
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    /* Dark 100% */
+    
+    color: #1F2041;
+}
+.searhroom-checkbox-can
+{
+    display: block;
     margin-top: 10px;
 }
+.searhroom-checkbox-can:nth-of-type(1)
+{
+    margin-top: 17px;
+}
+.searhroom-checkbox-name a
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    
+    
+    /* Dark 50% */
+    
+    color: rgba(31, 32, 65, 0.5);
+}
+.searhroom-checkbox-name {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+    width: 210px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .searhroom-checkbox-name input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+    
+    background: #FFFFFF;
+    /* Dark 25% */
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  
+ 
+  /* When the checkbox is checked, add a blue background */
+  .searhroom-checkbox-name input:checked ~ .checkmark {
+    border: 1px solid #BC9CFF;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .searhroom-checkbox-name input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .searhroom-checkbox-name .checkmark:after {
+    left: 6px;
+    top: 1.5px;
+    width: 4px;
+    height: 8px;
+    border:solid #BC9CFF;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  

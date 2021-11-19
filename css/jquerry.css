@@ -76,3 +76,19 @@
     outline:none;
     
 }
+input[type="checkbox" i] {
+    
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    
+    
+    
+
+    background: #FFFFFF;
+    /* Dark 25% */
+
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    
+    border-radius: 4px;
+}
