@@ -1,0 +1,226 @@
+.titlepage-room-details
+{
+    height: 1672px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-room-details
+{
+    height: 486px;
+    width: 100%;
+
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    margin: 0;
+}
+.image-room-details li
+{
+    display: inline-block;
+    list-style-type: none; /* Убираем маркеры */
+}
+.image-room-details ul 
+{
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+.image-room-details-one
+{
+    background: url("https://lh3.googleusercontent.com/aplOmIU3wKD9aixc1rCGubngyBgsnKX7HtGXHoR6hOJheRlOoywyml0u3m2r1mA4mjoUlNvdr6AdCBXgw6lWwTTDywyk_yiwsPIRhVoas1izu2GrXS80Vya1bZBVHNFvuUGrgNE-Xw=w2400") no-repeat center center;
+    background-size: cover;
+    height: 486px;
+    width: 70%;
+}
+.image-room-details-notone-general
+{
+    float: right;
+    height: 486px;
+    width: 30%;
+}
+.image-room-details-notone
+{
+    height: 243px;
+
+    background: url("https://lh3.googleusercontent.com/aplOmIU3wKD9aixc1rCGubngyBgsnKX7HtGXHoR6hOJheRlOoywyml0u3m2r1mA4mjoUlNvdr6AdCBXgw6lWwTTDywyk_yiwsPIRhVoas1izu2GrXS80Vya1bZBVHNFvuUGrgNE-Xw=w2400") no-repeat center center;
+    background-size: cover;
+}
+
+.content-room-details
+{
+    display: inline-block;
+    padding: 140px;
+    height: 100%;
+    width: 100%;
+}
+.content-room-details-general
+{
+    width: 712px;
+}
+.form-room-details
+{
+    margin-left: 69px;
+}
+.form-room-details
+{
+    position: absolute;
+    width: 380px;
+    height: 512px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin-left:140px;
+    
+    padding: 40px 30px;
+}
+.h3-form-room-details
+{
+    width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* Dark 100% */
+
+color: #1F2041;
+}
+.h3-form-room-details-left
+{
+    display: inline-block;
+}
+.h3-form-room-details-right
+{
+    float: right;
+}
+.h4-form-room-details-top
+{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+/* Dark 75% */
+
+color: rgba(31, 32, 65, 0.75);
+}
+.h4-form-room-details
+{
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+/* Dark 75% */
+
+color: rgba(31, 32, 65, 0.75);
+}
+.h4-form-room-details-left
+{
+    width: 214px;
+    display: inline-block;
+}
+.h4-form-room-details-right
+{
+    float: right;
+}
+.icons-room-details
+{
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+    color: rgba(31, 32, 65, 0.5);
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around; 
+}
+.icons-room-details-last
+{
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+    color: rgba(31, 32, 65, 0.5);
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around; 
+}
+.h4-form-top-room-details-left
+{
+    display: inline-block;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 17px;
+
+/* Dark 100% */
+
+color: #1F2041;
+}
+.h4-form-top-room-details-left-one
+{
+    display: inline-block;
+}
+.h4-form-top-room-details-left-two
+{
+    margin-left: 8px;
+    display: inline-block;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* Primary Color */
+
+color: #BC9CFF;
+}
+.h4-form-top-room-details-right
+{
+    float: right;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+
+
+color: rgba(31, 32, 65, 0.5);
+
+}
+.button-room-details
+{
+    margin-top: 20px;
+}
