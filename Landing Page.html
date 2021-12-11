@@ -12,7 +12,7 @@
     <link href="css/landingpage.css" rel="stylesheet">
     <link href="css/searhroom.css" rel="stylesheet">
     <link href="css/jtoggler.styles.css" rel="stylesheet">
-
+    <link href="css/jquery-select-step.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
@@ -34,6 +34,9 @@
     <script src = "JS/checkboxes.js"></script>
     <script src = "JS/datepicker.js"></script>
     <script src = "JS/datepickerru.js"></script>
+    <script src ="JS/dropdown.js"></script>
+    <script src="JS/stepper.js"></script>
+    <script src="JS/jquery-select-step.js"></script>
 </head>
 <body>
     <header>
@@ -77,7 +80,7 @@
                     </div>
                     
                     <a>
-                        <label for="id_firstname"></label> <input class="data-entry-field-titlepage"type="text" name="firstname" placeholder="ДД.ММ.ГГГГ" autocomplete="firstname" maxlength="326"  id="datepicker">
+                        <label for="id_firstname"></label> <input class="data-entry-field-titlepage" placeholder="ДД.ММ.ГГГГ" id="datepicker">
                     </a>
                     <span class="icons-titlepage">expand_more</span>
                 </div>
@@ -87,17 +90,64 @@
                         <a>Выезд</a>
                     </div>
                     <a>
-                        <label for="id_secondname"></label> <input class="data-entry-field-titlepage"type="text" name="secondname" placeholder="ДД.ММ.ГГГГ" maxlength="326" autocomplete="secondname" id="id_secondname">
-                    </a>   
+                        <label for="id_firstname"></label> <input class="data-entry-field-titlepage" placeholder="ДД.ММ.ГГГГ" id="datepicker">
+                    </a> 
                     <span class="icons-titlepage">expand_more</span> 
                 </div>
 
                 <div class="h2-content-titlepage-guests">
                     <a>Гости</a>
                 </div>
-                <div class="field-content-registration-nonfiction"> 
-                    <input class="data-entry-field "   placeholder="ДД.ММ.ГГГГ"  id="datepicker">
-                </div>
+
+                
+
+                <div class="field-content-registration-nonfiction">
+                    <button onclick="myFunctiondropdown()" class="dropbtn">Сколько гостей</button>
+                    <div id="myDropdown" class="dropdown-content">
+                         <a href="#">
+                             <div class="dropdown-content-text">
+                                взрослые
+                             </div>
+                            <select name="room" id="room" class="select-step">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                         </a>
+                        <a href="#">
+                            <div class="dropdown-content-text">
+                            дети
+                         </div>
+                            <select name="room" id="room" class="select-step">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                        </a>
+                        <a href="#">
+                            <div class="dropdown-content-text">
+                                младенцы
+                             </div>
+                            <select name="room" id="room" class="select-step">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </a>
+                        <a href="#">очистить</a>
+                        <a href="#">применить</a>
+                    </div>
+                  </div>
+
                 <span class="icons-titlepage-guests">expand_more</span> 
                 
                 

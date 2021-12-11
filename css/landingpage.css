@@ -45,10 +45,16 @@
     margin-top: 21px;
     padding: 0px;
 }
+.data-entry-field-titlepage-maximum label
+{
+    
+    color: rgba(31, 32, 65, 0.75);
+
+}
 .last-titlepage
 {
     
-    margin-left: 14px;
+    float: right;
 }
 .h2-content-titlepage 
 {
@@ -75,7 +81,8 @@
 }
 .data-entry-field-titlepage
 {
-    margin-top: 10px;
+    vertical-align: bottom;
+    margin-top: 4px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
@@ -90,8 +97,15 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
-    color: rgba(31, 32, 65, 0.25);
+
+    outline:none;
 }
+.data-entry-field-titlepage:hover, .data-entry-field-titlepage:focus {
+  
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+ }
 .icons-titlepage
 {
     width: 44px;
@@ -111,6 +125,8 @@
 }
 .icons-titlepage-guests
 {
+    position: absolute;
+    display: grid;
     width: 44px;
     height: 44px;
     color: rgba(31, 32, 65, 0.5);
@@ -121,7 +137,6 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 24px;
-    display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-around; 
@@ -131,4 +146,110 @@
     margin-top: 31px;
 }
 
+/* Тут все про dropdown  */
+.dropbtn {
+    background-color: #FFFFFF;
+    width: 320px;
+    height: 44px;
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: left;
 
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.75);
+}
+.dropbtn:hover, .dropbtn:focus {
+   background-color: #FFFFFF;
+   border: 1px solid rgba(31, 32, 65, 0.5);
+   border-radius: 2px 2px 0px 0px;
+   box-sizing: border-box;
+}
+.field-content-registration-nonfiction {
+    margin-top: 5px;
+    position: relative;
+    display: inline-block;
+  }
+.field-content-registration-nonfiction
+{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content 
+{
+    
+    display: none;
+    position: absolute;
+    width: 320px;
+    background: #FFFFFF;
+/* Dark 50% */
+
+border: 1px solid rgba(31, 32, 65, 0.5);
+border-top: 0px;
+box-sizing: border-box;
+box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    z-index: 1;
+    border-radius: 0px 0px 2px 2px;
+}
+.dropdown-content a 
+{
+    
+width: 320px;
+height: 37px;
+/* Dark 100% */
+display: inline-block;
+color: #1F2041;
+    text-decoration: none;
+
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+
+}
+.dropdown-content-text
+{
+    margin-top: 13px;
+    width: 85px;
+    float: left;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.select-step
+{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.dropdown-content a:nth-child(4)
+{
+    width: 90px;
+    height: 15px;
+    margin-top: 15px;
+    margin-left: 14px;
+    display: inline-block;
+    color: #BC9CFF;
+    padding-bottom: 13px;
+}
+.dropdown-content a:nth-child(5)
+{
+    margin-top: 15px;
+    margin-right: 7px;
+    width: 84px;
+    height: 15px;
+    float: right;
+    color: #BC9CFF;
+    padding-bottom: 13px;
+}
+
+
+.show {display:block;}
