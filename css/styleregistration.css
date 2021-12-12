@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* фон регистрации */
-.registration
-{
+
+.registration {
     position: static;
-    margin-top:0px;
+    margin-top: 0px;
     height: 754px;
     width: 100%;
     margin-left: auto;
@@ -12,9 +12,11 @@
     background: url("https://lh3.googleusercontent.com/LE42d4TlpaBCnGvkT6DeWLF4qHJ6tRJdPLXBEvUhalDvp3fTue6CpwEoH496mXeqUDEH1Vz91Skv9mF4kQ5gCTEXVVDoeTbkpALKH47QXIWPCP2qpBdD3pIw0ww3hGHHKTGMy9K1Gw=w2400?source=screenshot.guru") no-repeat center center;
     background-size: cover;
 }
+
+
 /* Окно регистрации */
-.content-registration
-{
+
+.content-registration {
     position: absolute;
     width: 380px;
     height: 646px;
@@ -24,13 +26,15 @@
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     margin-top: 19px;
-    left:50%;
-    transform:translate( -50%);
+    left: 50%;
+    transform: translate( -50%);
     padding: 40px 30px;
 }
+
+
 /* Тайтл окна регистрации */
-.title-content-registration 
-{
+
+.title-content-registration {
     text-align: center;
     width: 320px;
     height: 30px;
@@ -42,14 +46,17 @@
     color: #1F2041;
 }
 
+
 /* Все остальное после тайтла общее настройки */
-.field-content-registration
-{
+
+.field-content-registration {
     margin-top: 10px;
 }
+
+
 /* Настройки окон вводы данных пользователем */
-.data-entry-field
-{
+
+.data-entry-field {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -67,19 +74,19 @@
     line-height: 18px;
     color: rgba(31, 32, 65, 0.25);
 }
+
+
 /* Настройки выбора пола */
-.registration-checkbox 
-{
+
+.registration-checkbox {
     margin-top: 10px;
     margin-left: 0px;
-    
 }
 
-.registration-checkbox-sex-man
-{
+.registration-checkbox-sex-man {
     float: right;
     margin-top: 0px;
-    margin-left:10px ;
+    margin-left: 10px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -87,11 +94,11 @@
     line-height: 24px;
     color: rgba(31, 32, 65, 0.5);
 }
-.registration-checkbox-sex-woman
-{
+
+.registration-checkbox-sex-woman {
     float: right;
     margin-top: 0px;
-    margin-left:10px ;
+    margin-left: 10px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -99,26 +106,26 @@
     line-height: 24px;
     color: rgba(31, 32, 65, 0.5);
 }
-.registration-checkbox-one
-{
+
+.registration-checkbox-one {
     position: static;
     display: inline-block;
     width: 100px;
     height: 24px;
 }
 
-.registration-checkbox-two
-{
+.registration-checkbox-two {
     margin-left: 20px;
     position: static;
     display: inline-block;
-
     width: 105px;
     height: 24px;
 }
+
+
 /* Настройки кружков выбора пола */
-input[type='radio'] 
-{
+
+input[type='radio'] {
     position: relative;
     width: 18px;
     height: 18px;
@@ -130,11 +137,11 @@ input[type='radio']
     margin-left: 0px;
     padding: 0px;
 }
-input[type='radio'] + a
-{
+
+input[type='radio']+a {
     float: right;
     margin-top: 0px;
-    margin-left:10px ;
+    margin-left: 10px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -142,8 +149,8 @@ input[type='radio'] + a
     line-height: 24px;
     color: rgba(31, 32, 65, 0.5);
 }
-input[type='radio']::before 
-{
+
+input[type='radio']::before {
     content: '';
     position: absolute;
     top: 50%;
@@ -156,9 +163,7 @@ input[type='radio']::before
     border-radius: 10px;
 }
 
-
-input[type='radio']:checked::after 
-{
+input[type='radio']:checked::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -171,9 +176,10 @@ input[type='radio']:checked::after
     visibility: visible;
 }
 
+
 /* Настройки h2 окна регистрации */
-.h2-content-registration
-{
+
+.h2-content-registration {
     margin-top: 20px;
     font-family: Montserrat;
     font-style: normal;
@@ -183,21 +189,24 @@ input[type='radio']:checked::after
     text-transform: uppercase;
     color: #1F2041;
 }
+
+
 /* Настройки отступа необычного email */
-.field-content-registration-nonfiction
-{
+
+.field-content-registration-nonfiction {
     margin-top: -5px;
-    
 }
+
+
 /* Получать спецпредложения текст*/
-.content-registration-specialoffers
-{
+
+.content-registration-specialoffers {
     float: right;
     margin-top: 8px;
     margin-right: 60px;
     border: 0px;
     width: 210px;
-    height: 24px;   
+    height: 24px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -206,16 +215,21 @@ input[type='radio']:checked::after
     color: rgba(31, 32, 65, 0.75);
 }
 
+
 /*Это все для красивого свитч хотя наверное проще какой нибудь плагин я не знаю ауауауа*/
-.switch 
-{
+
+.switch {
     position: relative;
     display: inline-block;
     margin-top: 10px;
     width: 40px;
     height: 20px;
 }
-.switch input {display:none;}
+
+.switch input {
+    display: none;
+}
+
 .slider {
     position: absolute;
     cursor: pointer;
@@ -227,7 +241,7 @@ input[type='radio']:checked::after
     -webkit-transition: .4s;
     transition: .4s;
 }
-  
+
 .slider:before {
     position: absolute;
     content: "";
@@ -239,35 +253,37 @@ input[type='radio']:checked::after
     -webkit-transition: .4s;
     transition: .4s;
 }
-input:checked + .slider 
-{
+
+input:checked+.slider {
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
 }
-input:focus + .slider 
-{
+
+input:focus+.slider {
     box-shadow: 0 0 1px #2196F3;
 }
-input:checked + .slider:before 
-{
+
+input:checked+.slider:before {
     -webkit-transform: translateX(20px);
     -ms-transform: translateX(20px);
     transform: translateX(20px);
 }
-.slider.round 
-{
+
+.slider.round {
     border-radius: 34px;
 }
-.slider.round:before 
-{
+
+.slider.round:before {
     border-radius: 50%;
 }
+
+
 /*Настройки кнопки регистрации*/
-.button-registration
-{
+
+.button-registration {
     margin-top: 20px;
 }
-.button-registration-base
-{
+
+.button-registration-base {
     width: 320px;
     height: 44px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
@@ -282,9 +298,11 @@ input:checked + .slider:before
     color: #FFFFFF;
     outline: none;
 }
+
+
 /*Настройки иконки в кнопке регистрации*/
-.icons-registration
-{
+
+.icons-registration {
     width: 44px;
     height: 44px;
     color: rgba(255, 255, 255, 1);
@@ -298,15 +316,17 @@ input:checked + .slider:before
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
+
+
 /*Настройки Забыли пароль*/
-.registration-login
-{
+
+.registration-login {
     margin-top: 30px;
 }
-.h3-content-registration
-{
+
+.h3-content-registration {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -317,9 +337,11 @@ input:checked + .slider:before
     position: relative;
     float: left;
 }
+
+
 /*Настройки кнопки войти*/
-.button-registration-base-two
-{
+
+.button-registration-base-two {
     position: relative;
     float: right;
     width: 99px;

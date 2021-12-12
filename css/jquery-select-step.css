@@ -10,25 +10,24 @@
     -webkit-appearance: none;
 }
 
+
 /* You can change from here */
 
-
 .jquery-select-step-element {
-    
-padding-top: 5px;
-position: absolute;
-margin-top: 7px;
-right: 7px;
+    padding-top: 5px;
+    position: absolute;
+    margin-top: 7px;
+    right: 7px;
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
     border: none;
     width: 92px;
     text-align: center;
-text-transform: uppercase;
-vertical-align: middle;
+    text-transform: uppercase;
+    vertical-align: middle;
     font-size: 13px;
     font-weight: bold;
     line-height: 20px;
@@ -38,17 +37,20 @@ vertical-align: middle;
     background-color: #fff;
     border: none;
 }
-.select-step
-{
+
+.select-step {
     padding: 0;
 }
-.jquery-select-step-element > div {
+
+.jquery-select-step-element>div {
     display: inline-block;
 }
-.decrementStep, .incrementStep {
+
+.decrementStep,
+.incrementStep {
     position: absolute;
     display: inline-block;
-vertical-align: middle;
+    vertical-align: middle;
     width: 30px;
     height: 30px;
     left: 0;
@@ -56,10 +58,11 @@ vertical-align: middle;
     padding: 5px;
     border-right: 1px solid #d5d5d5;
     border: 1px solid rgba(31, 32, 65, 0.25);
-box-sizing: border-box;
-border-radius: 22px;
+    box-sizing: border-box;
+    border-radius: 22px;
     cursor: pointer;
 }
+
 .incrementStep {
     left: auto;
     right: 0;

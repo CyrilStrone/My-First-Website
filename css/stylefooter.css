@@ -1,125 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Основные настройки footer */
-.footer
-{
-    
 
+.footer {
     position: static;
     left: 0;
     bottom: 0;
     width: 100%;
-    
     height: 443px;
-    
 }
+
+
 /* Основные настройки большого квадрата footer виджетов */
-.footer-widgets
-{
+
+.footer-widgets {
     width: 100%;
     height: 372px;
-
     margin-bottom: 1px;
-
     background: #FFF;
     box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
 }
+
+
 /* Основные настройки основного квадрата footer виджетов*/
-.content-footer-widgets
-{
-    
-    
+
+.content-footer-widgets {
     height: 168px;
-    
     width: 1170px;
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
+
+
 /* Основные настройки нижнего бара */
-.footer-copytight-bar
-{
-    
+
+.footer-copytight-bar {
     width: 100%;
     height: 70px;
     left: 0px;
-
-    
-
     background: #1F2041;
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
+
+
 /* Самая левая колонка виджетов */
-.logo-footer-max
-{
+
+.logo-footer-max {
     display: inline-block;
     vertical-align: top;
     margin-right: 40px;
     margin-top: 0px;
-
-    
     width: 260px;
     height: 132px;
 }
-.logo-footer
-{
+
+.logo-footer {
     width: 105.69px;
     height: 40px;
 }
-.logo-footer-name
-{
+
+.logo-footer-name {
     display: block;
     width: 260px;
     height: 72px;
     margin-top: 20px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-
     color: rgba(31, 32, 65, 0.75);
 }
+
+
 /* Заголовки виджетов*/
-.content-footer-widgets-h3
-{
+
+.content-footer-widgets-h3 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
-
     margin: 0px;
     text-transform: uppercase;
-
     color: #1F2041;
 }
-/* Подпункты виджетов*/
-.content-footer-widgets li
-{
-    list-style-type: none;
 
+
+/* Подпункты виджетов*/
+
+.content-footer-widgets li {
+    list-style-type: none;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     margin-top: 20px;
-    
     color: rgba(31, 32, 65, 0.5);
 }
-.content-footer-widgets ul
-{
+
+.content-footer-widgets ul {
     margin-left: 0;
     padding-left: 0;
     margin-top: 21px;
 }
+
+
 /* Виджеты по отдельности */
-.footer-one
-{
+
+.footer-one {
     display: inline-block;
     vertical-align: top;
     margin-right: 57px;
@@ -127,8 +118,8 @@
     width: 143px;
     height: 168px;
 }
-.footer-two
-{
+
+.footer-two {
     vertical-align: top;
     display: inline-block;
     margin-right: 92px;
@@ -136,84 +127,78 @@
     width: 108px;
     height: 168px;
 }
-.footer-three
-{
+
+.footer-three {
     display: inline-block;
     margin-right: 51px;
     vertical-align: top;
     width: 149px;
     height: 130px;
 }
-.footer-four
-{
+
+.footer-four {
     display: inline-block;
     vertical-align: top;
-    
     width: 245px;
     height: 84px;
 }
+
+
 /* Основные настройки Копирайт бара */
-.Copyright-Bar
-{
+
+.Copyright-Bar {
     width: 1440px;
     height: 70px;
     margin-left: auto;
     margin-right: auto;
 }
-.Copyright-Bar ul
-{
+
+.Copyright-Bar ul {
     padding: 0px;
-    
     margin-top: 23px;
 }
-.Copyright-Bar i
-{
+
+.Copyright-Bar i {
     width: 24px;
     height: 24px;
-    
     font-family: Font Awesome 5 Brands;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 23px;
-
     background: linear-gradient(#BC9CFF 0%, #8BA4F9 100%);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
 }
-.Copyright-Bar li
-{
+
+.Copyright-Bar li {
     margin-right: 20px;
     vertical-align: top;
     display: inline-block;
 }
-.Copyright-Bar li:last-child
-{
+
+.Copyright-Bar li:last-child {
     margin-right: 0px;
-    
 }
-.Copyright-Bar-Link
-{
+
+.Copyright-Bar-Link {
     position: static;
     display: inline-block;
     float: right;
     margin-right: 140px;
 }
-    .Copyright-Bar-Text
-{
+
+.Copyright-Bar-Text {
     width: 372px;
     height: 18px;
     display: inline-block;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     margin-left: 140px;
-    margin-top:26px;
-
+    margin-top: 26px;
     color: rgba(31, 32, 65, 0.75);
 }
-

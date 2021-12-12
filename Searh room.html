@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,49 +12,49 @@
     <link href="css/sign in.css" rel="stylesheet">
     <link href="css/landingpage.css" rel="stylesheet">
     <link href="css/searhroom.css" rel="stylesheet">
-   <link href="css/jtoggler.styles.css" rel="stylesheet">
-
+    <link href="css/jtoggler.styles.css" rel="stylesheet">
+    <link href="css/adaptive-header.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
-    
-    
-    
+
+
+
 
 
     <link rel="stylesheet" href="libs/jquery-ui-1.13.0.custom/jquery-ui.css">
     <link rel="stylesheet" href="css/jquerry.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-    
-    <script src = "JS/registration.click.man.js"></script>
-    <script src = "JS/registration.click.woman.js"></script>
-    <script src = "JS/slider.cash.js"></script>
-    <script src = "JS/checkbox.js"></script>
-    <script src = "JS/checkboxes.js"></script>
-    <script src = "JS/datepicker.js"></script>
+
+    <script src="JS/registration.click.man.js"></script>
+    <script src="JS/registration.click.woman.js"></script>
+    <script src="JS/slider.cash.js"></script>
+    <script src="JS/checkbox.js"></script>
+    <script src="JS/checkboxes.js"></script>
+    <script src="JS/datepicker.js"></script>
+    <script src="JS/tab-searchroom.js"></script>
 </head>
+
 <body>
     <header>
         <div class="header">
-            <div class= "logo">
-                <img src="File\Logo.svg" alt="Это лого чел ты..." class="LogoPictures">
+            <div class="logo">
+                <img src="File\Logo.svg" alt="Это лого чел ты..." class="Logo-Pictures">
             </div>
-            <div>
-                <button class= "buttonheaderone">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
-            </div>
-            <div >
-                <button class= "buttonheadertwo">ВОЙТИ</button>
+            <div class="button-header">
+                <button class="button-header-two">ВОЙТИ</button>
+                <button class="button-header-one">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
             </div>
             <div class="nav">
                 <nav>
                     <a href=" ">О нас</a>
-                    <a href= " ">Услуги</a>
+                    <a href=" ">Услуги</a>
                     <a>
-                    <span class="material-icons">expand_more</span>
+                        <span class="material-icons">expand_more</span>
                     </a>
-                    <a href=" ">Ваканскии</a> 
+                    <a href=" ">Ваканскии</a>
                     <a href=" ">Новости</a>
                     <a hrеf=" ">Соглашения</а>
                     <a>
@@ -63,18 +64,18 @@
             </div>
         </div>
     </header>
-    
+
     <div class="searhroom">
         <div class="searhroom-filter">
-            
+
             <div class="searhroom-button-with-text">
-                <a class="h2-searhroom-filter" >
+                <a class="h2-searhroom-filter">
                     даты пребывания в отеле
                 </a>
-                
+
                 <a>
-                    <label for="id_firstname"></label> <input class="searhroom-button"type="text" name="firstname" placeholder="ДД.ММ.ГГГГ" autocomplete="firstname" maxlength="326">
-                   
+                    <label for="id_firstname"></label> <input class="searhroom-button" type="text" name="firstname" placeholder="ДД.ММ.ГГГГ" autocomplete="firstname" maxlength="326">
+
                 </a>
                 <span class="icons-searhroom">expand_more</span>
             </div>
@@ -82,9 +83,9 @@
                 <a class="h2-searhroom-filter">
                     Гости
                 </a>
-                
+
                 <a>
-                    <label for="id_firstname"></label> <input class="searhroom-button"type="text" name="firstname" placeholder="Кол-во гостей" autocomplete="firstname" maxlength="326"  id="id_firstname">
+                    <label for="id_firstname"></label> <input class="searhroom-button" type="text" name="firstname" placeholder="Кол-во гостей" autocomplete="firstname" maxlength="326" id="id_firstname">
                 </a>
                 <span class="icons-searhroom">expand_more</span>
             </div>
@@ -101,21 +102,21 @@
                 <a class="h3-searhroom-filter">
                     Стоимость за сутки пребывания в номере
                 </a>
-                
-                
+
+
             </div>
             <div class="searhroom-checkbox-one">
                 <a class="h2-searhroom-checkbox">
                     правила дома
                 </a>
-                
+
                 <div class="searhroom-checkbox-can">
                     <label class="searhroom-checkbox-name">
                         <a class="h2-searhroom-checkbox-one">Можно курить</a>
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
-                    
+
                 </div>
                 <div class="searhroom-checkbox-can">
                     <label class="searhroom-checkbox-name">
@@ -143,7 +144,7 @@
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
-                    
+
                 </div>
                 <div class="searhroom-checkbox-can">
                     <label class="searhroom-checkbox-name">
@@ -152,16 +153,16 @@
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
-                    
+
                 </div>
             </div>
             <div class="searhroom-button-with-text-notfirst">
                 <a class="h2-searhroom-filter">
                     удобства номера
                 </a>
-                
+
                 <a>
-                    <label for="id_firstname"></label> <input class="searhroom-button"type="text" name="firstname" placeholder="Кол-во комнаты" autocomplete="firstname" maxlength="326"  id="id_firstname">
+                    <label for="id_firstname"></label> <input class="searhroom-button" type="text" name="firstname" placeholder="Кол-во комнаты" autocomplete="firstname" maxlength="326" id="id_firstname">
                 </a>
                 <span class="icons-searhroom">expand_more</span>
             </div>
@@ -170,11 +171,11 @@
 
             <div class="multiselect">
                 <div class="selectBox" onclick="showCheckboxes()">
-                  <select>
+                    <select>
                     <option>дополнительные удобства</option>
                   </select>
-                  <span class="icons-searhroom-two">expand_more</span>
-                  <div class="overSelect"></div>
+                    <span class="icons-searhroom-two">expand_more</span>
+                    <div class="overSelect"></div>
                 </div>
                 <div id="checkboxes">
                     <label class="searhroom-checkbox-name">
@@ -218,9 +219,9 @@
                         <span class="checkmark"></span>
                     </label>
                 </div>
-              </div>
+            </div>
         </div>
-        <div class = "searhroom-content">
+        <div class="searhroom-content">
             <a class="h1-searhroom-content">
                 Номера, которые мы для вас подобрали
             </a>
@@ -235,7 +236,7 @@
                         <span class="material-icons-searhroom-right">arrow_forward_ios</span>
                     </div>
                     <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
                     </div>
                     <div class="searhroom-room-h4">
                         № 888
@@ -247,12 +248,12 @@
                         9 990₽ в сутки
                     </div>
                     <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
+                        <img src="File\star.png" class="searhroom-room-star">
                     </div>
                     <div class="searhroom-room-h7">
                         145 Отзывов
                     </div>
-                    
+
                 </a>
                 <a>
                     <div class="searhroom-room-pictures">
@@ -264,7 +265,7 @@
                         <span class="material-icons-searhroom-right">arrow_forward_ios</span>
                     </div>
                     <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
                     </div>
                     <div class="searhroom-room-h4">
                         № 888
@@ -276,35 +277,7 @@
                         9 990₽ в сутки
                     </div>
                     <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
-                    </div>
-                    <div class="searhroom-room-h7">
-                        145 Отзывов
-                    </div>
-                </a>
-                <a>
-                    <div class="searhroom-room-pictures">
-                    </div>
-                    <div>
-                        <span class="material-icons-searhroom-left">arrow_back_ios</span>
-                    </div>
-                    <div>
-                        <span class="material-icons-searhroom-right">arrow_forward_ios</span>
-                    </div>
-                    <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
-                    </div>
-                    <div class="searhroom-room-h4">
-                        № 888
-                    </div>
-                    <div class="searhroom-room-h5">
-                        люкс
-                    </div>
-                    <div class="searhroom-room-h6">
-                        9 990₽ в сутки
-                    </div>
-                    <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
+                        <img src="File\star.png" class="searhroom-room-star">
                     </div>
                     <div class="searhroom-room-h7">
                         145 Отзывов
@@ -320,7 +293,7 @@
                         <span class="material-icons-searhroom-right">arrow_forward_ios</span>
                     </div>
                     <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
                     </div>
                     <div class="searhroom-room-h4">
                         № 888
@@ -332,7 +305,7 @@
                         9 990₽ в сутки
                     </div>
                     <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
+                        <img src="File\star.png" class="searhroom-room-star">
                     </div>
                     <div class="searhroom-room-h7">
                         145 Отзывов
@@ -348,7 +321,7 @@
                         <span class="material-icons-searhroom-right">arrow_forward_ios</span>
                     </div>
                     <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
                     </div>
                     <div class="searhroom-room-h4">
                         № 888
@@ -360,7 +333,7 @@
                         9 990₽ в сутки
                     </div>
                     <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
+                        <img src="File\star.png" class="searhroom-room-star">
                     </div>
                     <div class="searhroom-room-h7">
                         145 Отзывов
@@ -376,7 +349,7 @@
                         <span class="material-icons-searhroom-right">arrow_forward_ios</span>
                     </div>
                     <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
                     </div>
                     <div class="searhroom-room-h4">
                         № 888
@@ -388,7 +361,7 @@
                         9 990₽ в сутки
                     </div>
                     <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
+                        <img src="File\star.png" class="searhroom-room-star">
                     </div>
                     <div class="searhroom-room-h7">
                         145 Отзывов
@@ -404,7 +377,7 @@
                         <span class="material-icons-searhroom-right">arrow_forward_ios</span>
                     </div>
                     <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
                     </div>
                     <div class="searhroom-room-h4">
                         № 888
@@ -416,7 +389,7 @@
                         9 990₽ в сутки
                     </div>
                     <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
+                        <img src="File\star.png" class="searhroom-room-star">
                     </div>
                     <div class="searhroom-room-h7">
                         145 Отзывов
@@ -432,7 +405,7 @@
                         <span class="material-icons-searhroom-right">arrow_forward_ios</span>
                     </div>
                     <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
                     </div>
                     <div class="searhroom-room-h4">
                         № 888
@@ -444,7 +417,7 @@
                         9 990₽ в сутки
                     </div>
                     <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
+                        <img src="File\star.png" class="searhroom-room-star">
                     </div>
                     <div class="searhroom-room-h7">
                         145 Отзывов
@@ -460,7 +433,7 @@
                         <span class="material-icons-searhroom-right">arrow_forward_ios</span>
                     </div>
                     <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
                     </div>
                     <div class="searhroom-room-h4">
                         № 888
@@ -472,7 +445,7 @@
                         9 990₽ в сутки
                     </div>
                     <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
+                        <img src="File\star.png" class="searhroom-room-star">
                     </div>
                     <div class="searhroom-room-h7">
                         145 Отзывов
@@ -488,7 +461,7 @@
                         <span class="material-icons-searhroom-right">arrow_forward_ios</span>
                     </div>
                     <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
                     </div>
                     <div class="searhroom-room-h4">
                         № 888
@@ -500,7 +473,7 @@
                         9 990₽ в сутки
                     </div>
                     <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
+                        <img src="File\star.png" class="searhroom-room-star">
                     </div>
                     <div class="searhroom-room-h7">
                         145 Отзывов
@@ -516,7 +489,7 @@
                         <span class="material-icons-searhroom-right">arrow_forward_ios</span>
                     </div>
                     <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
                     </div>
                     <div class="searhroom-room-h4">
                         № 888
@@ -528,7 +501,7 @@
                         9 990₽ в сутки
                     </div>
                     <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
+                        <img src="File\star.png" class="searhroom-room-star">
                     </div>
                     <div class="searhroom-room-h7">
                         145 Отзывов
@@ -544,7 +517,7 @@
                         <span class="material-icons-searhroom-right">arrow_forward_ios</span>
                     </div>
                     <div>
-                        <img src="File\ellipse.png"  class="searhroom-room-ellipse">
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
                     </div>
                     <div class="searhroom-room-h4">
                         № 888
@@ -556,7 +529,35 @@
                         9 990₽ в сутки
                     </div>
                     <div>
-                        <img src="File\star.png"  class="searhroom-room-star">
+                        <img src="File\star.png" class="searhroom-room-star">
+                    </div>
+                    <div class="searhroom-room-h7">
+                        145 Отзывов
+                    </div>
+                </a>
+                <a>
+                    <div class="searhroom-room-pictures">
+                    </div>
+                    <div>
+                        <span class="material-icons-searhroom-left">arrow_back_ios</span>
+                    </div>
+                    <div>
+                        <span class="material-icons-searhroom-right">arrow_forward_ios</span>
+                    </div>
+                    <div>
+                        <img src="File\ellipse.png" class="searhroom-room-ellipse">
+                    </div>
+                    <div class="searhroom-room-h4">
+                        № 888
+                    </div>
+                    <div class="searhroom-room-h5">
+                        люкс
+                    </div>
+                    <div class="searhroom-room-h6">
+                        9 990₽ в сутки
+                    </div>
+                    <div>
+                        <img src="File\star.png" class="searhroom-room-star">
                     </div>
                     <div class="searhroom-room-h7">
                         145 Отзывов
@@ -565,32 +566,38 @@
 
             </div>
         </div>
-        
-        <div class = "searhroom-pagenextup">
+
+        <div class="searhroom-pagenextup">
+            <div class="searhroom-pagenextup-tub">
+                <button class="tablinks" onclick="openCity(event, 'London')">1</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">2</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">3</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">arrow_forward</button>
+            </div>
             <a class="h3-searhroom-pagenextup">
                 1 – 12 из 100+ вариантов аренды
             </a>
         </div>
-        
+
     </div>
-    
+
     <footer>
         <div class="footer">
             <div class="footer-widgets">
                 <div class="content-footer-widgets">
                     <div class="logo-footer-max">
-                            <a >
-                                <img src="File\Logo.svg" alt="Это лого чел ты..." class="logo-footer">
-                            </a>
-                            <a class="logo-footer-name">
+                        <a>
+                            <img src="File\Logo.svg" alt="Это лого чел ты..." class="logo-footer">
+                        </a>
+                        <a class="logo-footer-name">
                                 Бронирование номеров в лучшем отеле 2019 год по версии ассоциации «‎Отельные взгляды» 
                             </a>
                     </div>
                     <div class="footer-one">
                         <h3 class="content-footer-widgets-h3">
-                                НАВИГАЦИЯ
+                            НАВИГАЦИЯ
                         </h3>
-                        <ul >
+                        <ul>
                             <li>
                                 <a>
                                     О нас
@@ -600,7 +607,7 @@
                                 <a>
                                     Новости
                                 </a>
-                                    
+
                             </li>
                             <li>
                                 <a>
@@ -615,23 +622,23 @@
                         </ul>
                     </div>
                     <div class="footer-two">
-                            <h3 class="content-footer-widgets-h3">
-                                О НАС
-                            </h3>
-                            <ul>
-                                <li>
-                                    О сервисе
-                                </li>
-                                <li>
-                                    Наша команда
-                                </li>
-                                <li>
-                                    Вакансии
-                                </li>
-                                <li>
-                                    Инвесторы
-                                </li>
-                            </ul>
+                        <h3 class="content-footer-widgets-h3">
+                            О НАС
+                        </h3>
+                        <ul>
+                            <li>
+                                О сервисе
+                            </li>
+                            <li>
+                                Наша команда
+                            </li>
+                            <li>
+                                Вакансии
+                            </li>
+                            <li>
+                                Инвесторы
+                            </li>
+                        </ul>
                     </div>
                     <div class="footer-three">
                         <h3 class="content-footer-widgets-h3">
@@ -650,7 +657,7 @@
                         </ul>
                     </div>
                     <div class="footer-four">
-                            <div > 
+                        <div>
                             <h3 class="content-footer-widgets-h3">
                                 Подписка
                             </h3>
@@ -664,28 +671,28 @@
                 </div>
             </div>
             <div class="Copyright-Bar">
-                    <div class="Copyright-Bar-Text">
-                        Copyright © 2018 Toxin отель. Все права защищены.
-                    </div>
-                    <div class="Copyright-Bar-Link">
-                        <ul>
-                            <li>
-                                
-                                <i  class="fa fa-twitter"></i>
-                            </li>
-                            <li>
-                                <i  class="fa fa-facebook-square"></i>
-                            </li>
-                            <li >
-                                <i class="fa fa-instagram"></i>
-                            </li>
-                        </ul>  
-                    </div>
+                <div class="Copyright-Bar-Text">
+                    Copyright © 2018 Toxin отель. Все права защищены.
+                </div>
+                <div class="Copyright-Bar-Link">
+                    <ul>
+                        <li>
+
+                            <i class="fa fa-twitter"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-facebook-square"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-instagram"></i>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
-    
-        
-</body>
-</html>
 
+
+</body>
+
+</html>

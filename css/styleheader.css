@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* Основные настройки header */
-.header
-{
+
+.header {
     position: static;
     width: 100%;
     height: 70px;
     left: 0px;
     top: 0px;
-    
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
+
+
 /* Основные настройки logo */
-.LogoPictures
-{
+
+.Logo-Pictures {
     position: static;
     float: left;
     width: 105.69px;
@@ -22,104 +24,93 @@
     margin-top: 15px;
 }
 
-/* Основные настройки nav */
-.nav
-{
-    text-align: center;
 
-    position:static;
+/* Основные настройки nav */
+
+.nav {
+    text-align: center;
+    position: static;
     float: right;
-    
-    margin-top:26px;  
+    margin-top: 26px;
     margin-right: 20px;
     height: 21px;
 }
+
+
 /*Настройки a элементов nav */
-.nav a
-{
+
+.nav a {
     text-align: center;
-
     margin-right: 20px;
-
     text-decoration: none;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-
     color: rgba(31, 32, 65, 0.5);
 }
-.nav a:last-child
-{
+
+.nav a:last-child {
     margin-right: 0px;
 }
-.nav a:nth-child(2)
-{
+
+.nav a:nth-child(2) {
     margin-right: 20px;
 }
-/*Настройки span элементов nav */
-.material-icons
-{
-    position: absolute;
-    margin-top:-2px;  
-    margin-left: -20px;
 
+
+/*Настройки span элементов nav */
+
+.material-icons {
+    position: absolute;
+    margin-top: -2px;
+    margin-left: -20px;
     color: rgba(31, 32, 65, 0.5);
 }
+
+
 /*Настройки button элементов header */
-.buttonheaderone
-{
-    position:static;
+
+.button-header {
+    width: 310px;
     float: right;
+    position: static;
+    margin-top: 18px;
+    margin-right: 140;
+}
 
-    margin-top:18px;  
-    margin-right: 140px;
-
+.button-header-one {
     width: 196px;
     height: 34px;
-
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
     border-radius: 22px;
     border: none;
-    
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
     text-transform: uppercase;
-
     color: #FFFFFF;
-
     outline: none;
 }
-.buttonheadertwo
-{
-    float: right;
-    position:static;  
-    
-    margin-top:18px;   
-    margin-right: 20px; 
 
+.button-header-two {
+    display: inline-block;
+    margin-right: 20px;
     width: 87px;
     height: 34px;
     background: none;
-
     border-radius: 22px;
     border: 2px solid;
-    
     border: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
     text-transform: uppercase;
-
     color: #BC9CFF;
-
     outline: none;
 }

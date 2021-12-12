@@ -1,92 +1,73 @@
-.searhroom
-{
+.searhroom {
     position: static;
     width: 100%;
     height: 1427px;
-    
-    
     border-bottom: 1px solid rgba(31, 32, 65, 0.25);
-
-
-    
 }
-.searhroom-filter
-{
+
+.searhroom-filter {
     position: absolute;
     display: inline-block;
     margin-left: 140px;
     margin-top: 30px;
 }
-.searhroom-content
-{
-    
-    position: absolute;
-    left:50%;
-    transform:translate( -50%);
-    margin-top: 30px;
 
-    
-}
-.searhroom-pagenextup
-{
+.searhroom-content {
     position: absolute;
-    left:50%;
-    transform:translate( -50%);
+    left: 50%;
+    transform: translate( -50%);
+    margin-top: 30px;
+}
+
+.searhroom-pagenextup {
+    position: absolute;
+    left: 50%;
+    transform: translate( -50%);
     margin-top: 1282px;
 }
-.h2-searhroom-filter
-{
+
+.h2-searhroom-filter {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
-    
     text-transform: uppercase;
-    
     /* Dark 100% */
-    
     color: #1F2041;
 }
-.h1-searhroom-content
-{
+
+.h1-searhroom-content {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     /* identical to box height */
-    
-    
     /* Dark 100% */
-    
     color: #1F2041;
 }
-.h3-searhroom-pagenextup
-{
+
+.h3-searhroom-pagenextup {
+    margin-top: 11px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     /* identical to box height, or 171% */
-    
-    
+    display: inline-block;
     /* Dark 75% */
-    
     color: rgba(31, 32, 65, 0.75);
-    
-    
 }
-.searhroom-room
-{
-   
+
+.searhroom-room {
     width: 846px;
     height: 1112px;
 }
-.searhroom-room a
-{
+
+.searhroom-room a {
     border: 0px;
     padding: 0px;
     display: inline-block;
@@ -95,38 +76,37 @@
     width: 270px;
     height: 257.5px;
 }
-.searhroom-room a:nth-child(1)  
-{
+
+.searhroom-room a:nth-child(1) {
     margin-left: 0px;
 }
-.searhroom-room a:nth-child(4)  
-{
+
+.searhroom-room a:nth-child(4) {
     margin-left: 0px;
 }
-.searhroom-room a:nth-child(7)  
-{
+
+.searhroom-room a:nth-child(7) {
     margin-left: 0px;
 }
-.searhroom-room a:nth-child(10)  
-{
+
+.searhroom-room a:nth-child(10) {
     margin-left: 0px;
 }
-.searhroom-room-pictures
-{
+
+.searhroom-room-pictures {
     border-radius: 5px 5px 0px 0px;
     width: 270px;
     height: 151.38px;
     background: url("https://lh3.googleusercontent.com/0wPQD1fjVMBj-dbqMNUOMk3NPnDeeTcnHC1SKvsuATY2uGBSFHo8K0aL3FaSsqKDtiDsv6PcWoXzZrm0welSvQB6lV59Pw6sSi4TeyKxhFdLDaVv7BPKnBTSlDupa5uHcnXh6nM0hg=w2400") no-repeat center center;
     background-size: cover;
 }
-.material-icons-searhroom-left
-{
+
+.material-icons-searhroom-left {
     position: absolute;
     margin-top: -98px;
     width: 44px;
     height: 44px;
     color: rgba(255, 255, 255, 1);
-    
     font-family: Material Icons;
     font-style: normal;
     font-weight: normal;
@@ -135,17 +115,16 @@
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
-.material-icons-searhroom-right
-{
+
+.material-icons-searhroom-right {
     position: absolute;
     margin-top: -98px;
-    margin-left:226px;
+    margin-left: 226px;
     width: 44px;
     height: 44px;
     color: rgba(255, 255, 255, 1);
-    
     font-family: Material Icons;
     font-style: normal;
     font-weight: normal;
@@ -154,100 +133,85 @@
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
-.searhroom-room-ellipse
-{
+
+.searhroom-room-ellipse {
     position: absolute;
     margin-top: -22.48px;
-    margin-left:213.75px;
+    margin-left: 213.75px;
 }
-.searhroom-room-h4
-{
+
+.searhroom-room-h4 {
     position: absolute;
     margin-top: 20.12px;
-    margin-left:20px;
+    margin-left: 20px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    
     /* Dark 100% */
-    
     color: #1F2041;
 }
-.searhroom-room-h5
-{
+
+.searhroom-room-h5 {
     position: absolute;
     margin-top: 27.12px;
-    margin-left:87px;
-
+    margin-left: 87px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
-    
     text-transform: uppercase;
-    
     /* Primary Color */
-    
     color: #BC9CFF;
 }
-.searhroom-room-h6
-{
+
+.searhroom-room-h6 {
     position: absolute;
     margin-top: 24.12px;
-    margin-left:153px;
-
+    margin-left: 153px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
     /* or 129% */
-    
-    
     color: rgba(31, 32, 65, 0.5);
 }
-.searhroom-room-h7
-{
+
+.searhroom-room-h7 {
     position: absolute;
     margin-top: 66.68px;
-    margin-left:160px;
-
+    margin-left: 160px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
     /* or 129% */
-    
-    
     color: rgba(31, 32, 65, 0.5);
 }
-.searhroom-room-star
-{
+
+.searhroom-room-star {
     position: absolute;
     margin-top: 63.12px;
-    margin-left:20.26px;
+    margin-left: 20.26px;
 }
-.searhroom-button
-{
-    
+
+.searhroom-button {
     width: 266px;
     height: 44px;
     display: block;
-    margin-top:5px;
+    margin-top: 5px;
     background: #FFFFFF;
     /* Dark 25% */
-    
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
     border-radius: 4px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -255,8 +219,8 @@
     line-height: 18px;
     color: rgba(31, 32, 65, 0.25);
 }
-.icons-searhroom
-{
+
+.icons-searhroom {
     width: 44px;
     height: 44px;
     color: rgba(31, 32, 65, 0.5);
@@ -270,18 +234,18 @@
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
-.searhroom-button-with-text-notfirst
-{
-    margin-top:20px;
+
+.searhroom-button-with-text-notfirst {
+    margin-top: 20px;
 }
-.searhroom-slider-with-text
-{
+
+.searhroom-slider-with-text {
     margin-top: 30px;
 }
-.h3-searhroom-filter
-{
+
+.h3-searhroom-filter {
     display: block;
     font-family: Montserrat;
     font-style: normal;
@@ -289,57 +253,48 @@
     font-size: 12px;
     line-height: 14px;
     /* identical to box height, or 117% */
-    
-    
     /* Dark 50% */
-    
     color: rgba(31, 32, 65, 0.5);
     margin-top: 13px;
 }
-.searhroom-checkbox-one
-{
+
+.searhroom-checkbox-one {
     position: static;
     margin-top: 30px;
-
 }
-.h2-searhroom-checkbox
-{
+
+.h2-searhroom-checkbox {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
-    
     text-transform: uppercase;
-    
     /* Dark 100% */
-    
     color: #1F2041;
 }
-.searhroom-checkbox-can
-{
+
+.searhroom-checkbox-can {
     display: block;
     margin-top: 10px;
 }
-.searhroom-checkbox-can:nth-of-type(1)
-{
+
+.searhroom-checkbox-can:nth-of-type(1) {
     margin-top: 17px;
 }
-.h2-searhroom-checkbox-one
-{
+
+.h2-searhroom-checkbox-one {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
     /* or 129% */
-    
-    
     /* Dark 50% */
-    
     color: rgba(31, 32, 65, 0.5);
 }
+
 .searhroom-checkbox-name {
     display: block;
     position: relative;
@@ -352,74 +307,79 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-  
-  /* Hide the browser's default checkbox */
-  .searhroom-checkbox-name input {
+}
+
+
+/* Hide the browser's default checkbox */
+
+.searhroom-checkbox-name input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0;
-  }
-  
+}
+
 
 /* Create a custom checkbox */
+
 .checkmark {
     position: absolute;
     top: 0;
     left: 0;
-
     width: 20px;
     height: 20px;
-    
     background: #FFFFFF;
     /* Dark 25% */
-    
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
     border-radius: 4px;
-  }
-  
- 
-  /* When the checkbox is checked, add a blue background */
-  .searhroom-checkbox-name input:checked ~ .checkmark {
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.searhroom-checkbox-name input:checked~.checkmark {
     border: 1px solid #BC9CFF;
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
-  
-  /* Show the checkmark when checked */
-  .searhroom-checkbox-name input:checked ~ .checkmark:after {
+}
+
+
+/* Show the checkmark when checked */
+
+.searhroom-checkbox-name input:checked~.checkmark:after {
     display: block;
-  }
-  
-  /* Style the checkmark/indicator */
-  .searhroom-checkbox-name .checkmark:after {
+}
+
+
+/* Style the checkmark/indicator */
+
+.searhroom-checkbox-name .checkmark:after {
     left: 6px;
     top: 1.5px;
     width: 4px;
     height: 8px;
-    border:solid #BC9CFF;
+    border: solid #BC9CFF;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-  }
-.searhroom-checkbox-two
-{
+}
+
+.searhroom-checkbox-two {
     position: static;
     margin-top: 30px;
-  
 }
- 
-.h3-searhroom-checkbox 
-{
+
+.h3-searhroom-checkbox {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -431,77 +391,67 @@
     /* Dark 50% */
     margin-top: 5px;
     color: rgba(31, 32, 65, 0.5);
-    
 }
-.h2-searhroom-checkbox-two
-{
+
+.h2-searhroom-checkbox-two {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
     /* identical to box height, or 129% */
-    
-    
     /* Dark 75% */
-    
     color: rgba(31, 32, 65, 0.75);
-    
 }
+
+
 /* Здесь выподающий чекбокс */
+
 .multiselect {
     width: 266px;
     margin-top: 30px;
     outline: none !important;
 }
-  
+
 .selectBox {
-  position: relative;
-
+    position: relative;
 }
-  
-.selectBox select {
-  width: 100%;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15px;
-  /* identical to box height */
-  
-  text-transform: uppercase;
-  
-  /* Dark 100% */
-  
-  color: #1F2041;
 
-  outline: none !important;
+.selectBox select {
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Dark 100% */
+    color: #1F2041;
+    outline: none !important;
     border: none;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-  
 }
-  
+
 .overSelect {
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    
 }
 
 #checkboxes {
     display: none;
-    
 }
-  
+
 #checkboxes label {
     display: block;
 }
-.icons-searhroom-two
-{
+
+.icons-searhroom-two {
     width: 44px;
     height: 44px;
     color: rgba(31, 32, 65, 0.5);
@@ -515,5 +465,49 @@
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-around; 
+    justify-content: space-around;
+}
+
+.searhroom-pagenextup-tub {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.searhroom-pagenextup-tub button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 40px;
+    min-height: 40px;
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.searhroom-pagenextup-tub button:last-child {
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    border-radius: 22px;
+    font-family: Material Icons;
+    font-size: 24px;
+    vertical-align: top;
+    color: #FFFFFF;
+}
+
+.searhroom-pagenextup-tub button:hover {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    color: #FFFFFF;
+}
+
+.searhroom-pagenextup-tub button.active {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    color: #FFFFFF;
 }

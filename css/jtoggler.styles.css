@@ -1,88 +1,99 @@
 .jtoggler {
     display: none;
 }
-.jtoggler:disabled + .jtoggler-control,
-.jtoggler:checked:disabled + .jtoggler-control {
-    background-color: rgba(0,0,0,0.05);
+
+.jtoggler:disabled+.jtoggler-control,
+.jtoggler:checked:disabled+.jtoggler-control {
+    background-color: rgba(0, 0, 0, 0.05);
 }
-.jtoggler:disabled + .jtoggler-control .jtoggler-handle {
+
+.jtoggler:disabled+.jtoggler-control .jtoggler-handle {
     background-color: #ccc;
 }
-.jtoggler:disabled + .jtoggler-control:hover {
+
+.jtoggler:disabled+.jtoggler-control:hover {
     cursor: default;
 }
+
 .jtoggler-wrapper {
     display: inline-flex;
     align-items: center;
 }
+
 .jtoggler-control {
     position: relative;
-
     width: 40px;
     height: 20px;
-
     background: #fff;
     border-radius: 10px;
-    box-shadow: inset 0 0 1px rgba(0,0,0,0.25);
-
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.25);
     transition: background-color 0.3s;
 }
+
 .jtoggler-control:hover {
     cursor: pointer;
 }
+
 .jtoggler-control .jtoggler-handle {
     display: block;
     position: absolute;
-
     width: 12px;
     height: 12px;
     top: calc(50% - 6px);
     left: 0;
-
     background: #fff;
     border-radius: 50%;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.25);
-
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
     transition: left 0.3s;
 }
-.jtoggler:checked + .jtoggler-control {
+
+.jtoggler:checked+.jtoggler-control {
     background: #4a89dc;
 }
-.jtoggler:checked + .jtoggler-control .jtoggler-handle {
+
+.jtoggler:checked+.jtoggler-control .jtoggler-handle {
     left: 42px;
 }
+
 .jtoggler-label {
     padding-left: 5px;
 }
+
 .jtoggler-radio {
     display: none;
 }
+
 .jtoggler-btn-wrapper {
     display: flex;
     width: 33.33%;
 }
+
 .jtoggler-btn-wrapper:hover {
     cursor: pointer;
 }
+
 .jtoggler-wrapper-multistate .jtoggler-control {
     display: flex;
     width: 90px;
 }
+
 .jtoggler-wrapper-multistate .jtoggler-control.is-fully-active {
     background: #4a89dc;
 }
-.jtoggler-wrapper-multistate .jtoggler:disabled + .jtoggler-control:hover .jtoggler-btn-wrapper {
+
+.jtoggler-wrapper-multistate .jtoggler:disabled+.jtoggler-control:hover .jtoggler-btn-wrapper {
     cursor: default;
 }
-.jtoggler-btn-wrapper:nth-child(1).is-active ~ .jtoggler-handle {
+
+.jtoggler-btn-wrapper:nth-child(1).is-active~.jtoggler-handle {
     left: 0;
 }
-.jtoggler-btn-wrapper:nth-child(2).is-active ~ .jtoggler-handle {
-    left: 20px;
 
+.jtoggler-btn-wrapper:nth-child(2).is-active~.jtoggler-handle {
+    left: 20px;
     background: #4a89dc;
 }
-.jtoggler-btn-wrapper:nth-child(3).is-active ~ .jtoggler-handle {
+
+.jtoggler-btn-wrapper:nth-child(3).is-active~.jtoggler-handle {
     left: 62px;
 }
-

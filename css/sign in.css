@@ -1,6 +1,6 @@
 /* Окно входа */
-.content-signin
-{
+
+.content-signin {
     position: absolute;
     width: 380px;
     height: 358px;
@@ -10,14 +10,12 @@
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     margin-top: 163px;
-    left:50%;
-    transform:translate( -50%);
-    
+    left: 50%;
+    transform: translate( -50%);
     padding: 40px 30px;
 }
-.title-content-signin
-{
-    
+
+.title-content-signin {
     width: 320px;
     height: 30px;
     font-family: Montserrat;
@@ -27,7 +25,7 @@
     line-height: 29px;
     color: #1F2041;
 }
-.field-content-signin
-{
+
+.field-content-signin {
     margin-top: 10px;
 }
