@@ -14,7 +14,7 @@
     <link href="css/searhroom.css" rel="stylesheet">
     <link href="css/jtoggler.styles.css" rel="stylesheet">
     <link href="css/adaptive-header.css" rel="stylesheet">
-    <link href="css/jquery-select-step-search.css" rel="stylesheet">
+    <link href="css/jquery-select-step.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -38,7 +38,6 @@
     <script src="JS/dropdown.js"></script>
     <script src="JS/stepper.js"></script>
     <script src="JS/jquery-select-step.js"></script>
-    <script src="JS/dropdowntwo.js"></script>
 </head>
 
 <body>
@@ -81,16 +80,15 @@
                     <label for="id_firstname"></label> <input class="searhroom-button" type="text" name="firstname" placeholder="ДД.ММ.ГГГГ" autocomplete="firstname" maxlength="326">
 
                 </a>
-
                 <span class="icons-searhroom">expand_more</span>
             </div>
             <div class="searhroom-button-with-text-notfirst">
                 <a class="h2-searhroom-filter">
                     Гости
                 </a>
-                <div class="field-content-registration-nonfiction">
-                    <button onclick="myFunctiondropdown()" class="dropbtn search-drop">Сколько гостей</button>
-                    <div id="myDropdown" class="dropdown-content search-drop-content">
+                <div class="searhroom-button field-content-registration-nonfiction">
+                    <button onclick="myFunctiondropdown()" class="dropbtn">Сколько гостей</button>
+                    <div id="myDropdown" class="dropdown-content">
                         <a href="#">
                             <div class="dropdown-content-text">
                                 взрослые
@@ -135,7 +133,7 @@
                     </div>
                 </div>
 
-                <span class="icons-titlepage-guests search-icons-drop-two">expand_more</span>
+                <span class="icons-titlepage-guests">expand_more</span>
 
 
 
@@ -212,53 +210,10 @@
                     удобства номера
                 </a>
 
-                <div class="field-content-registration-nonfiction">
-                    <button onclick="myFunctiondropdowntwo()" class="dropbtn search-drop">Выберите удобства</button>
-                    <div id="myDropdowntwo" class="dropdown-content search-drop-content">
-                        <a href="#">
-                            <div class="dropdown-content-text">
-                                спальни
-                            </div>
-                            <select name="room" id="room" class="select-step">
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                              </select>
-                        </a>
-                        <a href="#">
-                            <div class="dropdown-content-text">
-                                кровати
-                            </div>
-                            <select name="room" id="room" class="select-step">
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                              </select>
-                        </a>
-                        <a href="#">
-                            <div class="dropdown-content-text dropdown-content-text-search">
-                                ванные комнаты
-                            </div>
-                            <select name="room" id="room" class="select-step">
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                            </select>
-                        </a>
-                    </div>
-                </div>
-
-                <span class="icons-titlepage-guests search-icons-drop-two">expand_more</span>
-
+                <a>
+                    <label for="id_firstname"></label> <input class="searhroom-button" type="text" name="firstname" placeholder="Кол-во комнаты" autocomplete="firstname" maxlength="326" id="id_firstname">
+                </a>
+                <span class="icons-searhroom">expand_more</span>
             </div>
 
 

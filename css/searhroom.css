@@ -27,6 +27,7 @@
 }
 
 .h2-searhroom-filter {
+    display: block;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -206,18 +207,47 @@
     width: 266px;
     height: 44px;
     display: block;
-    margin-top: 5px;
     background: #FFFFFF;
     /* Dark 25% */
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
-    border-radius: 4px;
+    color: rgba(31, 32, 65, 0.25);
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: left;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
-    color: rgba(31, 32, 65, 0.25);
+    color: rgba(31, 32, 65, 0.75);
+    outline: none;
+}
+
+.search-drop {
+    position: relative;
+    width: 266px;
+    height: 44px;
+    display: block;
+    margin-top: 5px;
+}
+
+.search-icons-drop-two {
+    margin-left: 222px;
+}
+
+.search-drop-content {
+    width: 266px;
+}
+
+.dropdown-content-text-search {
+    padding-bottom: 17px;
+    width: 133px;
 }
 
 .icons-searhroom {
@@ -418,6 +448,7 @@
 }
 
 .selectBox select {
+    background-color: #FFFFFF;
     width: 100%;
     font-family: Montserrat;
     font-style: normal;
