@@ -1,29 +1,43 @@
 .searhroom {
-    position: static;
-    width: 100%;
-    height: 1427px;
+    width: 1200px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+
+.searhroom-content-line {
     border-bottom: 1px solid rgba(31, 32, 65, 0.25);
+    width: 100%;
 }
 
 .searhroom-filter {
-    position: absolute;
-    display: inline-block;
-    margin-left: 140px;
-    margin-top: 30px;
+    position: static;
+    float: left;
+    width: 266px;
 }
 
+.searhroom-content {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+/*
 .searhroom-content {
     position: absolute;
     left: 50%;
     transform: translate( -50%);
     margin-top: 30px;
-}
+} 
+*/
 
 .searhroom-pagenextup {
-    position: absolute;
-    left: 50%;
-    transform: translate( -50%);
-    margin-top: 1282px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
 }
 
 .h2-searhroom-filter {
@@ -58,14 +72,14 @@
     font-size: 14px;
     line-height: 24px;
     /* identical to box height, or 171% */
-    display: inline-block;
     /* Dark 75% */
     color: rgba(31, 32, 65, 0.75);
+    display: block;
+    text-align: center;
 }
 
 .searhroom-room {
     width: 846px;
-    height: 1112px;
 }
 
 .searhroom-room a {

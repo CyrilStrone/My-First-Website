@@ -1,70 +1,53 @@
 @media (max-width: 1200px) {
-    .header
-    {
-    
-        height: 120px;
-        transition-duration: .2s;
-    
-    
-    }
-    .Logo-Pictures
-    {
+    .Logo-Pictures {
         margin-left: 100px;
     }
-    .nav
-    {
+    .nav {
         display: inline-block;
         margin-right: 100px;
         white-space: nowrap;
     }
-    .button-header
-    {
+    .button-header {
         margin-right: 100px;
     }
+    .header {
+        height: 120px;
+        transition-duration: .2s;
+    }
 }
+
+@media (max-width: 1400px) {
+    .Logo-Pictures {
+        margin-left: 100px;
+    }
+}
+
 @media (max-width: 649px) {
-    
-    .nav
-    {
-        
+    .nav {
         display: inline-block;
         margin-right: 50px;
         white-space: nowrap;
-        
     }
-    .button-header
-    {
+    .button-header {
         margin-right: 50px;
     }
 }
-  @media (max-width: 598px) {
-    .header
-    {
+
+@media (max-width: 598px) {
+    .header {
         transition-duration: .2s;
         height: 180px;
-    
-    
-    
     }
-    
 }
+
 @media (min-width: 598px) {
-    .header
-    {
+    .header {
         transition-duration: .2s;
-        
-    
-    
-    
     }
-    
 }
+
 @media (min-width: 1200px) {
-    .header
-    {
+    .header {
         transition-duration: .2s;
-    
-    
     }
-    
 }

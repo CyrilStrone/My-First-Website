@@ -186,7 +186,7 @@
     position: static;
     display: inline-block;
     float: right;
-    margin-right: 140px;
+    padding-right: 140px;
 }
 
 .Copyright-Bar-Text {
