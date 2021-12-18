@@ -1,21 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.html {
+    margin: 0;
+    padding: 0;
+}
 
-/* Основные настройки header */
-
-.header {
-    position: static;
-    width: 100%;
-    height: 70px;
-    left: 0px;
-    top: 0px;
+.header-form_theme {
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
 
+.header-form_size {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+}
 
-/* Основные настройки logo */
+.header-form_element_size {
+    float: right;
+}
 
-.Logo-Pictures {
+.header-form_logo_size {
+    box-sizing: border-box;
     position: static;
     float: left;
     width: 105.69px;
@@ -24,22 +33,19 @@
     margin-top: 15px;
 }
 
+.header-form_logo_theme {}
 
-/* Основные настройки nav */
-
-.nav {
+.header-form_nav {
     text-align: center;
     position: static;
-    float: right;
+    display: inline-block;
     margin-top: 26px;
     margin-right: 20px;
     height: 21px;
 }
 
-
-/*Настройки a элементов nav */
-
-.nav a {
+.header-form_nav a {
+    box-sizing: border-box;
     text-align: center;
     margin-right: 20px;
     text-decoration: none;
@@ -51,38 +57,40 @@
     color: rgba(31, 32, 65, 0.5);
 }
 
-.nav a:last-child {
+.header-form_nav a:nth-child(2) {
     margin-right: 0px;
 }
 
-.nav a:nth-child(2) {
-    margin-right: 20px;
+.header-form_nav a:nth-child(6) {
+    margin-right: 0px;
 }
 
+.header-form_nav a:nth-child(7) {
+    margin-right: 0px;
+}
 
-/*Настройки span элементов nav */
+.header-form_nav-icons_size {
+    vertical-align: middle;
+}
 
-.material-icons {
-    position: absolute;
-    margin-top: -2px;
-    margin-left: -20px;
+.header-form_nav-icons_theme {
     color: rgba(31, 32, 65, 0.5);
 }
 
-
-/*Настройки button элементов header */
-
-.button-header {
+.header-form_button-all {
     width: 310px;
-    float: right;
     position: static;
     margin-top: 18px;
-    margin-right: 140;
+    margin-right: 140px;
+    display: inline-block;
 }
 
-.button-header-one {
+.header-form_button-two_size {
     width: 196px;
     height: 34px;
+}
+
+.header-form_button-two_theme {
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
     border-radius: 22px;
     border: none;
@@ -94,13 +102,17 @@
     text-transform: uppercase;
     color: #FFFFFF;
     outline: none;
+    box-sizing: border-box;
 }
 
-.button-header-two {
+.header-form_button-one_size {
     display: inline-block;
     margin-right: 20px;
     width: 87px;
     height: 34px;
+}
+
+.header-form_button-one_theme {
     background: none;
     border-radius: 22px;
     border: 2px solid;
@@ -113,4 +125,5 @@
     text-transform: uppercase;
     color: #BC9CFF;
     outline: none;
+    box-sizing: border-box;
 }
