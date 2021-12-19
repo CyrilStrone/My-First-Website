@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,48 +14,52 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="css/jtoggler.styles.css" rel="stylesheet">
-    
-   
-    <script src = "JS/registration.click.man.js"></script>
-    <script src = "JS/registration.click.woman.js"></script>
+
+
+    <script src="JS/registration.click.man.js"></script>
+    <script src="JS/registration.click.woman.js"></script>
 
     <link rel="stylesheet" href="libs/jquery-ui-1.13.0.custom/jquery-ui.css">
     <link rel="stylesheet" href="libs/jquery-ui-1.13.0.custom/jquery-ui.theme.css">
     <link rel="stylesheet" href="libs/jquery-ui-1.13.0.custom/jquery-ui.structure.css">
-    <script src = "libs/jquery-ui-1.13.0.custom/external/jquery/jquery.js"></script>
+    <script src="libs/jquery-ui-1.13.0.custom/external/jquery/jquery.js"></script>
     <script src="libs/jquery-ui-1.13.0.custom/jquery-ui.js"></script>
-    
-      
+
+
 
 </head>
+
 <body>
     <header>
-        <div class="header">
-            <div class= "logo">
-                <img src="File\Logo.svg" alt="Это лого чел ты..." class="Logo-Pictures">
+        <div class="header-form header-form_size header-form_theme">
+            <div class="header-form__logo header-form__logo_size">
+                <img src="File\Logo.svg" alt="Это лого, чел ты..." class="header-form__logo_theme">
             </div>
-            <div class="button-header">
-                <button class= "button-header-two">ВОЙТИ</button>
-                <button class= "button-header-one">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
+            <div class="header-form__element header-form__element_size">
+                <div class="header-form__nav">
+                    <nav>
+                        <a href=" ">О нас</a>
+                        <a href=" ">Услуги</a>
+                        <a>
+                            <span class="material-icons header-form__nav-icons_size header-form__nav-icons_theme">expand_more</span>
+                        </a>
+                        <a href=" ">Ваканскии</a>
+                        <a href=" ">Новости</a>
+                        <a hrеf=" ">Соглашения</а>
+                        <a>
+                            <span class="material-icons header-form__nav-icons_size header-form__nav-icons_theme">expand_more</span>
+                        </a>
+                    </nav>
+                </div>
+                <div class="header-form__button-all">
+                    <button class="header-form__button-one_size header-form__button-one_theme">ВОЙТИ</button>
+                    <button class="header-form__button-two_size header-form__button-two_theme">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
+                </div>
             </div>
-            <div class="nav">
-                <nav>
-                    <a href=" ">О нас</a>
-                    <a href= " ">Услуги</a>
-                    <a>
-                    <span class="material-icons">expand_more</span>
-                    </a>
-                    <a href=" ">Ваканскии</a> 
-                    <a href=" ">Новости</a>
-                    <a hrеf=" ">Соглашения</а>
-                    <a>
-                        <span class="material-icons">expand_more</span>
-                    </a>
-                </nav>
-            </div>
+
         </div>
     </header>
-    
+
     <div class="registration">
         <div class="content-registration">
             <div class="title-content-registration">
@@ -62,98 +67,98 @@
             </div>
             <div class="field-content-registration">
                 <a>
-                    <label for="id_firstname"></label> <input class="data-entry-field"type="text" name="firstname" placeholder="Имя" autocomplete="firstname" maxlength="326"  id="id_firstname">
+                    <label for="id_firstname"></label> <input class="data-entry-field" type="text" name="firstname" placeholder="Имя" autocomplete="firstname" maxlength="326" id="id_firstname">
                 </a>
                 <a>
-                    <label for="id_secondname"></label> <input class="data-entry-field"type="text" name="secondname" placeholder="Фамилия" maxlength="326" autocomplete="secondname" id="id_secondname">
+                    <label for="id_secondname"></label> <input class="data-entry-field" type="text" name="secondname" placeholder="Фамилия" maxlength="326" autocomplete="secondname" id="id_secondname">
                 </a>
                 <div class="registration-checkbox">
                     <div class="registration-checkbox-one">
                         <div>
-                            <input id="registration_radio_man" type="radio" >
-                        
+                            <input id="registration_radio_man" type="radio">
+
                             <a class="registration-checkbox-sex-man">
                                 Мужчина
                             </a>
-                        
+
                         </div>
-                        
+
                     </div>
                     <div class="registration-checkbox-two">
                         <div>
-                            <input id="registration_radio_woman" type="radio" >
-                        
+                            <input id="registration_radio_woman" type="radio">
+
                             <a class="registration-checkbox-sex-woman">
                                 Женщина
                             </a>
-                        
+
                         </div>
                     </div>
                 </div>
                 <div class="h2-content-registration">
-                        <a>Дата рождения</a>
+                    <a>Дата рождения</a>
                 </div>
-                <div class="field-content-registration-nonfiction"> 
-                    <input class="data-entry-field "   placeholder="ДД.ММ.ГГГГ"  id="datepicker">
+                <div class="field-content-registration-nonfiction">
+                    <input class="data-entry-field " placeholder="ДД.ММ.ГГГГ" id="datepicker">
                 </div>
                 <div class="h2-content-registration ">
-                        <a>данные для входа в сервис</a>
+                    <a>данные для входа в сервис</a>
                 </div>
-                <div class="field-content-registration-nonfiction"> 
-                        <a>
-                            <label for="id_firstname"></label> <input class="data-entry-field"type="text" name="firstname" placeholder="Email" autocomplete="firstname" maxlength="326"  id="id_firstname">
-                        </a>
+                <div class="field-content-registration-nonfiction">
+                    <a>
+                        <label for="id_firstname"></label> <input class="data-entry-field" type="text" name="firstname" placeholder="Email" autocomplete="firstname" maxlength="326" id="id_firstname">
+                    </a>
                 </div>
-                <div > 
-                        <a>
-                            <label for="id_firstname"></label> <input class="data-entry-field"type="text" name="firstname" placeholder="Пароль" autocomplete="firstname" maxlength="326"  id="id_firstname">
-                        </a>
+                <div>
+                    <a>
+                        <label for="id_firstname"></label> <input class="data-entry-field" type="text" name="firstname" placeholder="Пароль" autocomplete="firstname" maxlength="326" id="id_firstname">
+                    </a>
                 </div>
                 <label class="switch">
                         <input type="checkbox">
                         <span class="slider round"></span>
                 </label>
                 <div class="content-registration-specialoffers">
-                        <a>Получать спецпредложения</a>
+                    <a>Получать спецпредложения</a>
                 </div>
                 <div class="button-registration">
-                        <div>
-                            <button class= "button-registration-base">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
-                        </div>
+                    <div>
+                        <button class="button-registration-base">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
+                    </div>
 
-                        <span class="icons-registration ">arrow_forward</span>
-                        
+                    <span class="icons-registration ">arrow_forward</span>
+
                 </div>
                 <div class="registration-login">
-                        <div class="h3-content-registration ">
-                            <a>Уже есть аккаунт на Toxin</a>
-                        </div>
-                        <div>
-                            <button class= "button-registration-base-two">ВОЙТИ</button>
-                        </div>
-                </div>
+                    <div class="h3-content-registration ">
+                        <a>Уже есть аккаунт на Toxin</a>
+                    </div>
+                    <div>
+                        <button class="button-registration-base-two">ВОЙТИ</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
+    </div>
+
     <footer>
-        <div class="footer">
-            <div class="footer-widgets">
-                <div class="content-footer-widgets">
-                    <div class="logo-footer-max">
-                            <a >
-                                <img src="File\Logo.svg" alt="Это лого чел ты..." class="logo-footer">
-                            </a>
-                            <a class="logo-footer-name">
-                                Бронирование номеров в лучшем отеле 2019 год по версии ассоциации «‎Отельные взгляды» 
-                            </a>
+        <div class="footer-form footer-form_size">
+            <div class="footer-form__widgets footer-form__widgets_size footer-form__widgets_theme">
+                <div class="footer-form__widgets-content footer-form__widgets-content_size">
+                    <div class="footer-form__widgets-content__logo-all footer-form__widgets-content__logo-block_size">
+                        <a>
+                            <img src="File\Logo.svg" alt="Это лого чел ты..." class="footer-form__widgets-content__logo footer-form__widgets-content__logo_size ">
+                        </a>
+                        <a class="footer-form__widgets-content__logo-title footer-form__widgets-content__logo-title_theme footer-form__widgets-content__logo-title_size">
+                            Бронирование номеров в лучшем отеле 2019 год по версии ассоциации «‎Отельные взгляды» 
+                        </a>
                     </div>
-                    <div class="footer-one">
-                        <h3 class="content-footer-widgets-h3">
-                                НАВИГАЦИЯ
+                    <div class="footer-form__widgets-content__block-one footer-form__widgets-content__block-one_size">
+                        <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_size footer-form__widgets-content__block-h3_theme">
+                            НАВИГАЦИЯ
                         </h3>
-                        <ul >
+                        <ul>
                             <li>
                                 <a>
                                     О нас
@@ -163,7 +168,7 @@
                                 <a>
                                     Новости
                                 </a>
-                                    
+
                             </li>
                             <li>
                                 <a>
@@ -177,27 +182,27 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-two">
-                            <h3 class="content-footer-widgets-h3">
-                                О НАС
-                            </h3>
-                            <ul>
-                                <li>
-                                    О сервисе
-                                </li>
-                                <li>
-                                    Наша команда
-                                </li>
-                                <li>
-                                    Вакансии
-                                </li>
-                                <li>
-                                    Инвесторы
-                                </li>
-                            </ul>
+                    <div class="footer-form__widgets-content__block-two footer-form__widgets-content__block-two_size">
+                        <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_size footer-form__widgets-content__block-h3_theme">
+                            О НАС
+                        </h3>
+                        <ul>
+                            <li>
+                                О сервисе
+                            </li>
+                            <li>
+                                Наша команда
+                            </li>
+                            <li>
+                                Вакансии
+                            </li>
+                            <li>
+                                Инвесторы
+                            </li>
+                        </ul>
                     </div>
-                    <div class="footer-three">
-                        <h3 class="content-footer-widgets-h3">
+                    <div class="footer-form__widgets-content__block-three footer-form__widgets-content__block-three_size">
+                        <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_size footer-form__widgets-content__block-h3_theme">
                             СЛУЖБА ПОДДЕРЖКИ
                         </h3>
                         <ul>
@@ -212,9 +217,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-four">
-                            <div > 
-                            <h3 class="content-footer-widgets-h3">
+                    <div class="footer-form__widgets-content__block-four footer-form__widgets-content__block-four_size">
+                        <div>
+                            <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_size footer-form__widgets-content__block-h3_theme">
                                 Подписка
                             </h3>
                             <ul>
@@ -226,29 +231,29 @@
                     </div>
                 </div>
             </div>
-            <div class="Copyright-Bar">
-                    <div class="Copyright-Bar-Text">
-                        Copyright © 2018 Toxin отель. Все права защищены.
-                    </div>
-                    <div class="Copyright-Bar-Link">
-                        <ul>
-                            <li>
-                                
-                                <i  class="fa fa-twitter"></i>
-                            </li>
-                            <li>
-                                <i  class="fa fa-facebook-square"></i>
-                            </li>
-                            <li >
-                                <i class="fa fa-instagram"></i>
-                            </li>
-                        </ul>  
-                    </div>
+            <div class="footer-form__CopyrightBar footer-form__CopyrightBar_size">
+                <div class="footer-form__CopyrightBar-title footer-form__CopyrightBar-title_size footer-form__CopyrightBar-title_theme">
+                    Copyright © 2018 Toxin отель. Все права защищены.
+                </div>
+                <div class="footer-form__CopyrightBar-link footer-form__CopyrightBar-link_size">
+                    <ul>
+                        <li>
+
+                            <i class="fa fa-twitter"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-facebook-square"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-instagram"></i>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
-    
-        
-</body>
-</html>
 
+
+</body>
+
+</html>

@@ -13,20 +13,21 @@
 
 /* Основные настройки большого квадрата footer виджетов */
 
-.footer-form_widgets_size {
+.footer-form__widgets_size {
     width: 100%;
     height: 372px;
     margin-bottom: 1px;
 }
-.footer-form_widgets_theme
-{
+
+.footer-form__widgets_theme {
     background: #FFF;
     box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
 }
 
+
 /* Основные настройки основного квадрата footer виджетов*/
 
-.footer-form_widgets-content_size {
+.footer-form__widgets-content_size {
     height: 168px;
     width: 1170px;
     padding-top: 100px;
@@ -37,7 +38,7 @@
 
 /* Основные настройки нижнего бара */
 
-.footer-copytight-bar {
+.footer-copytight__bar {
     width: 100%;
     height: 70px;
     left: 0px;
@@ -48,7 +49,7 @@
 
 /* Самая левая колонка виджетов */
 
-.footer-form_widgets-content-logo-block_size{
+.footer-form__widgets-content__logo-block_size {
     display: inline-block;
     vertical-align: top;
     margin-right: 40px;
@@ -57,12 +58,12 @@
     height: 132px;
 }
 
-.footer-form_widgets-content-logo_size {
+.footer-form__widgets-content__logo_size {
     width: 105.69px;
     height: 40px;
 }
-.footer-form_widgets-content-logo-title_theme
-{
+
+.footer-form__widgets-content__logo-title_theme {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -70,27 +71,27 @@
     line-height: 24px;
     color: rgba(31, 32, 65, 0.75);
 }
-.footer-form_widgets-content-logo-title_size {
+
+.footer-form__widgets-content__logo-title_size {
     display: block;
     width: 260px;
     height: 72px;
     margin-top: 20px;
-    
 }
 
 
 /* Заголовки виджетов*/
-.footer-form_widgets-content-block-h3_size
-{
+
+.footer-form__widgets-content__block-h3_size {
     margin: 0px;
 }
-.footer-form_widgets-content-block-h3_theme {
+
+.footer-form__widgets-content__block-h3_theme {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
-    
     text-transform: uppercase;
     color: #1F2041;
 }
@@ -98,7 +99,7 @@
 
 /* Подпункты виджетов*/
 
-.footer-form_widgets-content li {
+.footer-form__widgets-content li {
     list-style-type: none;
     font-family: Montserrat;
     font-style: normal;
@@ -109,7 +110,7 @@
     color: rgba(31, 32, 65, 0.5);
 }
 
-.footer-form_widgets-content ul {
+.footer-form__widgets-content ul {
     margin-left: 0;
     padding-left: 0;
     margin-top: 21px;
@@ -118,7 +119,7 @@
 
 /* Виджеты по отдельности */
 
-.footer-form_widgets-content-block-one_size {
+.footer-form__widgets-content__block-one_size {
     display: inline-block;
     vertical-align: top;
     margin-right: 57px;
@@ -127,7 +128,7 @@
     height: 168px;
 }
 
-.footer-form_widgets-content-block-two_size {
+.footer-form__widgets-content__block-two_size {
     vertical-align: top;
     display: inline-block;
     margin-right: 92px;
@@ -136,7 +137,7 @@
     height: 168px;
 }
 
-.footer-form_widgets-content-block-three_size {
+.footer-form__widgets-content__block-three_size {
     display: inline-block;
     margin-right: 51px;
     vertical-align: top;
@@ -144,7 +145,7 @@
     height: 130px;
 }
 
-.footer-form_widgets-content-block-four_size {
+.footer-form__widgets-content__block-four_size {
     display: inline-block;
     vertical-align: top;
     width: 245px;
@@ -154,19 +155,19 @@
 
 /* Основные настройки Копирайт бара */
 
-.footer-form_CopyrightBar_size {
+.footer-form__CopyrightBar_size {
     width: 1440px;
     height: 70px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.footer-form_CopyrightBar_size ul {
+.footer-form__CopyrightBar_size ul {
     padding: 0px;
     margin-top: 23px;
 }
 
-.footer-form_CopyrightBar_size i {
+.footer-form__CopyrightBar_size i {
     width: 24px;
     height: 24px;
     font-family: Font Awesome 5 Brands;
@@ -180,24 +181,24 @@
     background-clip: text;
 }
 
-.footer-form_CopyrightBar_size li {
+.footer-form__CopyrightBar_size li {
     margin-right: 20px;
     vertical-align: top;
     display: inline-block;
 }
 
-.footer-form_CopyrightBar_size li:last-child {
+.footer-form__CopyrightBar_size li:last-child {
     margin-right: 0px;
 }
 
-.footer-form_CopyrightBar-link_size {
+.footer-form__CopyrightBar-link_size {
     position: static;
     display: inline-block;
     float: right;
     padding-right: 140px;
 }
 
-.footer-form_CopyrightBar-title_theme {
+.footer-form__CopyrightBar-title_theme {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -205,12 +206,11 @@
     line-height: 17px;
     color: rgba(31, 32, 65, 0.75);
 }
-.footer-form_CopyrightBar-title_size
-{
+
+.footer-form__CopyrightBar-title_size {
     width: 372px;
     height: 18px;
     display: inline-block;
-    
     margin-left: 140px;
     margin-top: 26px;
 }

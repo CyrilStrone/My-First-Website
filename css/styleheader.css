@@ -19,11 +19,11 @@
     top: 0px;
 }
 
-.header-form_element_size {
+.header-form__element_size {
     float: right;
 }
 
-.header-form_logo_size {
+.header-form__logo_size {
     box-sizing: border-box;
     position: static;
     float: left;
@@ -33,9 +33,9 @@
     margin-top: 15px;
 }
 
-.header-form_logo_theme {}
+.header-form__logo_theme {}
 
-.header-form_nav {
+.header-form__nav {
     text-align: center;
     position: static;
     display: inline-block;
@@ -44,7 +44,7 @@
     height: 21px;
 }
 
-.header-form_nav a {
+.header-form__nav a {
     box-sizing: border-box;
     text-align: center;
     margin-right: 20px;
@@ -57,27 +57,27 @@
     color: rgba(31, 32, 65, 0.5);
 }
 
-.header-form_nav a:nth-child(2) {
+.header-form__nav a:nth-child(2) {
     margin-right: 0px;
 }
 
-.header-form_nav a:nth-child(6) {
+.header-form__nav a:nth-child(6) {
     margin-right: 0px;
 }
 
-.header-form_nav a:nth-child(7) {
+.header-form__nav a:nth-child(7) {
     margin-right: 0px;
 }
 
-.header-form_nav-icons_size {
+.header-form__nav-icons_size {
     vertical-align: middle;
 }
 
-.header-form_nav-icons_theme {
+.header-form__nav-icons_theme {
     color: rgba(31, 32, 65, 0.5);
 }
 
-.header-form_button-all {
+.header-form__button-all {
     width: 310px;
     position: static;
     margin-top: 18px;
@@ -85,12 +85,12 @@
     display: inline-block;
 }
 
-.header-form_button-two_size {
+.header-form__button-two_size {
     width: 196px;
     height: 34px;
 }
 
-.header-form_button-two_theme {
+.header-form__button-two_theme {
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
     border-radius: 22px;
     border: none;
@@ -105,14 +105,14 @@
     box-sizing: border-box;
 }
 
-.header-form_button-one_size {
+.header-form__button-one_size {
     display: inline-block;
     margin-right: 20px;
     width: 87px;
     height: 34px;
 }
 
-.header-form_button-one_theme {
+.header-form__button-one_theme {
     background: none;
     border-radius: 22px;
     border: 2px solid;
