@@ -4,36 +4,37 @@
     padding: 0;
 }
 
-.header-form_theme {
+.header-form_theme-standart {
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    width: 1440px;
+    height: 70px;
 }
 
-.header-form_size {
+.header-form_position-standart {
     position: static;
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
-    height: 70px;
     left: 0px;
     top: 0px;
 }
 
-.header-form__element_size {
+.header-form__element_position-standart {
     float: right;
 }
 
-.header-form__logo_size {
+.header-form__logo_position-standart {
     box-sizing: border-box;
     position: static;
     float: left;
-    width: 105.69px;
-    height: 40px;
     margin-left: 140px;
     margin-top: 15px;
 }
 
-.header-form__logo_theme {}
+.header-form__logo_theme-standart {
+    width: 105.69px;
+    height: 40px;
+}
 
 .header-form__nav {
     text-align: center;
@@ -41,6 +42,9 @@
     display: inline-block;
     margin-top: 26px;
     margin-right: 20px;
+}
+
+.header-form__nav_theme-standart {
     height: 21px;
 }
 
@@ -69,28 +73,29 @@
     margin-right: 0px;
 }
 
-.header-form__nav-icons_size {
+.header-form__nav-icons_position-standart {}
+
+.header-form__nav-icons_theme-standart {
+    color: rgba(31, 32, 65, 0.5);
     vertical-align: middle;
 }
 
-.header-form__nav-icons_theme {
-    color: rgba(31, 32, 65, 0.5);
-}
-
-.header-form__button-all {
-    width: 310px;
+.header-form__button-all_position-standart {
     position: static;
     margin-top: 18px;
     margin-right: 140px;
     display: inline-block;
 }
 
-.header-form__button-two_size {
-    width: 196px;
-    height: 34px;
+.header-form__button-all_theme-standart {
+    width: 310px;
 }
 
-.header-form__button-two_theme {
+.header-form__button-two_position-standart {}
+
+.header-form__button-two_theme-standart {
+    width: 196px;
+    height: 34px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
     border-radius: 22px;
     border: none;
@@ -105,14 +110,14 @@
     box-sizing: border-box;
 }
 
-.header-form__button-one_size {
+.header-form__button-one_position-standart {
     display: inline-block;
     margin-right: 20px;
-    width: 87px;
-    height: 34px;
 }
 
-.header-form__button-one_theme {
+.header-form__button-one_theme-standart {
+    width: 87px;
+    height: 34px;
     background: none;
     border-radius: 22px;
     border: 2px solid;

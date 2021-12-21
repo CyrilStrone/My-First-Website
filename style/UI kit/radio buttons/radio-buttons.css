@@ -1,0 +1,97 @@
+/* Настройки выбора пола */
+
+.ui-kit__radio-buttons_theme-standart {}
+
+.ui-kit__radio-buttons__title {
+    float: right;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.ui-kit__radio-buttons__title {
+    float: right;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.ui-kit__radio-buttons__one {
+    position: static;
+    display: inline-block;
+    width: 100px;
+    height: 24px;
+}
+
+.ui-kit__radio-buttons__two {
+    margin-left: 20px;
+    position: static;
+    display: inline-block;
+    width: 105px;
+    height: 24px;
+}
+
+.ui-kit__radio-buttons input[type='radio'] {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.ui-kit__radio-buttons input[type='radio']+a {
+    float: right;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.ui-kit__radio-buttons input[type='radio']::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #BC9CFF;
+    border-radius: 10px;
+}
+
+.ui-kit__radio-buttons input[type='radio']:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+.ui-kit__radio-buttons input[type='radio']:checked+a {
+    color: rgba(31, 32, 65, 0.75);
+}

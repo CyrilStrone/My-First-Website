@@ -2,10 +2,13 @@
 
 /* Основные настройки footer */
 
-.footer-form_size {
+.footer-form_position-standart {
     position: static;
     left: 0;
     bottom: 0;
+}
+
+.footer-form_theme-standart {
     width: 100%;
     height: 443px;
 }
@@ -13,80 +16,78 @@
 
 /* Основные настройки большого квадрата footer виджетов */
 
-.footer-form__widgets_size {
-    width: 100%;
-    height: 372px;
+.footer-form__widgets_position-standart {
     margin-bottom: 1px;
 }
 
-.footer-form__widgets_theme {
+.footer-form__widgets_theme-standart {
     background: #FFF;
     box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+    width: 100%;
+    height: 372px;
 }
 
 
 /* Основные настройки основного квадрата footer виджетов*/
 
-.footer-form__widgets-content_size {
-    height: 168px;
-    width: 1170px;
+.footer-form__widgets-content_position-standart {
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.footer-form__widgets-content_theme-standart {
+    height: 168px;
+    width: 1170px;
+}
+
 
 /* Основные настройки нижнего бара */
-
-.footer-copytight__bar {
-    width: 100%;
-    height: 70px;
-    left: 0px;
-    background: #1F2041;
-    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
-}
 
 
 /* Самая левая колонка виджетов */
 
-.footer-form__widgets-content__logo-block_size {
+.footer-form__widgets-content__logo-block_position-standart {
     display: inline-block;
     vertical-align: top;
     margin-right: 40px;
     margin-top: 0px;
+}
+
+.footer-form__widgets-content__logo-block_theme-standart {
     width: 260px;
     height: 132px;
 }
 
-.footer-form__widgets-content__logo_size {
+.footer-form__widgets-content__logo_theme-standart {
     width: 105.69px;
     height: 40px;
 }
 
-.footer-form__widgets-content__logo-title_theme {
+.footer-form__widgets-content__logo-title_theme-standart {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: rgba(31, 32, 65, 0.75);
-}
-
-.footer-form__widgets-content__logo-title_size {
-    display: block;
     width: 260px;
     height: 72px;
+}
+
+.footer-form__widgets-content__logo-title_position-standart {
+    display: block;
     margin-top: 20px;
 }
 
 
 /* Заголовки виджетов*/
 
-.footer-form__widgets-content__block-h3_size {
+.footer-form__widgets-content__block-h3_position-standart {
     margin: 0px;
 }
 
-.footer-form__widgets-content__block-h3_theme {
+.footer-form__widgets-content__block-h3_theme-standart {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -119,35 +120,47 @@
 
 /* Виджеты по отдельности */
 
-.footer-form__widgets-content__block-one_size {
+.footer-form__widgets-content__block-one_position-standart {
     display: inline-block;
     vertical-align: top;
     margin-right: 57px;
     margin-top: 0px;
+}
+
+.footer-form__widgets-content__block-one_theme-standart {
     width: 143px;
     height: 168px;
 }
 
-.footer-form__widgets-content__block-two_size {
+.footer-form__widgets-content__block-two_position-standart {
     vertical-align: top;
     display: inline-block;
     margin-right: 92px;
     margin-top: 0px;
+}
+
+.footer-form__widgets-content__block-two_theme-standart {
     width: 108px;
     height: 168px;
 }
 
-.footer-form__widgets-content__block-three_size {
+.footer-form__widgets-content__block-three_position-standart {
     display: inline-block;
     margin-right: 51px;
     vertical-align: top;
+}
+
+.footer-form__widgets-content__block-three_theme-standart {
     width: 149px;
     height: 130px;
 }
 
-.footer-form__widgets-content__block-four_size {
+.footer-form__widgets-content__block-four_position-standart {
     display: inline-block;
     vertical-align: top;
+}
+
+.footer-form__widgets-content__block-four_theme-standart {
     width: 245px;
     height: 84px;
 }
@@ -155,19 +168,19 @@
 
 /* Основные настройки Копирайт бара */
 
-.footer-form__CopyrightBar_size {
+.footer-form__CopyrightBar_position-standart {
     width: 1440px;
     height: 70px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.footer-form__CopyrightBar_size ul {
+.footer-form__CopyrightBar ul {
     padding: 0px;
     margin-top: 23px;
 }
 
-.footer-form__CopyrightBar_size i {
+.footer-form__CopyrightBar i {
     width: 24px;
     height: 24px;
     font-family: Font Awesome 5 Brands;
@@ -181,35 +194,35 @@
     background-clip: text;
 }
 
-.footer-form__CopyrightBar_size li {
+.footer-form__CopyrightBar li {
     margin-right: 20px;
     vertical-align: top;
     display: inline-block;
 }
 
-.footer-form__CopyrightBar_size li:last-child {
+.footer-form__CopyrightBar li:last-child {
     margin-right: 0px;
 }
 
-.footer-form__CopyrightBar-link_size {
+.footer-form__CopyrightBar-link_position-standart {
     position: static;
     display: inline-block;
     float: right;
     padding-right: 140px;
 }
 
-.footer-form__CopyrightBar-title_theme {
+.footer-form__CopyrightBar-title_theme-standart {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     color: rgba(31, 32, 65, 0.75);
-}
-
-.footer-form__CopyrightBar-title_size {
     width: 372px;
     height: 18px;
+}
+
+.footer-form__CopyrightBar-title_position-standart {
     display: inline-block;
     margin-left: 140px;
     margin-top: 26px;

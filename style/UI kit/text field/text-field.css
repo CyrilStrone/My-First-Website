@@ -1,0 +1,27 @@
+.ui-kit__text-filed_theme-standart {
+    padding: 0 15px;
+    width: 320px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.25);
+}
+
+.ui-kit__text-filed_theme-standart:hover {
+    border: 1px solid rgba(31, 32, 65, 0.5);
+    outline: 0;
+    outline-offset: 0;
+}
+
+.ui-kit__text-filed_theme-standart:focus {
+    border: 1px solid rgba(31, 32, 65, 0.5);
+    outline: 0;
+    outline-offset: 0;
+}
