@@ -1,4 +1,6 @@
-.ui-kit__button-background_theme-standart {
+.ui-kit__buttons-background {
+    width: 320px;
+    height: 44px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
     border-radius: 22px;
     border: none;
@@ -10,4 +12,21 @@
     text-transform: uppercase;
     color: #FFFFFF;
     outline: none;
+}
+
+.ui-kit__buttons-background-icons {
+    width: 44px;
+    height: 44px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: -44px;
+    margin-left: 276px;
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
 }

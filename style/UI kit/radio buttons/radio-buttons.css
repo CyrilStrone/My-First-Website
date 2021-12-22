@@ -2,29 +2,7 @@
 
 .ui-kit__radio-buttons_theme-standart {}
 
-.ui-kit__radio-buttons__title {
-    float: right;
-    margin-top: 0px;
-    margin-left: 10px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: rgba(31, 32, 65, 0.5);
-}
-
-.ui-kit__radio-buttons__title {
-    float: right;
-    margin-top: 0px;
-    margin-left: 10px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: rgba(31, 32, 65, 0.5);
-}
+.ui-kit__radio-buttons__title {}
 
 .ui-kit__radio-buttons__one {
     position: static;
@@ -41,6 +19,20 @@
     height: 24px;
 }
 
+.ui-kit__radio-buttons label {
+    cursor: pointer;
+    user-select: none;
+    float: right;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.5);
+}
+
 .ui-kit__radio-buttons input[type='radio'] {
     position: relative;
     width: 18px;
@@ -52,18 +44,6 @@
     outline: none;
     margin-left: 0px;
     padding: 0px;
-}
-
-.ui-kit__radio-buttons input[type='radio']+a {
-    float: right;
-    margin-top: 0px;
-    margin-left: 10px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: rgba(31, 32, 65, 0.5);
 }
 
 .ui-kit__radio-buttons input[type='radio']::before {
@@ -92,6 +72,10 @@
     visibility: visible;
 }
 
-.ui-kit__radio-buttons input[type='radio']:checked+a {
+.ui-kit__radio-buttons input[type='radio']:checked+label {
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.ui-kit__radio-buttons input[type='radio']:hover+label {
     color: rgba(31, 32, 65, 0.75);
 }

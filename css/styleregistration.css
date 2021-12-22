@@ -37,7 +37,6 @@
 .registration-page__content__title_position-standart {}
 
 .registration-page__content__title_theme-standart {
-    text-align: center;
     width: 320px;
     height: 30px;
     font-family: Montserrat;
@@ -67,6 +66,12 @@
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.registration-page__content__field-block_position-down {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
 }
 
 
@@ -117,111 +122,31 @@
 
 /*Это все для красивого свитч хотя наверное проще какой нибудь плагин я не знаю ауауауа*/
 
-.switch {
+.registration-page__content__field-block-switch_position {
     position: relative;
     display: inline-block;
     margin-top: 10px;
-    width: 40px;
-    height: 20px;
-}
-
-.switch input {
-    display: none;
-}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 12px;
-    width: 12px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-input:checked+.slider {
-    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-}
-
-input:focus+.slider {
-    box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked+.slider:before {
-    -webkit-transform: translateX(20px);
-    -ms-transform: translateX(20px);
-    transform: translateX(20px);
-}
-
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
 }
 
 
 /*Настройки кнопки регистрации*/
 
-.button-registration {
+.registration-page__content__field-button-one_position-standart {
     margin-top: 20px;
-}
-
-.button-registration-base {
-    width: 320px;
-    height: 44px;
-    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-    border-radius: 22px;
-    border: none;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    outline: none;
 }
 
 
 /*Настройки иконки в кнопке регистрации*/
 
-.icons-registration {
-    width: 44px;
-    height: 44px;
-    color: rgba(255, 255, 255, 1);
-    margin-top: -44px;
-    margin-left: 276px;
-    font-family: Material Icons;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-}
-
 
 /*Настройки Забыли пароль*/
 
-.registration-login {
+.registration-page__content__field-button-two_position-standart {
+    position: relative;
+    float: right;
+}
+
+.registration-page__content__field-down_position-standart {
     margin-top: 30px;
 }
 
@@ -242,22 +167,3 @@ input:checked+.slider:before {
 
 
 /*Настройки кнопки войти*/
-
-.button-registration-base-two {
-    position: relative;
-    float: right;
-    width: 99px;
-    height: 44px;
-    background: none;
-    border-radius: 22px;
-    border: 2px solid;
-    border: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    text-transform: uppercase;
-    color: #BC9CFF;
-    outline: none;
-}

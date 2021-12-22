@@ -20,7 +20,7 @@
     <link href="style/UI kit/like button/like-button.css" rel="stylesheet">
     <link href="style/UI kit/pagination/pagination.css" rel="stylesheet">
     <link href="style/UI kit/radio buttons/radio-buttons.css" rel="stylesheet">
-    <link href="style/UI kit/range slider/range-slider.css" rel="stylesheet">\
+    <link href="style/UI kit/range slider/range-slider.css" rel="stylesheet">
     <link href="style/UI kit/rate button/rate-button.css" rel="stylesheet">
     <link href="style/UI kit/rich checkbox buttons/rich-checkbox-buttons.css" rel="stylesheet">
     <link href="style/UI kit/room property/room-property.css" rel="stylesheet">
@@ -99,71 +99,74 @@
                     <label for="id_secondname"></label> <input class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart" type="text" name="secondname" placeholder="Фамилия" maxlength="326" autocomplete="secondname"
                         id="id_secondname">
                 </a>
-                <div class="registration-page__content__field-radio_position-standart">
+                <div class="registration-page__content__field-radio registration-page__content__field-radio_position-standart">
                     <div class="ui-kit__radio-buttons ui-kit__radio-buttons__one">
-                        <div>
-                            <input type="radio">
 
-                            <a class="ui-kit__radio-buttons__title">
-                                Мужчина
-                            </a>
+                        <input type="radio" id="ui-kit_radio-man" name="radio" value="1">
+                        <label for="ui-kit_radio-man">
+                                
+                                    Мужчина
+                                
+                            </label>
 
-                        </div>
+
+
 
                     </div>
                     <div class="ui-kit__radio-buttons ui-kit__radio-buttons__two">
-                        <div>
-                            <input type="radio">
 
-                            <a class="ui-kit__radio-buttons__title">
-                                Женщина
-                            </a>
+                        <input type="radio" id="ui-kit_radio-woman" name="radio" value="2">
+                        <label for="ui-kit_radio-woman">
+                                
+                                    Женщина
+                                
+                        </label>
 
-                        </div>
+
                     </div>
                 </div>
                 <div class="registration-page__content__field-h1 registration-page__content__field-h1_position-standart registration-page__content__field-h1_theme-standart">
                     <a>Дата рождения</a>
                 </div>
-                <div class="field-content-registration-nonfiction">
+                <div class="registration-page__content__field-block_position-down">
                     <input class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart " placeholder="ДД.ММ.ГГГГ" id="datepicker">
                 </div>
                 <div class="registration-page__content__field-h1 registration-page__content__field-h1_position-standart registration-page__content__field-h1_theme-standart ">
                     <a>данные для входа в сервис</a>
                 </div>
-                <div class="field-content-registration-nonfiction">
+                <div class="registration-page__content__field-block_position-down">
                     <a>
                         <label for="id_firstname"></label> <input class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart" type="text" name="firstname" placeholder="Email" autocomplete="firstname" maxlength="326"
                             id="id_firstname">
                     </a>
                 </div>
                 <div>
-                    <a>
-                        <label for="id_firstname"></label> <input class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart" type="text" name="firstname" placeholder="Пароль" autocomplete="firstname" maxlength="326"
-                            id="id_firstname">
-                    </a>
+
+                    <label for="id_firstname"></label> <input class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart" type="text" name="firstname" placeholder="Пароль" autocomplete="firstname" maxlength="326"
+                        id="id_firstname">
+
                 </div>
-                <label class="switch">
+                <label class="registration-page__content__field-block-switch_position ui-kit__switch">
                         <input type="checkbox">
-                        <span class="slider round"></span>
+                        <span class="ui-kit__switch__slider ui-kit__switch__round"></span>
                 </label>
                 <div class="registration-page__content__field-h2 registration-page__content__field-h2_position-standart registration-page__content__field-h2_theme-standart">
                     <a>Получать спецпредложения</a>
                 </div>
-                <div class="button-registration">
+                <div class="registration-page__content__field-button-one registration-page__content__field-button-one_position-standart">
                     <div>
-                        <button class="button-registration-base">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
+                        <button class="ui-kit__buttons-background ">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
                     </div>
 
-                    <span class="icons-registration ">arrow_forward</span>
+                    <span class="ui-kit__buttons-background-icons">arrow_forward</span>
 
                 </div>
-                <div class="registration-login">
+                <div class="registration-page__content__field-down registration-page__content__field-down_position-standart">
                     <div class="registration-page__content__field-h3 registration-page__content__field-h3_position-standart registration-page__content__field-h3_theme-standart">
                         <a>Уже есть аккаунт на Toxin</a>
                     </div>
-                    <div>
-                        <button class="button-registration-base-two">ВОЙТИ</button>
+                    <div class="registration-page__content__field-button-two registration-page__content__field-button-two_position-standart">
+                        <button class="ui-kit__buttons-border">ВОЙТИ</button>
                     </div>
                 </div>
             </div>

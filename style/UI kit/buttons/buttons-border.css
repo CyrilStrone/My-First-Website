@@ -1,0 +1,16 @@
+.ui-kit__buttons-border {
+    width: 99px;
+    height: 44px;
+    background: none;
+    border-radius: 22px;
+    border: 2px solid;
+    border: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #BC9CFF;
+    outline: none;
+}

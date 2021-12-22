@@ -42,6 +42,7 @@
     display: inline-block;
     margin-top: 26px;
     margin-right: 20px;
+    padding: 0;
 }
 
 .header-form__nav_theme-standart {
@@ -85,6 +86,7 @@
     margin-top: 18px;
     margin-right: 140px;
     display: inline-block;
+    padding: 0;
 }
 
 .header-form__button-all_theme-standart {
