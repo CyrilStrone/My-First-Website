@@ -6,6 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="style/UI kit/bullet list/bullet-list.css" rel="stylesheet">
+    <link href="style/UI kit/buttons/buttons-background.css" rel="stylesheet">
+    <link href="style/UI kit/buttons/buttons-border.css" rel="stylesheet">
+    <link href="style/UI kit/buttons/buttons-text.css" rel="stylesheet">
+    <link href="style/UI kit/checkbox buttons/checkbox-buttons.css" rel="stylesheet">
+    <link href="style/UI kit/comment/comment.css" rel="stylesheet">
+    <link href="style/UI kit/date dropdown/date-dropdown.css" rel="stylesheet">
+    <link href="style/UI kit/expandable checkbox list/expandable-checkbox-list.css" rel="stylesheet">
+    <link href="style/UI kit/filter date dropdown/filter-date-dropdown.css" rel="stylesheet">
+    <link href="style/UI kit/like button/like-button.css" rel="stylesheet">
+    <link href="style/UI kit/pagination/pagination.css" rel="stylesheet">
+    <link href="style/UI kit/radio buttons/radio-buttons.css" rel="stylesheet">
+    <link href="style/UI kit/range slider/range-slider.css" rel="stylesheet">
+    <link href="style/UI kit/rate button/rate-button.css" rel="stylesheet">
+    <link href="style/UI kit/rich checkbox buttons/rich-checkbox-buttons.css" rel="stylesheet">
+    <link href="style/UI kit/room property/room-property.css" rel="stylesheet">
+    <link href="style/UI kit/text field/text-field.css" rel="stylesheet">
+    <link href="style/UI kit/text field/text-field_subscription.css" rel="stylesheet">
+    <link href="style/UI kit/toggle/toggle.css" rel="stylesheet">
+
     <link href="css/styleheader.css" rel="stylesheet">
     <link href="css/stylefooter.css" rel="stylesheet">
     <link href="css/styleregistration.css" rel="stylesheet">
@@ -14,7 +34,6 @@
     <link href="css/searhroom.css" rel="stylesheet">
     <link href="css/jtoggler.styles.css" rel="stylesheet">
     <link href="css/jquery-select-step.css" rel="stylesheet">
-    <link href="css/adaptive-header.css" rel="stylesheet">
     <link href="css/general.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
@@ -24,21 +43,21 @@
 
 
 
-    <link rel="stylesheet" href="libs/jquery-ui-1.13.0.custom/jquery-ui.css">
-    <link rel="stylesheet" href="css/jquerry.css">
+    <link href="style/UI kit/date dropdown/date-dropdown-jquerry.css" rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
 
-    <script src="JS/registration.click.man.js"></script>
-    <script src="JS/registration.click.woman.js"></script>
-    <script src="JS/slider.cash.js"></script>
-    <script src="JS/checkbox.js"></script>
-    <script src="JS/checkboxes.js"></script>
-    <script src="JS/datepicker.js"></script>
-    <script src="JS/datepickerru.js"></script>
-    <script src="JS/dropdown.js"></script>
-    <script src="JS/stepper.js"></script>
-    <script src="JS/jquery-select-step.js"></script>
+
+    <script src="style/UI kit/date dropdown/date-dropdown.js"></script>
+    <script src="style/UI kit/date dropdown/date-dropdown-ru.js"></script>
+    <link href="style/UI kit/dropdown/dropdown-plusmin.css" rel="stylesheet">
+
+
+    <script src="style/UI kit/dropdown/dropdown.js"></script>
+    <script src="style/UI kit/dropdown/jquery-select-step.js"></script>
+    <script src="style/UI kit/dropdown/stepper.js"></script>
+    <script src="style/UI kit/dropdown/dropdown-display-none.js"></script>
 </head>
 
 <body>
@@ -83,10 +102,9 @@
                             <a>Прибытие</a>
                         </div>
 
-                        <a>
-                            <label for="id_firstname"></label> <input class="landing-page__content-field__block-min__label landing-page__content-field__block-min__label_position-standart landing-page__content-field__block-min__label_theme-standart" placeholder="ДД.ММ.ГГГГ"
-                                id="datepicker">
-                        </a>
+                        <div>
+                            <label for="id_firstname"></label> <input class="landing-page__content-field__block-min__label landing-page__content-field__block-min__label_position-standart ui-kit__date-dropdown" placeholder="ДД.ММ.ГГГГ" id="datepicker">
+                        </div>
                         <span class="landing-page__content-field__block-min__icons landing-page__content-field__block-min__icons_position-standart landing-page__content-field__block-min__icons_theme-standart">expand_more</span>
                     </div>
 
@@ -94,10 +112,9 @@
                         <div class="landing-page__content-field__block-min__title landing-page__content-field__block-min__title_position-standart landing-page__content-field__block-min__title_theme-standart">
                             <a>Выезд</a>
                         </div>
-                        <a>
-                            <label for="id_firstname"></label> <input class="landing-page__content-field__block-min__label landing-page__content-field__block-min__label_position-standart landing-page__content-field__block-min__label_theme-standart" placeholder="ДД.ММ.ГГГГ"
-                                id="datepicker">
-                        </a>
+                        <div>
+                            <label for="id_firstname"></label> <input class="landing-page__content-field__block-min__label landing-page__content-field__block-min__label_position-standart ui-kit__date-dropdown" placeholder="ДД.ММ.ГГГГ" id="datepicker">
+                        </div>
                         <span class="landing-page__content-field__block-min__icons landing-page__content-field__block-min__icons_position-standart landing-page__content-field__block-min__icons_theme-standart">expand_more</span>
                     </div>
 
@@ -108,7 +125,7 @@
 
 
                     <div class="landing-page__content-field__block-max landing-page__content-field__block-max_position-standart">
-                        <button onclick="myFunctiondropdown()" class="dropbtn">Сколько гостей</button>
+                        <button onclick="myFunctiondropdown()" class="ui-kit__dropdown-plusmin  landing-page__content-field__button-drop_position-standart">Сколько гостей</button>
                         <div id="myDropdown" class="dropdown-content">
                             <a href="#">
                                 <div class="dropdown-content-text">
@@ -150,7 +167,7 @@
                             </select>
                             </a>
                             <a href="#">очистить</a>
-                            <a href="#">применить</a>
+                            <a onclick="myFunctiondropdowndisplaynone()" href="#">применить</a>
                         </div>
                     </div>
 
@@ -160,10 +177,10 @@
 
                     <div class="landing-page__content-field__button-all landing-page__content-field__button-all_position-standart">
                         <div>
-                            <button class="landing-page__content-field__button landing-page__content-field__button_position-standart ui-kit__button-background_theme-standart">ПОДОБРАТЬ НОМЕР</button>
+                            <button class="landing-page__content-field__button landing-page__content-field__button_position-standart ui-kit__buttons-background">ПОДОБРАТЬ НОМЕР</button>
                         </div>
 
-                        <span class="icons-registration ">arrow_forward</span>
+                        <span class="ui-kit__buttons-background-icons">arrow_forward</span>
 
                     </div>
 
