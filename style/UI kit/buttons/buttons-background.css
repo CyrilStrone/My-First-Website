@@ -30,3 +30,35 @@
     text-align: center;
     justify-content: space-around;
 }
+
+.signin-page__content__field__button_position-standart {
+    margin-top: 10px;
+}
+
+.signin-page__content__field__login_position-standart {
+    display: inline-block;
+    width: 320px;
+    margin-top: 30px;
+}
+
+.signin-page__content__field__login__h3_position-standart {
+    display: inline-block;
+}
+
+.signin-page__content__field__login__h3_theme-standart {
+    width: 164px;
+    height: 44px;
+}
+
+.signin-page__content__field__login__h3 a {
+    line-height: 44px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+.signin-page__content__field__login__buttin_position-standart {
+    float: right;
+}

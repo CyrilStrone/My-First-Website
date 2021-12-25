@@ -1,0 +1,54 @@
+/* Окно входа */
+
+.signin-page_position-standart {
+    position: static;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signin-page_theme-standart {
+    height: 754px;
+    width: 100%;
+    background: url("https://lh3.googleusercontent.com/LE42d4TlpaBCnGvkT6DeWLF4qHJ6tRJdPLXBEvUhalDvp3fTue6CpwEoH496mXeqUDEH1Vz91Skv9mF4kQ5gCTEXVVDoeTbkpALKH47QXIWPCP2qpBdD3pIw0ww3hGHHKTGMy9K1Gw=w2400?source=screenshot.guru") no-repeat center center;
+    background-size: cover;
+}
+
+.signin-page__content_position-standart {
+    position: absolute;
+    margin-top: 163px;
+    left: 50%;
+    transform: translate( -50%);
+}
+
+.signin-page__content_theme-standart {
+    width: 380px;
+    height: 358px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 40px 30px;
+}
+
+.signin-page__content__title_position-standart {}
+
+.signin-page__content__title_theme-standart {
+    width: 320px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1F2041;
+}
+
+.signin-page__content__field_position-standart {
+    margin-top: 10px;
+}
+
+.signin-page__content__field__label_position-standart {
+    margin-bottom: 10px;
+}
