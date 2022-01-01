@@ -12,6 +12,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
     outline: none;
+    cursor: pointer;
 }
 
 .ui-kit__buttons-background-icons {

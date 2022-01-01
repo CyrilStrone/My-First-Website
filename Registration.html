@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
     <link href="style/UI kit/bullet list/bullet-list.css" rel="stylesheet">
     <link href="style/UI kit/buttons/buttons-background.css" rel="stylesheet">
@@ -33,6 +34,7 @@
     <link href="css/styleheader.css" rel="stylesheet">
     <link href="css/stylefooter.css" rel="stylesheet">
     <link href="css/styleregistration.css" rel="stylesheet">
+    <link href="css/signin.css" rel="stylesheet">
 
 
     <link href="css/jtoggler.styles.css" rel="stylesheet">
@@ -52,14 +54,15 @@
     <script src="libs/jquery-ui-1.13.0.custom/jquery-ui.js"></script>
 
 
-
 </head>
 
 <body>
     <header>
         <div class="header-form header-form_position-standart  header-form_theme-standart ">
-            <div class="header-form__logo header-form__logo_position-standart">
-                <img href="" src="File\Logo.svg" alt="Это лого, чел ты..." class="header-form__logo_theme-standart ">
+            <div class="header-form__logo header-form__logo_position-standart header-form__logo_theme-standart">
+                <a>
+                    <img href="" src="File\Logo.svg" alt="Это лого, чел ты..." class="header-form__logo_theme-standart ">
+                </a>
             </div>
             <div class="header-form__element header-form__element_position-standart ">
                 <div class="header-form__nav header-form__nav_theme-standart">
@@ -78,8 +81,13 @@
                     </nav>
                 </div>
                 <div class="header-form__button-all header-form__button-all_theme-standart header-form__button-all_position-standart">
-                    <button href="" class="header-form__button-one_position-standart  header-form__button-one_theme-standart ">ВОЙТИ</button>
-                    <button href="" class="header-form__button-two_position-standart  header-form__button-two_theme-standart ">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
+                    <a href="Sign in.html">
+                        <button class="header-form__button-one_position-standart  header-form__button-one_theme-standart ">ВОЙТИ</button>
+                    </a>
+                    <a href="Registration.html">
+                        <button class="header-form__button-two_position-standart  header-form__button-two_theme-standart ">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
+                    </a>
+
                 </div>
             </div>
 
@@ -129,20 +137,20 @@
                     <a>Дата рождения</a>
                 </div>
                 <div class="registration-page__content__field-block_position-down">
-                    <input class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart " placeholder="ДД.ММ.ГГГГ" id="datepicker">
+                    <input type="date" class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart " placeholder="ДД.ММ.ГГГГ" id="datepicker">
                 </div>
                 <div class="registration-page__content__field-h1 registration-page__content__field-h1_position-standart registration-page__content__field-h1_theme-standart ">
                     <a>данные для входа в сервис</a>
                 </div>
                 <div class="registration-page__content__field-block_position-down">
                     <div>
-                        <label for="id_firstname"></label> <input class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart" type="text" name="firstname" placeholder="Email" autocomplete="firstname" maxlength="326"
+                        <label for="id_firstname"></label> <input class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart" type="email" name="firstname" placeholder="Email" autocomplete="firstname" maxlength="326"
                             id="id_firstname">
                     </div>
                 </div>
                 <div>
 
-                    <label for="id_firstname"></label> <input class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart" type="text" name="firstname" placeholder="Пароль" autocomplete="firstname" maxlength="326"
+                    <label for="id_firstname"></label> <input class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart" type="password" name="firstname" placeholder="Пароль" autocomplete="firstname" maxlength="326"
                         id="id_firstname">
 
                 </div>

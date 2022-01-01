@@ -13,9 +13,6 @@
     background-size: cover;
 }
 
-
-/* Окно регистрации */
-
 .registration-page__content_position-standart {
     position: absolute;
     margin-top: 19px;
@@ -52,15 +49,9 @@
     margin-left: 0px;
 }
 
-
-/* Все остальное после тайтла общее настройки */
-
 .registration-page__content__field_position-standart {
     margin-top: 10px;
 }
-
-
-/* Настройки окон вводы данных пользователем */
 
 .registration-page__content__field-block_position-standart {
     margin-top: 10px;
@@ -73,9 +64,6 @@
     margin-right: auto;
     margin-top: -5px;
 }
-
-
-/* Настройки h2 окна регистрации */
 
 .registration-page__content__field-h1_theme-standart {
     font-family: Montserrat;
@@ -91,15 +79,9 @@
     margin-top: 20px;
 }
 
-
-/* Настройки отступа необычного email */
-
 .field-content-registration-nonfiction {
     margin-top: -5px;
 }
-
-
-/* Получать спецпредложения текст*/
 
 .registration-page__content__field-h2_theme-standart {
     border: 0px;
@@ -119,27 +101,15 @@
     margin-right: 60px;
 }
 
-
-/*Это все для красивого свитч хотя наверное проще какой нибудь плагин я не знаю ауауауа*/
-
 .registration-page__content__field-block-switch_position {
     position: relative;
     display: inline-block;
     margin-top: 10px;
 }
 
-
-/*Настройки кнопки регистрации*/
-
 .registration-page__content__field-button-one_position-standart {
     margin-top: 20px;
 }
-
-
-/*Настройки иконки в кнопке регистрации*/
-
-
-/*Настройки Забыли пароль*/
 
 .registration-page__content__field-button-two_position-standart {
     position: relative;
@@ -165,5 +135,42 @@
     color: #000000;
 }
 
+.registration-page__content__field input[type~="text"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
 
-/*Настройки кнопки войти*/
+.registration-page__content__field input[type~="date"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.registration-page__content__field input[type~="email"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.registration-page__content__field input[type~="password"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}
