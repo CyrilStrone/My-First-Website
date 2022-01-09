@@ -1,0 +1,40 @@
+.ui-kit__filter-date-dropdown {
+    width: 266px;
+    height: 44px;
+    display: block;
+    background: #FFFFFF;
+    /* Dark 25% */
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    color: rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: default;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+    outline: none;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.ui-kit__filter-date-dropdown__icons {
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    color: rgba(31, 32, 65, 0.5);
+    margin-top: -44px;
+    margin-left: 222px;
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}

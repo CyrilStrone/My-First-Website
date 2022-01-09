@@ -1,46 +1,37 @@
-.searhroom {
-    width: 1200px;
-    height: 100%;
+.searchroom-page_position-standart {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     padding-bottom: 70px;
 }
 
-.searhroom-content-line {
+.searchroom-page_theme-standart {
+    width: 1200px;
+    height: 100%;
+}
+
+.searchroom-line_position-standart {}
+
+.searchroom-line_theme-standart {
     border-bottom: 1px solid rgba(31, 32, 65, 0.25);
     width: 100%;
 }
 
-.searhroom-filter {
+.searchroom-page__filter_position-standart {
     position: static;
     float: left;
+}
+
+.searchroom-page__filter_theme-standart {
     width: 266px;
 }
 
-.searhroom-content {
+.searchroom-page__content_position-standart {
     display: inline-block;
     margin-left: 50px;
 }
 
-
-/*
-.searhroom-content {
-    position: absolute;
-    left: 50%;
-    transform: translate( -50%);
-    margin-top: 30px;
-} 
-*/
-
-.searhroom-pagenextup {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-}
-
-.h2-searhroom-filter {
+.searchroom-page__filter__box-one__title_theme-standart {
     display: block;
     font-family: Montserrat;
     font-style: normal;
@@ -53,14 +44,34 @@
     color: #1F2041;
 }
 
+.searchroom-page__filter__box-two__title_theme-standart {
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Dark 100% */
+    color: #1F2041;
+}
+
+.searchroom-page__content__title_theme-standart {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1F2041;
+}
+
 .h1-searhroom-content {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
-    /* identical to box height */
-    /* Dark 100% */
     color: #1F2041;
 }
 
@@ -71,8 +82,6 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-    /* Dark 75% */
     color: rgba(31, 32, 65, 0.75);
     display: block;
     text-align: center;
@@ -166,7 +175,6 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    /* Dark 100% */
     color: #1F2041;
 }
 
@@ -179,9 +187,7 @@
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
     text-transform: uppercase;
-    /* Primary Color */
     color: #BC9CFF;
 }
 
@@ -194,7 +200,6 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-    /* or 129% */
     color: rgba(31, 32, 65, 0.5);
 }
 
@@ -207,7 +212,6 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-    /* or 129% */
     color: rgba(31, 32, 65, 0.5);
 }
 
@@ -215,32 +219,6 @@
     position: absolute;
     margin-top: 63.12px;
     margin-left: 20.26px;
-}
-
-.searhroom-button {
-    width: 266px;
-    height: 44px;
-    display: block;
-    background: #FFFFFF;
-    /* Dark 25% */
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    color: rgba(31, 32, 65, 0.25);
-    padding: 0;
-    margin: 0;
-    margin-top: 5px;
-    padding-left: 15px;
-    box-sizing: border-box;
-    border-radius: 2px;
-    cursor: pointer;
-    text-align: left;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    color: rgba(31, 32, 65, 0.75);
-    outline: none;
 }
 
 .search-drop {
@@ -264,50 +242,46 @@
     width: 133px;
 }
 
-.icons-searhroom {
-    width: 44px;
-    height: 44px;
-    color: rgba(31, 32, 65, 0.5);
-    margin-top: -44px;
-    margin-left: 222px;
-    font-family: Material Icons;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
+.searchroom-page__filter__box-one__label_position-standart {
+    margin: 0;
+    margin-top: 5px;
 }
 
-.searhroom-button-with-text-notfirst {
+.searchroom-page__filter__box-two__label_position-standart {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.searchroom-page__filter__box-two_position-standart {
     margin-top: 20px;
 }
 
-.searhroom-slider-with-text {
+.searchroom-page__filter__box-six_position-standart {
+    margin-top: 20px;
+}
+
+.searchroom-page__filter__box-three_position-standart {
     margin-top: 30px;
 }
 
-.h3-searhroom-filter {
-    display: block;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    /* identical to box height, or 117% */
-    /* Dark 50% */
-    color: rgba(31, 32, 65, 0.5);
-    margin-top: 13px;
-}
-
-.searhroom-checkbox-one {
+.searchroom-page__filter__box-four_position-standart {
     position: static;
     margin-top: 30px;
 }
 
-.h2-searhroom-checkbox {
+.searchroom-page__filter__box-four__title_theme-standart {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Dark 100% */
+    color: #1F2041;
+}
+
+.searchroom-page__filter__box-five__title_theme-standart {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -328,97 +302,7 @@
     margin-top: 17px;
 }
 
-.h2-searhroom-checkbox-one {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    /* or 129% */
-    /* Dark 50% */
-    color: rgba(31, 32, 65, 0.5);
-}
-
-.searhroom-checkbox-name {
-    display: block;
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 12px;
-    margin-top: 12px;
-    cursor: pointer;
-    width: 210px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-
-/* Hide the browser's default checkbox */
-
-.searhroom-checkbox-name input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
-
-
-/* Create a custom checkbox */
-
-.checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    background: #FFFFFF;
-    /* Dark 25% */
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-
-
-/* When the checkbox is checked, add a blue background */
-
-.searhroom-checkbox-name input:checked~.checkmark {
-    border: 1px solid #BC9CFF;
-}
-
-
-/* Create the checkmark/indicator (hidden when not checked) */
-
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-
-/* Show the checkmark when checked */
-
-.searhroom-checkbox-name input:checked~.checkmark:after {
-    display: block;
-}
-
-
-/* Style the checkmark/indicator */
-
-.searhroom-checkbox-name .checkmark:after {
-    left: 6px;
-    top: 1.5px;
-    width: 4px;
-    height: 8px;
-    border: solid #BC9CFF;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.searhroom-checkbox-two {
+.searchroom-page__filter__box-five_position-standart {
     position: static;
     margin-top: 30px;
 }
@@ -437,6 +321,10 @@
     color: rgba(31, 32, 65, 0.5);
 }
 
+.searchroom-page__filter__box-six__dropdown_posiiton-standart {
+    margin-top: 5px;
+}
+
 .h2-searhroom-checkbox-two {
     font-family: Montserrat;
     font-style: normal;
@@ -451,9 +339,12 @@
 
 /* Здесь выподающий чекбокс */
 
-.multiselect {
-    width: 266px;
+.searchroom-page__filter__box-seven_position-standart {
     margin-top: 30px;
+}
+
+.searchroom-page__filter__box-seven_theme-standart {
+    width: 266px;
     outline: none !important;
 }
 
@@ -480,21 +371,7 @@
     appearance: none;
 }
 
-.overSelect {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
-#checkboxes {
-    display: none;
-}
-
-#checkboxes label {
-    display: block;
-}
+.searchroom-page__filter__box-one__icons_position-standart {}
 
 .icons-searhroom-two {
     width: 44px;
@@ -511,48 +388,4 @@
     align-items: center;
     text-align: center;
     justify-content: space-around;
-}
-
-.searhroom-pagenextup-tub {
-    vertical-align: middle;
-    text-align: center;
-}
-
-.searhroom-pagenextup-tub button {
-    background-color: inherit;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    width: 40px;
-    min-height: 40px;
-    display: inline-block;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    align-items: center;
-    text-align: center;
-    color: rgba(31, 32, 65, 0.5);
-}
-
-.searhroom-pagenextup-tub button:last-child {
-    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
-    border-radius: 22px;
-    font-family: Material Icons;
-    font-size: 24px;
-    vertical-align: top;
-    color: #FFFFFF;
-}
-
-.searhroom-pagenextup-tub button:hover {
-    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-    border-radius: 22px;
-    color: #FFFFFF;
-}
-
-.searhroom-pagenextup-tub button.active {
-    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-    border-radius: 22px;
-    color: #FFFFFF;
 }

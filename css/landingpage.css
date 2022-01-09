@@ -135,27 +135,6 @@
     justify-content: space-around;
 }
 
-.landing-page__content-field__icons_theme-standart {
-    width: 44px;
-    height: 44px;
-    color: rgba(31, 32, 65, 0.5);
-    font-family: Material Icons;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-}
-
-.landing-page__content-field__icons_position-standart {
-    position: absolute;
-    display: grid;
-    margin-top: -44px;
-    margin-left: 275px;
-}
-
 .landing-page__content-field__button-all_position-standart {
     margin-top: 31px;
 }

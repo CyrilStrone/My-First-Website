@@ -1,0 +1,62 @@
+.ui-kit__pagination {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.ui-kit__pagination__title {
+    margin-top: 11px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+    display: block;
+    text-align: center;
+}
+
+.ui-kit__pagination__tub {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ui-kit__pagination__tub button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 40px;
+    min-height: 40px;
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.ui-kit__pagination__tub button:last-child {
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    border-radius: 22px;
+    font-family: Material Icons;
+    font-size: 24px;
+    vertical-align: top;
+    color: #FFFFFF;
+}
+
+.ui-kit__pagination__tub button:hover {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    color: #FFFFFF;
+}
+
+.ui-kit__pagination__tub button.active {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    color: #FFFFFF;
+}
