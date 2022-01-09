@@ -1,4 +1,4 @@
-.ui-kit__date-dropdown {
+.ui-kit__date-dropdown__label {
     width: 150px;
     height: 44px;
     vertical-align: bottom;
@@ -12,4 +12,36 @@
     font-size: 14px;
     line-height: 18px;
     outline: none;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.ui-kit__date-dropdown__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+    display: inline-block;
+}
+
+.ui-kit__date-dropdown__icons {
+    display: flex;
+    margin-top: -44px;
+    margin-left: 106px;
+    width: 44px;
+    height: 44px;
+    color: rgba(31, 32, 65, 0.5);
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
 }

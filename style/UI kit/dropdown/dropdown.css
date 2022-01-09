@@ -1,8 +1,8 @@
 .ui-kit__dropdown {
+    margin-top: 5px;
     background-color: #FFFFFF;
     height: 44px;
     padding: 0;
-    margin: 0;
     padding-left: 15px;
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
@@ -153,4 +153,16 @@
 
 .show {
     display: block;
+}
+
+.ui-kit__dropdown__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Dark 100% */
+    color: #1F2041;
 }

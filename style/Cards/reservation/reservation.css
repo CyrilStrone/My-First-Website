@@ -1,0 +1,171 @@
+.ui-kit__cards__reservation {
+    width: 380px;
+    height: 512px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 40px 30px 30px 30px;
+}
+
+.ui-kit__cards__reservation__title {}
+
+.ui-kit__cards__reservation__title-one {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* Dark 100% */
+    color: #1F2041;
+    display: inline-block;
+}
+
+.ui-kit__cards__reservation__title-two {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 17px;
+    /* Dark 100% */
+    color: #1F2041;
+    display: inline-block;
+}
+
+.ui-kit__cards__reservation__title-three {
+    margin-left: 8px;
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Primary Color */
+    color: #BC9CFF;
+}
+
+.ui-kit__cards__reservation__title-four {
+    float: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 129% */
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.ui-kit__cards__reservation__title-five {
+    float: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.ui-kit__cards__reservation__date-dropdown_position-lust {
+    float: right;
+    margin-top: 21px;
+}
+
+.ui-kit__cards__reservation__date-dropdown_position-standart {
+    display: inline-block;
+    margin-top: 21px;
+    padding: 0px;
+}
+
+.ui-kit__cards__reservation__dropdown_position-standart {
+    margin-top: 20px;
+}
+
+.ui-kit__cards__reservation__h1 {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    /* Dark 75% */
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.ui-kit__cards__reservation__h2 {
+    width: 214px;
+    display: inline-block;
+}
+
+.ui-kit__cards__reservation__h3 {
+    float: right;
+}
+
+.ui-kit__cards__reservation__icons {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+    color: rgba(31, 32, 65, 0.5);
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.ui-kit__cards__reservation__icons-lust {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+    color: rgba(31, 32, 65, 0.5);
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.ui-kit__cards__reservation__h1_position-first {
+    margin-top: 20px;
+}
+
+.ui-kit__cards__reservation__button_position-standart {
+    margin-top: 20px;
+}
+
+.ui-kit__cards__reservation__h2-price {
+    width: 214px;
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    /* identical to box height */
+    /* Dark 100% */
+    color: #1F2041;
+}
+
+.ui-kit__cards__reservation__h3-price {
+    float: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    /* identical to box height */
+    /* Dark 100% */
+    color: #1F2041;
+}

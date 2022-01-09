@@ -66,13 +66,19 @@
     color: #1F2041;
 }
 
-.h1-searhroom-content {
+.searchroom-page__content__title_theme-standart {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     color: #1F2041;
+}
+
+.searchroom-page__content__pagination_position-standart {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
 }
 
 .h3-searhroom-pagenextup {
@@ -87,36 +93,6 @@
     text-align: center;
 }
 
-.searhroom-room {
-    width: 846px;
-}
-
-.searhroom-room a {
-    border: 0px;
-    padding: 0px;
-    display: inline-block;
-    margin-top: 20.5px;
-    margin-left: 12px;
-    width: 270px;
-    height: 257.5px;
-}
-
-.searhroom-room a:nth-child(1) {
-    margin-left: 0px;
-}
-
-.searhroom-room a:nth-child(4) {
-    margin-left: 0px;
-}
-
-.searhroom-room a:nth-child(7) {
-    margin-left: 0px;
-}
-
-.searhroom-room a:nth-child(10) {
-    margin-left: 0px;
-}
-
 .searhroom-room-pictures {
     border-radius: 5px 5px 0px 0px;
     width: 270px;
@@ -125,100 +101,10 @@
     background-size: cover;
 }
 
-.material-icons-searhroom-left {
-    position: absolute;
-    margin-top: -98px;
-    width: 44px;
-    height: 44px;
-    color: rgba(255, 255, 255, 1);
-    font-family: Material Icons;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-}
-
-.material-icons-searhroom-right {
-    position: absolute;
-    margin-top: -98px;
-    margin-left: 226px;
-    width: 44px;
-    height: 44px;
-    color: rgba(255, 255, 255, 1);
-    font-family: Material Icons;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-}
-
 .searhroom-room-ellipse {
     position: absolute;
     margin-top: -22.48px;
     margin-left: 213.75px;
-}
-
-.searhroom-room-h4 {
-    position: absolute;
-    margin-top: 20.12px;
-    margin-left: 20px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    color: #1F2041;
-}
-
-.searhroom-room-h5 {
-    position: absolute;
-    margin-top: 27.12px;
-    margin-left: 87px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    text-transform: uppercase;
-    color: #BC9CFF;
-}
-
-.searhroom-room-h6 {
-    position: absolute;
-    margin-top: 24.12px;
-    margin-left: 153px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
-    color: rgba(31, 32, 65, 0.5);
-}
-
-.searhroom-room-h7 {
-    position: absolute;
-    margin-top: 66.68px;
-    margin-left: 160px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
-    color: rgba(31, 32, 65, 0.5);
-}
-
-.searhroom-room-star {
-    position: absolute;
-    margin-top: 63.12px;
-    margin-left: 20.26px;
 }
 
 .search-drop {

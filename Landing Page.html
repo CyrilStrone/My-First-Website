@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="style/UI kit/bullet list/bullet-list.css" rel="stylesheet">
     <link href="style/UI kit/buttons/buttons-background.css" rel="stylesheet">
@@ -27,30 +29,18 @@
     <link href="style/UI kit/text field/text-field_subscription.css" rel="stylesheet">
     <link href="style/UI kit/toggle/toggle.css" rel="stylesheet">
     <link href="style/UI kit/dropdown/jquery-select-step.css" rel="stylesheet">
+    <link href="style/UI kit/date dropdown/date-dropdown-jquerry.css" rel="stylesheet">
+    <link href="style/UI kit/dropdown/dropdown.css" rel="stylesheet">
 
     <link href="css/styleheader.css" rel="stylesheet">
     <link href="css/stylefooter.css" rel="stylesheet">
     <link href="css/landingpage.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-
-
-
-
-    <link href="style/UI kit/date dropdown/date-dropdown-jquerry.css" rel="stylesheet">
-    <link href="style/UI kit/dropdown/dropdown.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
 
-
     <script src="style/UI kit/date dropdown/date-dropdown.js"></script>
     <script src="style/UI kit/date dropdown/date-dropdown-ru.js"></script>
-
-
-
 
     <script src="style/UI kit/dropdown/dropdown.js"></script>
     <script src="style/UI kit/dropdown/jquery-select-step.js"></script>
@@ -95,35 +85,37 @@
                     <a>Найдём номера под ваши пожелания</a>
                 </div>
                 <div class="landing-page__content-field landing-page__content-field_theme-standart landing-page__content-field_position-standart">
-                    <div class="landing-page__content-field__block-min landing-page__content-field__block-min_position-standart landing-page__content-field__block-theme-standart">
-                        <div class="landing-page__content-field__block-min__title landing-page__content-field__block-min__title_position-standart landing-page__content-field__block-min__title_theme-standart">
+                    <div class="landing-page__content-field__block-min_position-standart ui-kit__date-dropdown">
+                        <div class="ui-kit__date-dropdown__title ">
                             <a>Прибытие</a>
                         </div>
 
                         <div>
-                            <label for="id_firstname"></label> <input class="landing-page__content-field__block-min__label landing-page__content-field__block-min__label_position-standart ui-kit__date-dropdown" placeholder="ДД.ММ.ГГГГ" id="datepicker">
+                            <label for="id_firstname"></label> <input class="ui-kit__date-dropdown__label" placeholder="ДД.ММ.ГГГГ" id="datepicker">
                         </div>
-                        <span class="landing-page__content-field__block-min__icons landing-page__content-field__block-min__icons_position-standart landing-page__content-field__block-min__icons_theme-standart">expand_more</span>
+                        <span class="ui-kit__date-dropdown__icons">expand_more</span>
                     </div>
 
-                    <div class="landing-page__content-field__block-min landing-page__content-field__block-min_position-standart landing-page__content-field__block-theme-standart landing-page__content-field__block-min_position-last">
-                        <div class="landing-page__content-field__block-min__title landing-page__content-field__block-min__title_position-standart landing-page__content-field__block-min__title_theme-standart">
+                    <div class="landing-page__content-field__block-min_position-last ui-kit__date-dropdown">
+                        <div class="ui-kit__date-dropdown__title">
                             <a>Выезд</a>
                         </div>
                         <div>
-                            <label for="id_firstname"></label> <input class="landing-page__content-field__block-min__label landing-page__content-field__block-min__label_position-standart ui-kit__date-dropdown" placeholder="ДД.ММ.ГГГГ" id="datepicker">
+                            <label for="id_firstname"></label> <input class="ui-kit__date-dropdown__label" placeholder="ДД.ММ.ГГГГ" id="datepicker">
                         </div>
-                        <span class="landing-page__content-field__block-min__icons landing-page__content-field__block-min__icons_position-standart landing-page__content-field__block-min__icons_theme-standart">expand_more</span>
-                    </div>
-
-                    <div class="landing-page__content-field__title landing-page__content-field__title_position-standart landing-page__content-field__title_theme-standart">
-                        <a>Гости</a>
+                        <span class="ui-kit__date-dropdown__icons">expand_more</span>
                     </div>
 
 
 
-                    <div class="landing-page__content-field__block-max landing-page__content-field__block-max_position-standart">
-                        <button onclick="myFunctiondropdown()" class="ui-kit__dropdown  ui-kit__dropdown_theme-max landing-page__content-field__button-drop_position-standart">Сколько гостей</button>
+
+
+
+                    <div class="landing-page__content-field__block-max landing-page__content-field__block-max_position-standart ui-kit__dropdown-general">
+                        <div class="ui-kit__dropdown__title">
+                            <a>Гости</a>
+                        </div>
+                        <button onclick="myFunctiondropdown()" class="ui-kit__dropdown  ui-kit__dropdown_theme-max ">Сколько гостей</button>
                         <div id="myDropdown" class="ui-kit__dropdown-content ui-kit__dropdown-content_theme-max">
                             <a href="#">
                                 <div class="ui-kit__dropdown-content__text">
@@ -167,15 +159,15 @@
                             <a href="#">очистить</a>
                             <a onclick="myFunctiondropdowndisplaynone()" href="#">применить</a>
                         </div>
+                        <span class="ui-kit__dropdown__icon ui-kit__dropdown__icon_position-max">expand_more</span>
                     </div>
 
-                    <span class="ui-kit__dropdown__icon ui-kit__dropdown__icon_position-max">expand_more</span>
 
 
 
-                    <div class="landing-page__content-field__button-all landing-page__content-field__button-all_position-standart">
+                    <div class="landing-page__content-field__button-all landing-page__content-field__button-all_position-standart ui-kit__buttons-background__general">
                         <div>
-                            <button class="landing-page__content-field__button landing-page__content-field__button_position-standart ui-kit__buttons-background">ПОДОБРАТЬ НОМЕР</button>
+                            <button class="ui-kit__buttons-background">ПОДОБРАТЬ НОМЕР</button>
                         </div>
 
                         <span class="ui-kit__buttons-background-icons">arrow_forward</span>

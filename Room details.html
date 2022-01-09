@@ -4,7 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/UI kit/bullet list/bullet-list.css" rel="stylesheet">
+    <link href="style/UI kit/buttons/buttons-background.css" rel="stylesheet">
+    <link href="style/UI kit/buttons/buttons-border.css" rel="stylesheet">
+    <link href="style/UI kit/buttons/buttons-text.css" rel="stylesheet">
+    <link href="style/UI kit/checkbox buttons/checkbox-buttons.css" rel="stylesheet">
+    <link href="style/UI kit/comment/comment.css" rel="stylesheet">
+    <link href="style/UI kit/date dropdown/date-dropdown.css" rel="stylesheet">
+    <link href="style/UI kit/expandable checkbox list/expandable-checkbox-list.css" rel="stylesheet">
+    <link href="style/UI kit/filter date dropdown/filter-date-dropdown.css" rel="stylesheet">
+    <link href="style/UI kit/like button/like-button.css" rel="stylesheet">
+    <link href="style/UI kit/pagination/pagination.css" rel="stylesheet">
+    <link href="style/UI kit/radio buttons/radio-buttons.css" rel="stylesheet">
+    <link href="style/UI kit/range slider/range-slider.css" rel="stylesheet">
+    <link href="style/UI kit/rate button/rate-button.css" rel="stylesheet">
+    <link href="style/UI kit/rich checkbox buttons/rich-checkbox-buttons.css" rel="stylesheet">
+    <link href="style/UI kit/room property/room-property.css" rel="stylesheet">
+    <link href="style/UI kit/text field/text-field.css" rel="stylesheet">
+    <link href="style/UI kit/text field/text-field_subscription.css" rel="stylesheet">
+    <link href="style/UI kit/toggle/toggle.css" rel="stylesheet">
+    <link href="style/UI kit/dropdown/jquery-select-step.css" rel="stylesheet">
+    <link href="style/UI kit/dropdown/dropdown.css" rel="stylesheet">
 
     <link href="css/styleheader.css" rel="stylesheet">
     <link href="css/stylefooter.css" rel="stylesheet">
@@ -14,14 +36,15 @@
     <link href="css/searhroom.css" rel="stylesheet">
     <link href="css/jtoggler.styles.css" rel="stylesheet">
     <link href="css/roomdeatails.css" rel="stylesheet">
-    <link href="css/adaptive-header.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
-
-
-
-
+    <link href="style/UI kit/sticker intelligence/sticker-intelligence.css" rel="stylesheet">
+    <link href="style/UI kit/diagram/diagram.css" rel="stylesheet">
+    <link href="style/UI kit/reviews/reviews.css" rel="stylesheet">
+    <link href="style/UI kit/block regulations/block-regulations.css" rel="stylesheet">
+    <link href="style/UI kit/block cancellation/block-cancellation.css" rel="stylesheet">
+    <link href="style/Cards/reservation/reservation.css" rel="stylesheet">
 
     <link rel="stylesheet" href="libs/jquery-ui-1.13.0.custom/jquery-ui.css">
     <link rel="stylesheet" href="css/jquerry.css">
@@ -36,341 +59,402 @@
     <script src="JS/datepicker.js"></script>
     <script src="JS/datepickerru.js"></script>
 
+    <script src="style/UI kit/dropdown/dropdown.js"></script>
+    <script src="style/UI kit/dropdown/jquery-select-step.js"></script>
+    <script src="style/UI kit/dropdown/stepper.js"></script>
+    <script src="style/UI kit/dropdown/dropdown-display-none.js"></script>
+
 
 </head>
 
 <body>
     <header>
-        <div class="header-form header-form_size header-form_theme">
-            <div class="header-form__logo header-form__logo_size">
-                <img src="File\Logo.svg" alt="Это лого, чел ты..." class="header-form__logo_theme">
+        <div class="header-form header-form_position-standart  header-form_theme-standart ">
+            <div class="header-form__logo header-form__logo_position-standart header-form__logo_theme-standart">
+                <a>
+                    <img href="" src="File\Logo.svg" alt="Это лого, чел ты..." class="header-form__logo_theme-standart ">
+                </a>
             </div>
-            <div class="header-form__element header-form__element_size">
-                <div class="header-form__nav">
+            <div class="header-form__element header-form__element_position-standart ">
+                <div class="header-form__nav header-form__nav_theme-standart">
                     <nav>
-                        <a href=" ">О нас</a>
-                        <a href=" ">Услуги</a>
+                        <a href="">О нас</a>
+                        <a href="">Услуги</a>
                         <a>
-                            <span class="material-icons header-form__nav-icons_size header-form__nav-icons_theme">expand_more</span>
+                            <span class="material-icons header-form__nav-icons_position-standart  header-form__nav-icons_theme-standart ">expand_more</span>
                         </a>
-                        <a href=" ">Ваканскии</a>
-                        <a href=" ">Новости</a>
-                        <a hrеf=" ">Соглашения</а>
+                        <a href="">Ваканскии</a>
+                        <a href="">Новости</a>
+                        <a hrеf="">Соглашения</а>
                         <a>
-                            <span class="material-icons header-form__nav-icons_size header-form__nav-icons_theme">expand_more</span>
+                            <span class="material-icons header-form__nav-icons_position-standart  header-form__nav-icons_theme-standart ">expand_more</span>
                         </a>
                     </nav>
                 </div>
-                <div class="header-form__button-all">
-                    <button class="header-form__button-one_size header-form__button-one_theme">ВОЙТИ</button>
-                    <button class="header-form__button-two_size header-form__button-two_theme">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
+                <div class="header-form__button-all header-form__button-all_theme-standart header-form__button-all_position-standart">
+                    <a href="Sign in.html">
+                        <button class="header-form__button-one_position-standart  header-form__button-one_theme-standart ">ВОЙТИ</button>
+                    </a>
+                    <a href="Registration.html">
+                        <button class="header-form__button-two_position-standart  header-form__button-two_theme-standart ">ЗАРЕГЕСТРИРОВАТЬСЯ</button>
+                    </a>
+
                 </div>
             </div>
 
         </div>
     </header>
 
-    <div class="titlepage-room-details">
+    <div class="roomdetails-page roomdetails-page_position-standart roomdetails-page_theme-standart">
         <div>
-            <ul class="image-room-details">
-                <li class="image-room-details-one">
+            <ul class="roomdetails-page__image roomdetails-page__image_position-standart roomdetails-page__image_theme-standart">
+                <li class="roomdetails-page__image-big roomdetails-page__image-big_position-standart roomdetails-page__image-big_theme-standart">
 
                 </li>
-                <li class="image-room-details-notone-general">
-                    <div class="image-room-details-notone">
+                <li class="roomdetails-page__image-smalls roomdetails-page__image-smalls_position-standart roomdetails-page__image-smalls_theme-standart">
+                    <div class="roomdetails-page__image-smalls__one roomdetails-page__image-smalls__one_position-standart roomdetails-page__image-smalls__one_theme-standart">
 
                     </div>
-                    <div class="image-room-details-notone">
+                    <div class="roomdetails-page__image-smalls__one roomdetails-page__image-smalls__one_position-standart roomdetails-page__image-smalls__one_theme-standart">
 
                     </div>
                 </li>
             </ul>
         </div>
-        <div class="content-room-details">
-            <div class="content-room-details-general">
-                <div class="room-details-intelligence">
-                    <div class="room-details-intelligence-h">
+        <div class="roomdetails-page__content roomdetails-page__content_position-standart roomdetails-page__content_theme-standart">
+            <div class="roomdetails-page__content-general roomdetails-page__content-general_position-standart roomdetails-page__content-general_theme-standart">
+                <div class="ui-kit__sticker-intelligence roomdetails-page__content-general__intelligence_position-standart">
+                    <div class="ui-kit__sticker-intelligence__title">
                         Сведения о номере
                     </div>
                     <ul>
                         <li>
-                            <span class="icons-intelligence">insert_emoticon</span>
-                            <a class="room-details-intelligence-h2">
+                            <span class="ui-kit__sticker-intelligence__icons">insert_emoticon</span>
+                            <a class="ui-kit__sticker-intelligence__h2">
                                 Комфорт
                             </a>
-                            <a class="room-details-intelligence-h3">
+                            <a class="ui-kit__sticker-intelligence__h3">
                                 Шумопоглощающие стены
                             </a>
-                            <div class="room-details-intelligence-buttom">
+                            <div class="ui-kit__sticker-intelligence__buttom ">
 
                             </div>
                         </li>
                         <li>
-                            <span class="icons-intelligence">location_city</span>
-                            <a class="room-details-intelligence-h2">
+                            <span class="ui-kit__sticker-intelligence__icons">location_city</span>
+                            <a class="ui-kit__sticker-intelligence__h2">
                                 Комфорт
                             </a>
-                            <a class="room-details-intelligence-h3">
+                            <a class="ui-kit__sticker-intelligence__h3">
                                 Шумопоглощающие стены
                             </a>
-                            <div class="room-details-intelligence-buttom">
+                            <div class="ui-kit__sticker-intelligence__buttom ">
 
                             </div>
                         </li>
                         <li>
-                            <span class="icons-intelligence">whatshot</span>
-                            <a class="room-details-intelligence-h2">
+                            <span class="ui-kit__sticker-intelligence__icons">whatshot</span>
+                            <a class="ui-kit__sticker-intelligence__h2">
                                 Комфорт
                             </a>
-                            <a class="room-details-intelligence-h3">
+                            <a class="ui-kit__sticker-intelligence__h3">
                                 Шумопоглощающие стены
                             </a>
-                            <div class="room-details-intelligence-buttom">
+                            <div class="ui-kit__sticker-intelligence__buttom ">
 
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class="room-details-impression">
-                    <div class="room-details-intelligence-h">
+                <div class="ui-kit__diagram roomdetails-page__content-general__diagram_position-standart">
+                    <div class="ui-kit__diagram__h1">
                         Впечатления от номера
                     </div>
-                    <div class="room-details-impression-diagram">
+                    <div class="ui-kit__diagram__impression">
                         <canvas id="myChart" width="120" height="120"></canvas>
                     </div>
-                    <div class="room-details-impression-diagram-inside-one">
+                    <div class="ui-kit__diagram__impression__inside-one">
                         260
                     </div>
-                    <div class="room-details-impression-diagram-inside-two">
+                    <div class="ui-kit__diagram__impression__inside-two">
                         голосов
                     </div>
                     <ul>
                         <li>
-                            <a class="room-details-impression-bullet-one">•</a>
-                            <a class="room-details-impression-h2">
+                            <a class="ui-kit__diagram__impression__bullet-one">•</a>
+                            <a class="ui-kit__diagram__impression__h2">
                                 Комфорт
                             </a>
                         </li>
                         <li>
-                            <a class="room-details-impression-bullet-two">•</a>
-                            <a class="room-details-impression-h2">
+                            <a class="ui-kit__diagram__impression__bullet-two">•</a>
+                            <a class="ui-kit__diagram__impression__h2">
                                 Хорошо
                             </a>
                         </li>
                         <li>
-                            <a class="room-details-impression-bullet-three">•</a>
-                            <a class="room-details-impression-h2">
+                            <a class="ui-kit__diagram__impression__bullet-three">•</a>
+                            <a class="ui-kit__diagram__impression__h2">
                                 Удовлетворительно
                             </a>
                         </li>
                         <li>
-                            <a class="room-details-impression-bullet-four">•</a>
-                            <a class="room-details-impression-h2">
+                            <a class="ui-kit__diagram__impression__bullet-four">•</a>
+                            <a class="ui-kit__diagram__impression__h2">
                                 Разочарован
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="room-details-reviews">
-                    <div class="room-details-intelligence-h">
+                <div class="ui-kit__reviews roomdetails-page__content-general__reviews_position-standart">
+                    <div class="ui-kit__reviews__title">
                         Отзывы посетителей номера
                     </div>
-                    <div class="room-details-reviews-superprofile">
-                        <div class="room-details-reviews-left">
-                            <div class="room-details-reviews-profile">
+                    <div class="ui-kit__reviews__superprofile-first">
+                        <div class="ui-kit__reviews__superprofile__left">
+                            <div class="ui-kit__reviews__superprofile__left-photo">
 
                             </div>
-                            <div class="room-details-reviews-left-like">
+                            <div class="ui-kit__reviews__superprofile__left-like">
 
                             </div>
                             <div>
-                                <span class="icons-reviews">favorite</span>
+                                <span class="ui-kit__reviews__icons">favorite</span>
                             </div>
-                            <div class="room-details-reviews-left-like-number">
+                            <div class="ui-kit__reviews__superprofile__left-like-number">
                                 12
                             </div>
                         </div>
-                        <div class="room-details-reviews-right">
+                        <div class="ui-kit__reviews__superprofile__right">
                             <ul>
-                                <li class="room-details-reviews-right-h1">
+                                <li class="ui-kit__reviews__superprofile__right-h1">
                                     Кирилл Востроженко
                                 </li>
-                                <li class="room-details-reviews-right-h2">
+                                <li class="ui-kit__reviews__superprofile__right-h2">
                                     5 дней назад
                                 </li>
-                                <li class="room-details-reviews-right-h3">
+                                <li class="ui-kit__reviews__superprofile__right-h3">
                                     Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий. И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто не жаловался из соседей.
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="room-details-reviews-superprofile-two">
-                        <div class="room-details-reviews-left">
-                            <div class="room-details-reviews-profile">
+                    <div class="ui-kit__reviews__superprofile-next">
+                        <div class="ui-kit__reviews__superprofile__left">
+                            <div class="ui-kit__reviews__superprofile__left-photo">
 
                             </div>
-                            <div class="room-details-reviews-left-like-two">
+                            <div class="ui-kit__reviews__superprofile__left-like">
 
                             </div>
                             <div>
-                                <span class="icons-reviews-two">favorite</span>
+                                <span class="ui-kit__reviews__icons-two">favorite</span>
                             </div>
-                            <div class="room-details-reviews-left-like-number-two">
+                            <div class="ui-kit__reviews__superprofile__left-like-number">
                                 12
                             </div>
                         </div>
-                        <div class="room-details-reviews-right">
+                        <div class="ui-kit__reviews__superprofile__right">
                             <ul>
-                                <li class="room-details-reviews-right-h1">
-                                    Анастасия Вострова
+                                <li class="ui-kit__reviews__superprofile__right-h1">
+                                    Кирилл Востроженко
                                 </li>
-                                <li class="room-details-reviews-right-h2">
-                                    1 минуту назад
+                                <li class="ui-kit__reviews__superprofile__right-h2">
+                                    5 дней назад
                                 </li>
-                                <li class="room-details-reviews-right-h3">
-                                    Даже с котом можно, а чот может быть лучше котов?! Дак ничего ж.
+                                <li class="ui-kit__reviews__superprofile__right-h3">
+                                    Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий. И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто не жаловался из соседей.
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="room-details-regulations">
-                    <div class="room-details-intelligence-h">
+                <div class="ui-kit__regulations roomdetails-page__content-general__regulations_position-standart">
+                    <div class="ui-kit__regulations__title">
                         Правила
                     </div>
                     <ul>
                         <li>
-                            <a class="room-details-regulations-bullet">•</a>
-                            <a class="room-details-regulations-h2">
+                            <a class="ui-kit__regulations__bullet">•</a>
+                            <a class="ui-kit__regulations__h2">
                                 Нельзя с питомцами
                             </a>
                         </li>
                         <li>
-                            <a class="room-details-regulations-bullet">•</a>
-                            <a class="room-details-regulations-h2">
+                            <a class="ui-kit__regulations__bullet">•</a>
+                            <a class="ui-kit__regulations__h2">
                                 Без вечеринок и мероприятий
                             </a>
                         </li>
                         <li>
-                            <a class="room-details-regulations-bullet">•</a>
-                            <a class="room-details-regulations-h2">
+                            <a class="ui-kit__regulations__bullet">•</a>
+                            <a class="ui-kit__regulations__h2">
                                 Время прибытия — после 13:00, а выезд до 12:00
                             </a>
                         </li>
 
                     </ul>
                 </div>
-                <div class="room-details-cancellation">
-                    <div class="room-details-intelligence-h">
+                <div class="ui-kit__cancellation roomdetails-page__content-general__cancellation_position-standart">
+                    <div class="ui-kit__cancellation__title">
                         Отмена
                     </div>
-                    <div class="room-details-cancellation-h">
+                    <div class="ui-kit__cancellation__h">
                         Бесплатная отмена в течение 48 ч. После этого при отмене не позднее чем за 5 дн. до прибытия вы получите полный возврат за вычетом сбора за услуги.
                     </div>
                 </div>
             </div>
-            <div class="form-room-details">
+            <div class="ui-kit__cards__reservation roomdetails-page__content-general__reservation_position-standart">
 
-                <div class="field-content-titlepage">
+
+
+
+                <div class="ui-kit__cards__reservation__title">
+                    <div class="ui-kit__cards__reservation__title-one">
+                        №
+                    </div>
+                    <div class="ui-kit__cards__reservation__title-two">
+                        888
+                    </div>
+                    <div class="ui-kit__cards__reservation__title-three">
+                        люкс
+                    </div>
+                    <div class="ui-kit__cards__reservation__title-four">в сутки</div>
+                    <div class="ui-kit__cards__reservation__title-five">9 990₽</div>
+                </div>
+
+
+
+                <div class="ui-kit__date-dropdown ui-kit__cards__reservation__date-dropdown_position-standart">
+                    <div class="ui-kit__date-dropdown__title ">
+                        <a>Прибытие</a>
+                    </div>
+
                     <div>
-
-                        <div class="h4-form-top-room-details-left">
-                            <div class="h4-form-top-room-details-left-one">
-                                № 888
-                            </div>
-                            <div class="h4-form-top-room-details-left-two">
-                                люкс
-                            </div>
-                        </div>
-
-                        <div class="h4-form-top-room-details-right">9 990₽ в сутки</div>
+                        <label for="id_firstname"></label> <input class="ui-kit__date-dropdown__label" placeholder="ДД.ММ.ГГГГ" id="datepicker">
                     </div>
-                    <div class="data-entry-field-titlepage-maximum">
+                    <span class="ui-kit__date-dropdown__icons">expand_more</span>
+                </div>
 
-
-                        <div class="h2-content-titlepage">
-                            <a>Прибытие</a>
-                        </div>
-
-                        <a>
-                            <label for="id_firstname"></label> <input class="data-entry-field-titlepage" type="text" name="firstname" placeholder="ДД.ММ.ГГГГ" autocomplete="firstname" maxlength="326" id="datepicker">
-                        </a>
-                        <span class="icons-titlepage">expand_more</span>
+                <div class="ui-kit__date-dropdown  ui-kit__cards__reservation__date-dropdown_position-lust">
+                    <div class="ui-kit__date-dropdown__title">
+                        <a>Выезд</a>
                     </div>
-
-                    <div class="data-entry-field-titlepage-maximum last-titlepage">
-                        <div class="h2-content-titlepage">
-                            <a>Выезд</a>
-                        </div>
-                        <a>
-                            <label for="id_secondname"></label> <input class="data-entry-field-titlepage" type="text" name="secondname" placeholder="ДД.ММ.ГГГГ" maxlength="326" autocomplete="secondname" id="id_secondname">
-                        </a>
-                        <span class="icons-titlepage">expand_more</span>
+                    <div>
+                        <label for="id_firstname"></label> <input class="ui-kit__date-dropdown__label" placeholder="ДД.ММ.ГГГГ" id="datepicker">
                     </div>
+                    <span class="ui-kit__date-dropdown__icons">expand_more</span>
+                </div>
 
-                    <div class="h2-content-titlepage-guests">
+
+
+
+                <div class="ui-kit__cards__reservation__dropdown_position-standart ui-kit__dropdown-general">
+                    <div class="ui-kit__dropdown__title">
                         <a>Гости</a>
                     </div>
-                    <div class="field-content-registration-nonfiction">
-                        <input class="data-entry-field " placeholder="ДД.ММ.ГГГГ" id="datepicker">
+                    <button onclick="myFunctiondropdown()" class="ui-kit__dropdown  ui-kit__dropdown_theme-max ">Сколько гостей</button>
+                    <div id="myDropdown" class="ui-kit__dropdown-content ui-kit__dropdown-content_theme-max">
+                        <a href="#">
+                            <div class="ui-kit__dropdown-content__text">
+                                взрослые
+                            </div>
+                            <select name="room" id="room" class="select-step">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                        </a>
+                        <a href="#">
+                            <div class="ui-kit__dropdown-content__text">
+                                дети
+                            </div>
+                            <select name="room" id="room" class="select-step">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                        </a>
+                        <a href="#">
+                            <div class="ui-kit__dropdown-content__text">
+                                младенцы
+                            </div>
+                            <select name="room" id="room" class="select-step">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </a>
+                        <a href="#">очистить</a>
+                        <a onclick="myFunctiondropdowndisplaynone()" href="#">применить</a>
                     </div>
-                    <span class="icons-titlepage-guests">expand_more</span>
+                    <span class="ui-kit__dropdown__icon ui-kit__dropdown__icon_position-max">expand_more</span>
+                </div>
 
-                    <div class="h4-form-room-details-top">
+                <div class="ui-kit__cards__reservation__h1 ui-kit__cards__reservation__h1_position-first">
 
-                        <div class="h4-form-room-details-left">9 990₽ х 4 суток</div>
-                        <div class="h4-form-room-details-right">39 960₽</div>
+                    <div class="ui-kit__cards__reservation__h2">9 990₽ х 4 суток</div>
+                    <div class="ui-kit__cards__reservation__h3">39 960₽</div>
+                </div>
+                <div class="ui-kit__cards__reservation__h1">
+
+                    <div class="ui-kit__cards__reservation__h2">Сбор за услуги: скидка 2 179₽
                     </div>
-                    <div class="h4-form-room-details">
 
-                        <div class="h4-form-room-details-left">Сбор за услуги: скидка 2 179₽
-                        </div>
+                    <span class="ui-kit__cards__reservation__icons">help_outline</span>
+                    <div class="ui-kit__cards__reservation__h3">0₽</div>
+                </div>
+                <div class="ui-kit__cards__reservation__h1">
 
-                        <span class="icons-room-details">help_outline</span>
-                        <div class="h4-form-room-details-right">0₽</div>
+                    <div class="ui-kit__cards__reservation__h2">Сбор за дополнительные услуги
                     </div>
-                    <div class="h4-form-room-details">
 
-                        <div class="h4-form-room-details-left">Сбор за дополнительные услуги
-                        </div>
+                    <span class="ui-kit__cards__reservation__icons-lust">help_outline</span>
+                    <div class="ui-kit__cards__reservation__h3">300₽</div>
+                </div>
+                <div class="ui-kit__cards__reservation__h1">
 
-                        <span class="icons-room-details-last">help_outline</span>
-                        <div class="h4-form-room-details-right">300₽</div>
+                    <div class="ui-kit__cards__reservation__h2-price">Итого</div>
+                    <div class="ui-kit__cards__reservation__h3-price">38 081₽</div>
+                </div>
+                <div class="ui-kit__cards__reservation__button_position-standart ui-kit__buttons-background__general">
+                    <div>
+                        <button class="ui-kit__buttons-background">забронировать</button>
                     </div>
-                    <div class="h3-form-room-details">
 
-                        <div class="h3-form-room-details-left">Итого</div>
-                        <div class="h3-form-room-details-right">38 081₽</div>
-                    </div>
-                    <div class="button-room-details">
-                        <div>
-                            <button class="button-registration-base">Забронировать</button>
-                        </div>
-
-                        <span class="icons-registration ">arrow_forward</span>
-
-                    </div>
+                    <span class="ui-kit__buttons-background-icons">arrow_forward</span>
 
                 </div>
+
+
             </div>
         </div>
     </div>
     </div>
 
     <footer>
-        <div class="footer-form footer-form_size">
-            <div class="footer-form__widgets footer-form__widgets_size footer-form__widgets_theme">
-                <div class="footer-form__widgets-content footer-form__widgets-content_size">
-                    <div class="footer-form__widgets-content__logo-all footer-form__widgets-content__logo-block_size">
+        <div class="footer-form footer-form_position-standart footer-form_theme-standart">
+            <div class="footer-form__widgets footer-form__widgets_position-standart footer-form__widgets_theme-standart">
+                <div class="footer-form__widgets-content footer-form__widgets-content_position-standart footer-form__widgets-content_theme-standart">
+                    <div class="footer-form__widgets-content__logo-all footer-form__widgets-content__logo-block_position-standart footer-form__widgets-content__logo-block_theme-standart">
                         <a>
-                            <img src="File\Logo.svg" alt="Это лого чел ты..." class="footer-form__widgets-content__logo footer-form__widgets-content__logo_size ">
+                            <img src="File\Logo.svg" alt="Это лого чел ты..." class="footer-form__widgets-content__logo footer-form__widgets-content__logo_position-standart footer-form__widgets-content__logo_theme-standart">
                         </a>
-                        <a class="footer-form__widgets-content__logo-title footer-form__widgets-content__logo-title_theme footer-form__widgets-content__logo-title_size">
+                        <a class="footer-form__widgets-content__logo-title footer-form__widgets-content__logo-title_theme-standart footer-form__widgets-content__logo-title_position-standart">
                             Бронирование номеров в лучшем отеле 2019 год по версии ассоциации «‎Отельные взгляды» 
                         </a>
                     </div>
-                    <div class="footer-form__widgets-content__block-one footer-form__widgets-content__block-one_size">
-                        <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_size footer-form__widgets-content__block-h3_theme">
+                    <div class="footer-form__widgets-content__block-one footer-form__widgets-content__block-one_position-standart footer-form__widgets-content__block-one_theme-standart">
+                        <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_position-standart footer-form__widgets-content__block-h3_theme-standart">
                             НАВИГАЦИЯ
                         </h3>
                         <ul>
@@ -397,8 +481,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-form__widgets-content__block-two footer-form__widgets-content__block-two_size">
-                        <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_size footer-form__widgets-content__block-h3_theme">
+                    <div class="footer-form__widgets-content__block-two footer-form__widgets-content__block-two_position-standart footer-form__widgets-content__block-two_theme-standart">
+                        <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_position-standart footer-form__widgets-content__block-h3_theme-standart">
                             О НАС
                         </h3>
                         <ul>
@@ -416,8 +500,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-form__widgets-content__block-three footer-form__widgets-content__block-three_size">
-                        <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_size footer-form__widgets-content__block-h3_theme">
+                    <div class="footer-form__widgets-content__block-three footer-form__widgets-content__block-three_position-standart footer-form__widgets-content__block-three_theme-standart">
+                        <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_position-standart footer-form__widgets-content__block-h3_theme-standart">
                             СЛУЖБА ПОДДЕРЖКИ
                         </h3>
                         <ul>
@@ -432,9 +516,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-form__widgets-content__block-four footer-form__widgets-content__block-four_size">
+                    <div class="footer-form__widgets-content__block-four footer-form__widgets-content__block-four_position-standart footer-form__widgets-content__block-four_theme-standart">
                         <div>
-                            <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_size footer-form__widgets-content__block-h3_theme">
+                            <h3 class="footer-form__widgets-content__block-h3 footer-form__widgets-content__block-h3_position-standart footer-form__widgets-content__block-h3_theme-standart">
                                 Подписка
                             </h3>
                             <ul>
@@ -446,11 +530,11 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-form__CopyrightBar footer-form__CopyrightBar_size">
-                <div class="footer-form__CopyrightBar-title footer-form__CopyrightBar-title_size footer-form__CopyrightBar-title_theme">
+            <div class="footer-form__CopyrightBar footer-form__CopyrightBar_position-standart">
+                <div class="footer-form__CopyrightBar-title footer-form__CopyrightBar-title_position-standart footer-form__CopyrightBar-title_theme-standart">
                     Copyright © 2018 Toxin отель. Все права защищены.
                 </div>
-                <div class="footer-form__CopyrightBar-link footer-form__CopyrightBar-link_size">
+                <div class="footer-form__CopyrightBar-link footer-form__CopyrightBar-link_position-standart">
                     <ul>
                         <li>
 
@@ -469,8 +553,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="JS/diagramlegend.js"></script>
-    <script src="JS/diagram.js"></script>
+    <script src="style/UI kit/diagram/diagram.js"></script>
 </body>
 
 </html>

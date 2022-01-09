@@ -1,0 +1,54 @@
+.ui-kit__regulations {
+    width: 292px;
+    height: 160px;
+}
+
+.ui-kit__regulations ul {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+    padding: 0;
+}
+
+.ui-kit__regulations li {
+    margin-top: -15px;
+    width: 292px;
+    height: 48px;
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+.ui-kit__regulations__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    /* identical to box height */
+    /* Dark 100% */
+    color: #1F2041;
+}
+
+.ui-kit__regulations__bullet {
+    font-size: 50px;
+    vertical-align: middle;
+    background: rgba(31, 32, 65, 0.25);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.ui-kit__regulations__h2 {
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    height: 24px;
+    width: 260px;
+    /* Dark 75% */
+    vertical-align: middle;
+    color: rgba(31, 32, 65, 0.75);
+}

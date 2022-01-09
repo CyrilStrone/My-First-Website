@@ -71,20 +71,7 @@
 
 .landing-page__content-field__block-min_position-last {
     float: right;
-}
-
-.landing-page__content-field__block-min__title_position-standart {
-    display: inline-block;
-}
-
-.landing-page__content-field__block-min__title_theme-standart {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    text-transform: uppercase;
-    color: #1F2041;
+    margin-top: 21px;
 }
 
 .landing-page__content-field__title_theme-standart {
@@ -102,47 +89,18 @@
     display: inline-block;
 }
 
-.landing-page__content-field__block-min__label_position-standart {
-    margin-top: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
-}
-
 .landing-page__content-field__block-min__label:hover,
 .landing-page__content-field__block-min__label:focus {
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
 }
 
-.landing-page__content-field__block-min__icons_position-standart {
-    display: flex;
-    margin-top: -44px;
-    margin-left: 106px;
-}
-
-.landing-page__content-field__block-min__icons_theme-standart {
-    width: 44px;
-    height: 44px;
-    color: rgba(31, 32, 65, 0.5);
-    font-family: Material Icons;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-}
-
 .landing-page__content-field__button-all_position-standart {
     margin-top: 31px;
 }
 
-.landing-page__content-field__button_position-standart {}
-
 .landing-page__content-field__block-max_position-standart {
-    margin-top: 5px;
+    margin-top: 20px;
     position: relative;
     display: inline-block;
 }

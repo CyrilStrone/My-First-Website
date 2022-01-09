@@ -1,0 +1,116 @@
+.ui-kit__diagram {
+    width: 311px;
+    height: 170px;
+}
+
+.ui-kit__diagram li {
+    margin-top: -10px;
+    padding: 0;
+    display: block;
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+.ui-kit__diagram ul {
+    display: inline-block;
+    width: 165px;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.ui-kit__diagram__h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    /* identical to box height */
+    /* Dark 100% */
+    color: #1F2041;
+}
+
+.ui-kit__diagram__impression {
+    margin-top: 21px;
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+
+.ui-kit__diagram__impression__inside-one {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 36px;
+    color: #BC9CFF;
+}
+
+.ui-kit__diagram__impression__inside-two {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 90px;
+    margin-left: 27px;
+    color: #BC9CFF;
+}
+
+.ui-kit__diagram__impression__bullet-one {
+    font-size: 30px;
+    vertical-align: middle;
+    background: linear-gradient(180deg, #FFE39C 0%, #FFBA9C 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.ui-kit__diagram__impression__bullet-two {
+    font-size: 30px;
+    vertical-align: middle;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.ui-kit__diagram__impression__bullet-three {
+    font-size: 30px;
+    vertical-align: middle;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.ui-kit__diagram__impression__bullet-four {
+    font-size: 30px;
+    vertical-align: middle;
+    background: linear-gradient(180deg, #919191 0%, #3D4975 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.ui-kit__diagram__impression__h2 {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    /* Dark 75% */
+    color: rgba(31, 32, 65, 0.75);
+}
