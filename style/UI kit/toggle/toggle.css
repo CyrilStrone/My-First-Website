@@ -1,8 +1,14 @@
 .ui-kit__switch {
+    position: relative;
+    display: inline-block;
     width: 40px;
     height: 20px;
     background-color: #ccc;
     border-radius: 34px;
+}
+
+.ui-kit__switch-general {
+    width: 320px;
 }
 
 .ui-kit__switch input {
@@ -60,4 +66,18 @@ input:checked+.ui-kit__switch__slider:after {
 
 .ui-kit__switch__slider.ui-kit__switch__round:before {
     border-radius: 50%;
+}
+
+.ui-kit__switch__title {
+    margin-top: -2px;
+    float: right;
+    margin-right: 60px;
+    border: 0px;
+    width: 210px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
 }

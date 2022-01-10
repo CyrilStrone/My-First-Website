@@ -2,7 +2,6 @@
     position: absolute;
     margin-top: 70px;
     margin-left: 140px;
-    padding: 40px 30px;
 }
 
 .landing-page__content_theme-standart {
@@ -13,6 +12,7 @@
     border-radius: 4px;
     width: 380px;
     height: 374px;
+    padding: 40px 30px;
 }
 
 .landing-page__content-field_position-standart {

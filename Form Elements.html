@@ -17,6 +17,7 @@
 
     <link href="css/styleheader.css" rel="stylesheet">
     <link href="css/stylefooter.css" rel="stylesheet">
+    <link href="css/form-elements.css" rel="stylesheet">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -44,14 +45,40 @@
 
     <link href="style/UI kit/buttons/buttons-background.css" rel="stylesheet">
 
+    <link href="style/UI kit/filter date dropdown/filter-date-dropdown.css" rel="stylesheet">
+    <link href="style/UI kit/filter date dropdown/filter-date-dropdown.js" rel="stylesheet">
 
+    <script src="style/UI kit/range slider/range-slider.js"></script>
+    <link href="style/UI kit/range slider/range-slider.css" rel="stylesheet">
+
+    <script src="style/UI kit/checkbox buttons/checkbox-buttons.js"></script>
+    <link href="style/UI kit/checkbox buttons/checkbox-buttons.css" rel="stylesheet">
+
+    <link href="style/UI kit/rich checkbox buttons/rich-checkbox-buttons.css" rel="stylesheet">
+
+    <script src="style/UI kit/expandable checkbox list/expandable-checkbox-list.js"></script>
+    <script src="style/UI kit/expandable checkbox list/expandable-checkbox.js"></script>
+    <script src="style/UI kit/expandable checkbox list/expandable-checkboxes.js"></script>
+    <link href="style/UI kit/expandable checkbox list/expandable-checkbox-list.css" rel="stylesheet">
+
+    <link href="style/UI kit/pagination/pagination.css" rel="stylesheet">
+
+    <link href="style/Cards/room/room.css" rel="stylesheet">
+
+    <link href="style/UI kit/radio buttons/radio-buttons.css" rel="stylesheet">
+
+    <link href="style/UI kit/text field/text-field.css" rel="stylesheet">
+    <link href="style/UI kit/text field/text-field_subscription.css" rel="stylesheet">
+
+    <link href="style/UI kit/toggle/toggle.css" rel="stylesheet">
+    <link href="style/UI kit/buttons/buttons-border.css" rel="stylesheet">
 
 </head>
 
 <body>
 
 
-    <div class="ui-kit__sticker-intelligence ">
+    <div class="ui-kit__sticker-intelligence form-elements">
         <div class="ui-kit__sticker-intelligence__title">
             Сведения о номере
         </div>
@@ -95,7 +122,7 @@
         </ul>
     </div>
 
-    <div class="ui-kit__diagram ">
+    <div class="ui-kit__diagram form-elements">
         <div class="ui-kit__diagram__h1">
             Впечатления от номера
         </div>
@@ -136,7 +163,7 @@
         </ul>
     </div>
 
-    <div class="ui-kit__reviews ">
+    <div class="ui-kit__reviews form-elements">
         <div class="ui-kit__reviews__title">
             Отзывы посетителей номера
         </div>
@@ -200,7 +227,7 @@
         </div>
     </div>
 
-    <div class="ui-kit__regulations ">
+    <div class="ui-kit__regulations form-elements">
         <div class="ui-kit__regulations__title">
             Правила
         </div>
@@ -226,7 +253,7 @@
 
         </ul>
     </div>
-    <div class="ui-kit__cancellation ">
+    <div class="ui-kit__cancellation form-elements">
         <div class="ui-kit__cancellation__title">
             Отмена
         </div>
@@ -235,7 +262,7 @@
         </div>
     </div>
 
-    <div class="ui-kit__date-dropdown ">
+    <div class="ui-kit__date-dropdown form-elements">
         <div class="ui-kit__date-dropdown__title ">
             <a>Прибытие</a>
         </div>
@@ -246,7 +273,7 @@
         <span class="ui-kit__date-dropdown__icons">expand_more</span>
     </div>
 
-    <div class="ui-kit__date-dropdown ">
+    <div class="ui-kit__date-dropdown form-elements">
         <div class="ui-kit__date-dropdown__title">
             <a>Выезд</a>
         </div>
@@ -256,7 +283,7 @@
         <span class="ui-kit__date-dropdown__icons">expand_more</span>
     </div>
 
-    <div class="ui-kit__dropdown-general">
+    <div class="ui-kit__dropdown-general form-elements">
         <div class="ui-kit__dropdown__title">
             <a>Гости</a>
         </div>
@@ -306,15 +333,299 @@
         </div>
         <span class="ui-kit__dropdown__icon ui-kit__dropdown__icon_position-max">expand_more</span>
     </div>
+    <div class="ui-kit__filter-date-dropdown-general form-elements">
+        <a class="ui-kit__filter-date-dropdown__title">
+            даты пребывания в отеле
+        </a>
+
+        <input class="ui-kit__filter-date-dropdown  " id="ui-kit__filter-date-dropdown" placeholder="">
 
 
-    <div>
+        <span class="ui-kit__filter-date-dropdown__icons">expand_more</span>
+    </div>
+    <div class="ui-kit__filter-date-dropdown-general form-elements">
+        <a class="ui-kit__filter-date-dropdown__title">
+            subscription text field
+        </a>
+
+        <input class="ui-kit__filter-date-dropdown  " id="ui-kit__filter-date-dropdown" placeholder="Email">
+
+
+        <span class="ui-kit__filter-date-dropdown__icons-sub">arrow_forward</span>
+    </div>
+    <div class="ui-kit__filter-date-dropdown-general form-elements">
+
+        <a class="ui-kit__filter-date-dropdown__title">
+            гости
+        </a>
+
+
+        <input class="ui-kit__filter-date-dropdown " id="ui-kit__filter-date-dropdown" placeholder="">
+
+
+        <span class=" ui-kit__filter-date-dropdown__icons">expand_more</span>
+
+    </div>
+
+    <div class="ui-kit__buttons-background-general form-elements">
         <div>
             <button class="ui-kit__buttons-background">забронировать</button>
         </div>
 
         <span class="ui-kit__buttons-background-icons">arrow_forward</span>
 
+    </div>
+
+    <div class="ui-kit__range-slider-general form-elements">
+        <a class="ui-kit__range-slider__title">
+            диапазон цены
+        </a>
+
+        <div class="searhroom-sliderrange">
+            <div id="slider-range">
+                <div id="custom-handle" class="ui-slider-handle"></div>
+            </div>
+        </div>
+        <input type="text" id="amount" readonly style="border:0">
+
+
+        <a class="ui-kit__range-slider__title-down">
+            Стоимость за сутки пребывания в номере
+        </a>
+
+
+    </div>
+
+    <div class="ui-kit__checkbox-buttons-general form-elements">
+        <a class="ui-kit__checkbox-buttons__title">
+            правила дома
+        </a>
+
+        <div class="ui-kit__checkbox-buttons__box">
+            <label class="ui-kit__checkbox-buttons__box__lable">
+                <a class="ui-kit__checkbox-buttons__box__title">Можно курить</a>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+        </div>
+        <div class="ui-kit__checkbox-buttons__box">
+            <label class="ui-kit__checkbox-buttons__box__lable">
+                <a class="ui-kit__checkbox-buttons__box__title">Можно с питомцами</a>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div class="ui-kit__checkbox-buttons__box">
+            <label class="ui-kit__checkbox-buttons__box__lable">
+                <a class="ui-kit__checkbox-buttons__box__title">Можно пригласить гостей (до 10 человек)</a>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </div>
+    <div class="ui-kit__rich-checkbox-buttons-general form-elements">
+        <a class="ui-kit__rich-checkbox-buttons__title">
+            доступность
+        </a>
+        <div class="ui-kit__rich-checkbox-buttons__box">
+            <label class="ui-kit__rich-checkbox-buttons__box__lable">
+                <a class="ui-kit__rich-checkbox-buttons__box__title">Широкий коридор</a>
+                <a class="ui-kit__rich-checkbox-buttons__box__title-lust">Ширина коридоров в номере не менее 91 см.</a>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div class="ui-kit__rich-checkbox-buttons__box">
+            <label class="ui-kit__rich-checkbox-buttons__box__lable">
+                <a class="ui-kit__rich-checkbox-buttons__box__title">Помощник для инвалидов</a>
+                <a class="ui-kit__rich-checkbox-buttons__box__title-lust">На 1 этаже вас встретит специалист  и проводит до номера.</a>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="ui-kit__dropdown-general form-elements">
+        <a class="ui-kit__dropdown__title">
+            удобства номера
+        </a>
+        <div>
+            <button onclick="myFunctiondropdown()" class="ui-kit__dropdown ui-kit__dropdown_theme-min">Сколько гостей</button>
+            <div id="myDropdown" class="ui-kit__dropdown-content ui-kit__dropdown-content_theme-min">
+                <a href="#">
+                    <div class="ui-kit__dropdown-content__text">
+                        спальни
+                    </div>
+                    <select name="room" id="room" class="select-step">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                </a>
+                <a href="#">
+                    <div class="ui-kit__dropdown-content__text">
+                        кровати
+                    </div>
+                    <select name="room" id="room" class="select-step">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                </a>
+                <a href="#" class="ui-kit__dropdown-content_position-nonfiction">
+                    <div class="ui-kit__dropdown-content__text">
+                        ванные комнаты
+                    </div>
+                    <select name="room" id="room" class="select-step">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </a>
+            </div>
+
+            <span class="ui-kit__dropdown__icon ui-kit__dropdown__icon_position-min">expand_more</span>
+        </div>
+
+    </div>
+    <div class="ui-kit__expandable-checkbox-general form-elements">
+        <div class="ui-kit__expandable-checkbox" onclick="showCheckboxes()">
+            <select>
+            <option>дополнительные удобства</option>
+          </select>
+            <span class="ui-kit__expandable-checkbox__icon">expand_more</span>
+            <div class="ui-kit__expandable-checkbox__overselect"></div>
+        </div>
+        <div id="ui-kit__expandable-checkboxes">
+            <label class="ui-kit__expandable-checkboxes__label">
+                <a class="ui-kit__expandable-checkboxes__label-title">Завтрак</a>
+                <input type="checkbox">
+                <span class="ui-kit__expandable-checkboxes__label-checkmark"></span>
+            </label>
+            <label class="ui-kit__expandable-checkboxes__label">
+                <a class="ui-kit__expandable-checkboxes__label-title">Письменный стол</a>
+                <input type="checkbox">
+                <span class="ui-kit__expandable-checkboxes__label-checkmark"></span>
+            </label>
+            <label class="ui-kit__expandable-checkboxes__label">
+                <a class="ui-kit__expandable-checkboxes__label-title">Стул для кормления</a>
+                <input type="checkbox">
+                <span class="ui-kit__expandable-checkboxes__label-checkmark"></span>
+            </label>
+            <label class="ui-kit__expandable-checkboxes__label">
+                <a class="ui-kit__expandable-checkboxes__label-title">Кроватка</a>
+                <input type="checkbox">
+                <span class="ui-kit__expandable-checkboxes__label-checkmark"></span>
+            </label>
+            <label class="ui-kit__expandable-checkboxes__label">
+                <a class="ui-kit__expandable-checkboxes__label-title">Телевизор</a>
+                <input type="checkbox">
+                <span class="ui-kit__expandable-checkboxes__label-checkmark"></span>
+            </label>
+            <label class="ui-kit__expandable-checkboxes__label">
+                <a class="ui-kit__expandable-checkboxes__label-title">Шампунь</a>
+                <input type="checkbox">
+                <span class="ui-kit__expandable-checkboxes__label-checkmark"></span>
+            </label>
+            <label class="ui-kit__expandable-checkboxes__label">
+                <a class="ui-kit__expandable-checkboxes__label-title">Телевизор</a>
+                <input type="checkbox">
+                <span class="ui-kit__expandable-checkboxes__label-checkmark"></span>
+            </label>
+            <label class="ui-kit__expandable-checkboxes__label">
+                <a class="ui-kit__expandable-checkboxes__label-title">Можно курить</a>
+                <input type="checkbox">
+                <span class="ui-kit__expandable-checkboxes__label-checkmark"></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="ui-kit__pagination form-elements">
+        <div class="ui-kit__pagination__tub">
+            <button class="tablinks" onclick="openCity(event, 'London')">1</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">2</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">3</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">arrow_forward</button>
+        </div>
+        <a class="ui-kit__pagination__title">
+            1 – 12 из 100+ вариантов аренды
+        </a>
+    </div>
+
+    <div class="ui-kit__radio-buttons-general form-elements">
+        <div class="ui-kit__radio-buttons ui-kit__radio-buttons__one">
+
+            <input type="radio" id="ui-kit_radio-man" name="radio" value="1">
+            <label for="ui-kit_radio-man">
+                    
+                        Мужчина
+                    
+                </label>
+
+
+
+
+        </div>
+        <div class="ui-kit__radio-buttons ui-kit__radio-buttons__two">
+
+            <input type="radio" id="ui-kit_radio-woman" name="radio" value="2">
+            <label for="ui-kit_radio-woman">
+                    
+                        Женщина
+                    
+            </label>
+
+
+        </div>
+    </div>
+
+    <div>
+        <img src="File\star.png" class="ui-kit__cards__room__star form-elements">
+    </div>
+    <div class="ui-kit__text-filed-general form-elements">
+
+        <label for="id_firstname"></label> <input class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart" type="email" name="firstname" placeholder="Email" autocomplete="firstname" maxlength="326" id="id_firstname">
+
+    </div>
+
+    <div class="ui-kit__text-filed-general form-elements">
+        <input type="date" class="ui-kit__text-filed_theme-standart registration-page__content__field-block_position-standart " placeholder="ДД.ММ.ГГГГ" id="datepicker">
+    </div>
+    <div class="ui-kit__switch-general form-elements">
+        <label class="registration-page__content__field-block-switch_position ui-kit__switch">
+            <input type="checkbox">
+            <span class="ui-kit__switch__slider ui-kit__switch__round"></span>
+    </label>
+        <div class="ui-kit__switch__title">
+            <a>Получать спецпредложения</a>
+        </div>
+    </div>
+
+    <div class="form-elements">
+        <button class=" ui-kit__buttons-border">СОЗДАТЬ</button>
+    </div>
+    <div class="form-elements">
+        <button class=" ui-kit__buttons-border_theme-blur">
+           
+                СОЗДАТЬ
+            
+        </button>
+    </div>
+    <div class="form-elements">
+        <button class=" ui-kit__buttons-background_theme-min">СОЗДАТЬ</button>
+    </div>
+    <div class="form-elements">
+        <button class=" ui-kit__buttons-background_theme-blur">СОЗДАТЬ</button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

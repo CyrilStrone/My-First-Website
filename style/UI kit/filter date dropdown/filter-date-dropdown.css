@@ -38,3 +38,35 @@
     text-align: center;
     justify-content: space-around;
 }
+
+.ui-kit__filter-date-dropdown__icons-sub {
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    color: rgba(188, 156, 255, 1);
+    margin-top: -44px;
+    margin-left: 222px;
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.ui-kit__filter-date-dropdown__title {
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Dark 100% */
+    color: #1F2041;
+    padding-bottom: 5px;
+}

@@ -1,3 +1,15 @@
+.ui-kit__checkbox-buttons {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Dark 100% */
+    color: #1F2041;
+}
+
 .ui-kit__checkbox-buttons__title {
     font-family: Montserrat;
     font-style: normal;

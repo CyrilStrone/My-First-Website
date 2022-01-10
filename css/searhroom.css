@@ -31,19 +31,6 @@
     margin-left: 50px;
 }
 
-.searchroom-page__filter__box-one__title_theme-standart {
-    display: block;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-    text-transform: uppercase;
-    /* Dark 100% */
-    color: #1F2041;
-}
-
 .searchroom-page__filter__box-two__title_theme-standart {
     display: block;
     font-family: Montserrat;
@@ -128,11 +115,6 @@
     width: 133px;
 }
 
-.searchroom-page__filter__box-one__label_position-standart {
-    margin: 0;
-    margin-top: 5px;
-}
-
 .searchroom-page__filter__box-two__label_position-standart {
     margin: 0;
     margin-top: 5px;
@@ -153,18 +135,6 @@
 .searchroom-page__filter__box-four_position-standart {
     position: static;
     margin-top: 30px;
-}
-
-.searchroom-page__filter__box-four__title_theme-standart {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-    text-transform: uppercase;
-    /* Dark 100% */
-    color: #1F2041;
 }
 
 .searchroom-page__filter__box-five__title_theme-standart {
@@ -205,10 +175,6 @@
     /* Dark 50% */
     margin-top: 5px;
     color: rgba(31, 32, 65, 0.5);
-}
-
-.searchroom-page__filter__box-six__dropdown_posiiton-standart {
-    margin-top: 5px;
 }
 
 .h2-searhroom-checkbox-two {

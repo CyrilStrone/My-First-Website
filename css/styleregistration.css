@@ -83,27 +83,7 @@
     margin-top: -5px;
 }
 
-.registration-page__content__field-h2_theme-standart {
-    border: 0px;
-    width: 210px;
-    height: 24px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: rgba(31, 32, 65, 0.75);
-}
-
-.registration-page__content__field-h2_position-standart {
-    float: right;
-    margin-top: 8px;
-    margin-right: 60px;
-}
-
 .registration-page__content__field-block-switch_position {
-    position: relative;
-    display: inline-block;
     margin-top: 10px;
 }
 

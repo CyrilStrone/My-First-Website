@@ -63,3 +63,42 @@
 .signin-page__content__field__login__buttin_position-standart {
     float: right;
 }
+
+.ui-kit__buttons-background_theme-min {
+    width: 99px;
+    height: 44px;
+    background: none;
+    border-radius: 22px;
+    border: none;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+}
+
+.ui-kit__buttons-background_theme-blur {
+    width: 99px;
+    height: 44px;
+    background: none;
+    border-radius: 22px;
+    border: none;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    opacity: 0.5;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+}

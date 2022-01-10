@@ -79,7 +79,9 @@
     margin-left: 213.75px;
 }
 
-.ui-kit__cards__room__star {
+.ui-kit__cards__room__star {}
+
+.ui-kit__cards__room__star_position-standart {
     position: absolute;
     margin-top: 63.12px;
     margin-left: 20.26px;
